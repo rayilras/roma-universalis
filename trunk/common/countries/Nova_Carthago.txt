@@ -1,0 +1,73 @@
+graphical_culture = northamericagfx	
+
+color = {168 76 0}
+
+historical_idea_groups = {
+	expansion_ideas
+	quantity_ideas
+	administration_ideas
+	trade_ideas
+	defensive_ideas
+	innovativeness_ideas
+	
+}
+
+historical_units = {
+	iberian_mercenaries
+	numidian_cavalry
+	carthaginian_infantry
+	carthaginian_cavalry
+}
+
+
+monarch_names = { 
+	"Abbar #0" =0
+	"Abdmelqart #0" =0
+	"Adonibaal #0" =0
+	"Agbal #0" =0
+	"Ahirom #0" =0
+	"Azimilik #0" =0
+	"Baal #0"=0
+	"Baalhanno #0"=0
+	"Bodashtart #0"=0
+	"Bodmelqart #0"=0
+	"Bomilcar #0"=0
+	"Bostar #0"=0
+	"Boulomenus #0"=0
+	"Carthalo #0"=5
+	"Chelbes #0"=0
+	"Eshbaal #0"=0
+	"Eugoras #0"=0
+	"Germelqart #0"=0
+	"Hamilcar #0"=15
+	"Hannibal #0"=10
+	"Hanno #0"=10
+	"Hasdrubal #0"=15
+	"Himilco #0"=0
+	"Hiram #0" =0
+	"Mago #0"=0
+	"Maharbal #0"=0
+	"Mattan #0"=0
+	"Metallo #0"=0
+	"Milkherem #0"=0
+	"Milkiram #0" =0
+	"Paltibaal #0"=0
+	"Philosir #0"=0
+}
+
+ship_names = {
+	Adonis Anath Asherah Astarte
+	Baal "Baal-Hammon" "Baalat Asclepius"
+	Kathirat Kothar
+	Melqarth Mot
+	Resheph
+	Shahar Shalim Shapash
+	Tanit
+	Yamm Yarikh
+}
+
+leader_names = { 
+	Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 
+		Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram 
+		Paltibaal Philosir
+}
