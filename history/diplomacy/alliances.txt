@@ -6,6 +6,13 @@ vassal = {
 }
 
 vassal = {
+	first = CAR
+	second = NCA
+	start_date = 0470.1.1
+	end_date = 500.2.13
+}
+
+vassal = {
 	first = MAC
 	second = ATS
 	start_date = 0470.1.1
