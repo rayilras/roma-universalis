@@ -1,0 +1,172 @@
+graphical_culture = easterngfx
+
+color = {125 189 142 }
+
+historical_idea_groups = {
+	diplomatic_ideas
+	offensive_ideas
+	economic_ideas
+	trade_ideas
+	quality_ideas
+	innovativeness_ideas
+	
+}
+
+historical_units = {
+	early_greek_phalanx
+	greek_cavalry
+	late_greek_phalanx
+	companion_cavalry
+}
+
+
+
+monarch_names = { 
+	"Eumenes #0" = 50
+	"Attalus #0" = 50
+	"Hyperuatas #0" = 0
+	"Margos #0" = 0
+	"Acnonios #0" = 0
+	"Aeacides #0" =0
+	"Aenias #0" =0
+	"Aesillas #0" =0
+	"Agathocles #0" =0
+	"Agelaos #0" = 0
+	"Alcetas #0"=0
+	"Aleos #0"=0
+	"Alexander #0"=0
+	"Ameinias #0"=0
+	"Amynandros #0"=0
+	"Amyntus #0"=0
+	"Apollonides #0"=0
+	"Aratos #0" = 0
+	"Archelaus #0"=0
+	"Argaeus #0" =0
+	"Arganos #0"=0
+	"Aristomides #0"=0
+	"Ariston #0"=0
+	"Aristonous #0"=0
+	"Aristophanes #0"=0
+	"Aristotle #0"=0
+	"Asklepiodorus #0"=0 
+	"Athineos #0"=0
+	"Damasias #0" =0
+	"Demetrius #0"=0
+	"Dioedas #0" = 0
+	"Diophantus #0"=0
+	"Echemos #0"=0
+	"Ehnon #0"=0
+	"Ephron #0"=0
+	"Euclid #0"=0
+	"Eudicus #0"=0
+	"Eudoridas #0"=0
+	"Euripides #0"=0
+	"Eurycrates #0"=0
+	"Helladius #0"=0
+	"Hero #0"=0
+	"Hippocrates #0"=0
+	"Ikesios #0"=0
+	"Isocrates #0"=0
+	"Kleandros #0"=0
+	"Kleitos #0"=0
+	"Leonidas #0"=0
+	"Leonippus #0"=0
+	"Lycurgus #0"=0
+	"Lydiadas #0" = 0
+	"Lysander #0"=0
+	"Lysimachus #0"=0
+	"Machares #0"=0
+	"Meleager #0"=0
+	"Menon #0"=0
+	"Metrophane #0"=0
+	"Midas #0"=0
+	"Mitrodoros #0"=0
+	"Neominios #0"=0
+	"Neoptolemus #0"=0
+	"Nicias #0"=0
+	"Nicocrates #0"=0
+	"Nicodemus #0"=0
+	"Nikandros #0"=0
+	"Nikomedes #0"=0
+	"Nikon #0"=0
+	"Olympos #0"=0
+	"Omirus #0"=0
+	"Orestes #0"=0
+	"Pausanias #0"=0
+	"Peithon #0"=0
+	"Pelopidas #0"=0
+	"Peneus #0"=0
+	"Perdiccas #0"=0
+	"Pericles #0"=0
+	"Perseus #0"=0
+	"Pheneos #0"=0
+	"Phidias #0"=0
+	"Philocrates #0"=0
+	"Philon #0"=0
+	"Philotheos #0"=0
+	"Philip #0"=0
+	"Phocas #0"=0
+	"Phyleus #0"=0
+	"Pitholaos #0"=0
+	"Polydoros #0"=0
+	"Polyperchon #0"=0
+	"Polyphron #0"=0
+	"Polysperchon #0"=0
+	"Polyxenos #0" =0
+	"Posidaeios  #0"=0
+	"Proctus #0"=0
+	"Pythagoras #0"=0
+	"Pytheos #0"=0
+	"Selagus #0"=0
+	"Skopas #0"=0
+	"Sosicles #0"=0
+	"Sophocles #0"=0
+	"Sophronius #0"=0
+	"Sthenelaus #0"=0
+	"Teleclus #0"=0
+	"Telesphoros #0"=0
+	"Themistocles #0"=0
+	"Theocritus #0"=0
+	"Theodoros #0"=0
+	"Therapon #0"=0
+	"Theron #0"=0
+	"Thymotes #0"=0
+	"Timoleon #0"=0
+	"Tisiphon #0"=0
+	"Xanthos #0"=0
+	"Xenocrates #0"=0
+	"Xenon #0"=0
+	"Xenophon #0"=0
+	"Xenotimos #0"=0
+	"Zagreus #0"=0
+	"Zenodoros #0"=0
+	"Zosimus #0"=0
+	"Zoticus #0"=0
+}
+
+ship_names = {
+	Alcyone Antandros Asia "Apollo Aktaios" "Apollo Hekatos" Argiope "Artemis Astyrene"
+	"Artemis Hekate" "Athena Tritonia"
+	Calyce
+	Canace
+	"Dionysos Bakkheios" "Dionysos Brisaios" "Dionysus Phallen" "Drakon Ophiogeneikos" "Drakon Pitanios"
+	"Eros Harpocraticos"
+	Gegenees
+	Hekatonnesoi "Hermes Agoraios"
+	Kaikos Kalliope Kharites "Kybele Asporene"
+	Methymna Myrina Mytilene Nyktimene "Nymphai Mysiai"
+	Okyrhoe Orpheus Orseis Ourea
+	Perimede Pordoselene "Poseidon Patros" Pisidice Pitane
+	Telephos Teuthrania Teuthras Thymbrios Troas
+}
+
+leader_names = { 
+	Acnonios Aeacides Aenias Aesillas Agathocles Agelaos Alcetas Aleos Alexander Ameinias Amynandros Amyntus Apollonides Aratos Archelaus Argaeus 
+		Arganos Aristomides Ariston Aristonous Aristophanes Aristotle Asklepiodorus Athineos Damasias Demetrius Dioedas Diophantus Echemos 
+		Ehnon Ephron Euclid Eudicus Eudoridas Euripides Eurycrates Helladius Hero Hippocrates Ikesios Isocrates Kleandros Kleitos Leonidas
+		Leonippus Lycurgus Lydiadas Lysander Lysimachus Machares Meleager Menon Metrophanes Midas Mitrodoros Neominios Neoptolemus Nicias Nicocrates 
+		Nicodemus Nikandros Nikomedes Nikon Olympos Omirus Orestes Pausanias Peithon Pelopidas Peneus Perdiccas Pericles Perseus Pheneos 
+		Phidias Philocrates Philon Philotheos Philip Phocas Phyleus Pitholaos Polydoros Polyperchon Polyphron Polysperchon Polyxenos 
+		Posidaeios Proctus Pythagoras Pytheos Selagus Skopas Sosicles Sophocles Sophronius Sthenelaus Teleclus Telesphoros Themistocles 
+		Theocritus Theodoros Therapon Theron Thymotes Timoleon Tisiphon Xanthos Xenocrates Xenon Xenophon Xenotimos Zagreus Zenodoros 
+		Zosimus Zoticus}

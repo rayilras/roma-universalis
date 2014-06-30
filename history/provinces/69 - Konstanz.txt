@@ -1,0 +1,21 @@
+discovered_by = greek
+# 69 - Konstanz
+
+owner = HEL
+controller = HEL
+add_core = HEL
+capital = "Helvetii"
+culture = west_germanic
+religion = druidism
+trade_goods = iron
+base_tax = 5
+manpower = 5
+fort1 = yes
+hre = no
+citysize = 50000
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

@@ -1,0 +1,23 @@
+discovered_by = greek
+#408 - Basra
+
+owner = SEL
+controller = SEL
+add_core = SEL
+culture = persian2
+religion = zoroaster
+capital = "Uruk"
+trade_goods = spices
+hre = no
+base_tax = 4
+manpower = 7
+citysize = 5005
+fort1 = yes
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+
+

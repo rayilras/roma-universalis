@@ -1,0 +1,23 @@
+discovered_by = greek
+# 87 Calais - Principal cities: Calais
+
+owner = ATR
+controller = ATR
+add_core = ATR
+capital = "Nemetocenna"
+citysize = 13000
+culture = celtic
+religion = druidism
+hre = no
+base_tax = 5
+trade_goods = fish
+manpower = 3
+
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+
+fort1 = yes

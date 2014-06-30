@@ -1,0 +1,23 @@
+discovered_by = greek
+#429 - Esfahan
+
+owner = SEL
+controller = SEL
+add_core = SEL
+add_core = PRT
+culture = parthian
+religion = zoroaster
+capital = "Tabae"
+trade_goods = ivory
+hre = no
+base_tax = 3
+manpower = 4
+citysize = 25607
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+
+fort1 = yes

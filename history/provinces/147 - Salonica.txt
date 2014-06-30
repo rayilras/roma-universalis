@@ -1,0 +1,24 @@
+discovered_by = greek
+#147 - Salonica
+
+owner = EPR
+controller = EPR
+add_core = MAC
+add_core = EPR
+culture = ancient_greek
+religion = greek_pantheon
+capital = "Larissa"
+trade_goods = grain
+hre = no
+base_tax = 7
+manpower = 2
+citysize = 26887
+fort1 = yes
+
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+discovered_by = greek

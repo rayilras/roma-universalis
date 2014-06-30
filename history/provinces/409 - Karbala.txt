@@ -1,0 +1,21 @@
+discovered_by = greek
+#409 - Karbala
+
+owner = SEL
+controller = SEL
+add_core = SEL
+culture = ancient_greek
+religion = greek_pantheon
+capital = "Seleucia"
+trade_goods = spices
+hre = no
+base_tax = 8
+manpower = 3
+citysize = 35400
+fort1 = yes
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

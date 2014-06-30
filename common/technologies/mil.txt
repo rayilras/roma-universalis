@@ -1,0 +1,187 @@
+monarch_power = MIL
+
+
+# Pre-era techs
+technology = {
+	# Tech 0
+	year = 0470
+	
+	sprite_level = 1
+
+	infantry_fire		= 	0.5
+	infantry_shock 		= 	1.20	
+	cavalry_shock  		= 	2.0	
+	cavalry_fire            =	0.5
+	artillery_shock 	=	0.00
+	land_morale 		= 	3.0
+	combat_width = 8
+	fort1 = yes
+	supply_limit 		= 	0.5
+	military_tactics 	= 	1.0
+
+###
+	enable = early_persian_infantry
+	enable = early_persian_horse
+
+
+	enable = early_roman_legionnairs
+	enable = roman_equites
+
+	enable = barbarian_hoard
+	enable = barbarian_cavalry
+
+	enable = numidian_cavalry
+	enable = greek_phalanx_mercenaries
+	enable = iberian_mercenaries
+	enable = gallic_mercenaries
+
+	enable = early_greek_phalanx
+	enable = greek_cavalry
+
+	enable = etheopian_mercenaries
+	enable = ptolamaic_phalanx
+	enable = ptolamaic_cavalry
+
+	enable = seleucid_phalanx
+	enable = persian_mercenaries
+	enable = seleucid_cavalry
+
+
+###
+
+	enable = halberd_infantry
+
+	enable = western_medieval_knights
+
+	enable = western_medieval_infantry
+}
+
+technology = {
+	# Tech 1
+	year = 0500
+	
+	
+	
+	infantry_shock 		= 	0.01	
+	cavalry_shock  		= 	0.01	
+	land_morale 		= 	0.1
+	combat_width = 1
+	supply_limit 		= 	0.1
+	military_tactics 	= 	0.1
+	fort2 = yes
+	armory = yes
+	
+}
+
+technology = {
+	# Tech 2
+	year = 0550
+
+	enable = auxiliary_cavalry
+	
+	
+	infantry_shock 		= 	0.01	
+	cavalry_shock  		= 	0.01
+	land_morale 		= 	0.1
+	combat_width = 1
+	supply_limit 		= 	0.1
+	military_tactics 	= 	0.1
+	training_fields = yes
+}
+
+
+
+technology = {
+	# Tech 3
+	year = 0600
+
+	enable = late_roman_legionnairs
+	enable = barbarian_chosen
+	enable = barbarian_chosen_cavalry
+	enable = carthaginian_infantry
+	enable = companion_cavalry
+	enable = late_persian_infantry
+	
+	
+	
+	infantry_shock 		= 	0.01	
+	cavalry_shock  		= 	0.01	
+	land_morale 		= 	0.1
+	combat_width = 1
+	supply_limit 		= 	0.1
+	military_tactics 	= 	0.1
+	weapons = yes
+	barracks = yes
+	maneuver_value 		= 	0.1
+
+}
+
+technology = {
+	# Tech 4
+	year = 0650
+
+	enable = carthaginian_cavalry
+	enable = late_greek_phalanx
+	enable = egyptian_phalanx
+	enable = egyptian_cavalry
+	enable = silver_shield_phalanx
+	enable = seleucid_companion_cavalry
+	enable = late_persian_horse
+
+	
+	infantry_shock 		= 	0.01	
+	cavalry_shock  		= 	0.01	
+	land_morale 		= 	0.1
+	combat_width = 1
+	supply_limit 		= 	0.1
+	military_tactics 	= 	0.1
+	regimental_camp = yes
+	war_college = yes
+}
+
+technology = {
+	# Tech 5
+	year = 0700
+
+	
+	infantry_shock 		= 	0.01	
+	cavalry_shock  		= 	0.01	
+	land_morale 		= 	0.1
+	combat_width = 1
+	supply_limit 		= 	0.1
+	military_tactics 	= 	0.1
+	fort3 = yes
+	conscription_center = yes
+}
+
+technology = {
+	# Tech 6
+	year = 0750
+
+	enable = imperial_roman_legionnairs
+	enable = romanized_infantry
+	
+	infantry_shock 		= 	0.01	
+	cavalry_shock  		= 	0.01	
+	land_morale 		= 	0.1
+	combat_width = 1
+	supply_limit 		= 	0.1
+	military_tactics 	= 	0.1
+	arsenal = yes
+	fort4= yes
+}
+
+technology = {
+	# Tech 7
+	year = 0800
+	
+	
+	infantry_shock 		= 	0.01	
+	cavalry_shock  		= 	0.01	
+	land_morale 		= 	0.1
+	combat_width = 1
+	supply_limit 		= 	0.1
+	military_tactics 	= 	0.1
+	fort5	= yes
+}
+

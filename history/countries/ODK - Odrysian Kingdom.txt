@@ -1,0 +1,6 @@
+government = despotic_monarchy
+mercantilism = 0.2
+technology_group = greek
+religion = greek_pantheon
+primary_culture = thracian
+historical_rival = TYL

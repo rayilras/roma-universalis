@@ -1,0 +1,20 @@
+discovered_by = greek
+#245 - Yorkshire
+
+
+culture = celtic
+religion = druidism
+hre = no
+base_tax = 5
+trade_goods = iron
+manpower = 3
+capital = "Brigantes"
+native_size = 70
+native_ferocity = 6
+native_hostileness = 8
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

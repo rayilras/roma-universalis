@@ -1,0 +1,21 @@
+discovered_by = greek
+#148 - Macedonia
+
+owner = MAC
+controller = MAC
+add_core = MAC
+culture = macedonian
+religion = greek_pantheon
+capital = "Pella"
+trade_goods = iron
+hre = no
+base_tax = 12
+manpower = 10
+citysize = 50000
+fort1 = yes
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

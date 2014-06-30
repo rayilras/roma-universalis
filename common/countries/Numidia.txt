@@ -1,0 +1,86 @@
+graphical_culture = northamericagfx
+color = {229 216 156}
+
+historical_idea_groups = {
+	expansion_ideas
+	quantity_ideas
+	economic_ideas
+	trade_ideas
+	defensive_ideas
+	innovativeness_ideas
+	
+}
+
+historical_units = {
+	iberian_mercenaries
+	numidian_cavalry
+	carthaginian_infantry
+	carthaginian_cavalry
+}
+
+
+monarch_names = { 
+	"Massinissa #0" = 15
+	"Adherbal #0" = 20
+	"Guada #0" = 10
+	"Amyrteos #0" =0
+	"Ankhmachis #0"=0
+	"Anemhor #0"=0
+	"Aratos #0"=0
+	"Arganos #0"=0
+	"Charias #0"=0
+	"Djedhor #0"=0
+	"Ezena #0"=0
+	"Horemakhet #0"=0
+	"Isocrates #0"=0
+	"Khabbabash #0"=0
+	"Leonippus #0"=0
+	"Lydiadas #0"=0
+	"Manetho #0"=0
+	"Massiva #0"=0
+ 	"Nakhthoreb #0"=0
+	"Naravas #0"=0
+	"Nefaarud #0"=0
+	"Neferibre #0"=0
+	"Nesisti #0"=0
+	"Nicias #0"=0
+	"Nicodemus #0"=0
+	"Oezalces #0"=0
+	"Oxyntas #0"=0
+	"Pedubast #0"=0
+	"Peneus #0"=0
+	"Perdiccas #0"=0
+	"Phila #0"=0
+	"Philocrates #0" =0
+	"Philotheos #0"=0
+	"Polyperchon #0"=0
+	"Psherenamun #0"=0
+	"Psherenptah #0"=0
+	"Psammuthes #0"=0
+	"Ptolemy #0"=0
+	"Theocritus #0"=0
+	"Therapon #0"=0
+	"Timoleon #0"=0
+	"Xanthos #0"=0
+	"Xenon #0"=0
+	"Zeteres #0"=0
+	"Zosimus #0"=0
+}
+
+ship_names = {
+	Cirta
+	"Hippo Regius"
+	Khamissa
+	Lambessa
+	Markuna
+	Partenia
+	Rusicada
+	Theveste Timgad
+	Verecunda}
+
+leader_names = { 
+	Amyrteos Ankhmachis Anemhor Aratos Arganos Charias Djedhor Ezena Horemakhet Isocrates Khabbabash Leonippus Lydiadas Manetho Massiva
+ 		Nakhthoreb Naravas Nefaarud Neferibre Nesisti Nicias Nicodemus Oezalces Oxyntas Pedubast Peneus Perdiccas Phila Philocrates 
+		Philotheos Polyperchon Psherenamun Psherenptah Psammuthes Ptolemy Theocritus Therapon Timoleon Xanthos Xenon Zeteres Zosimus
+}
+

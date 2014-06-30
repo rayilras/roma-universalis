@@ -1,0 +1,35 @@
+temples =
+{
+	#Allows to fight wars.
+	monarch_power = MIL
+	
+	modifier = 
+	{
+		global_manpower_modifier = 0.1
+	}
+}
+
+enuchs =
+{
+	monarch_power = DIP
+
+	#Merchants, Traders, Expansions.
+	modifier = 
+	{
+		global_trade_power = 0.1
+		
+	
+	}
+}
+
+bureaucrats =
+{
+	monarch_power = ADM
+
+	#buildings, Internal Stability.
+	modifier = 
+	{
+		build_cost = -0.2
+		
+	}
+}

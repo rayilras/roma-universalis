@@ -1,0 +1,110 @@
+monarch_power = DIP
+
+
+# Pre-era techs
+technology = {
+	# Tech 0
+	year = 0474
+
+	merchants = yes
+	naval_maintenance		=	0.1
+	naval_morale			=	2.0
+	range					=	40
+	trade_range				=	100000000
+	enable = cog
+	enable = galley
+
+}
+
+technology = {
+	# Tech 1
+	year = 0500
+	
+	enable = barque
+	naval_morale			=	0.1
+	naval_maintenance		= 	0.05
+	trade_efficiency 		= 	0.1
+	marketplace = yes 
+	dock = yes
+	
+}
+
+technology = {
+	# Tech 2
+	year = 0550
+	
+	
+	naval_morale			=	0.1
+	naval_maintenance		= 	0.05
+	trade_efficiency 		= 	0.1
+	embassy = yes
+	trade_depot = yes 
+	drydock = yes 
+}
+
+
+technology = {
+	# Tech 3
+	year = 0600
+
+	naval_morale			=	0.1
+	naval_maintenance		= 	0.05
+	trade_efficiency 		= 	0.1
+	canal = yes
+	shipyard = yes
+	refinery = yes
+	royal_palace = yes
+	
+	
+	
+
+}
+
+technology = {
+	# Tech 4
+	year = 0650
+		
+	naval_morale			=	0.1
+	naval_maintenance		= 	0.05
+	trade_efficiency 		= 	0.1
+	wharf = yes
+	tradecompany = yes
+	admiralty = yes
+
+}
+
+technology = {
+	# Tech 5
+	year = 0700
+
+	naval_morale			=	0.1
+	naval_maintenance		= 	0.05
+	trade_efficiency 		= 	0.1
+	grand_shipyard = yes 
+	road_network = yes
+
+}
+
+technology = {
+	# Tech 6
+	year = 0750
+	
+	naval_morale			=	0.1
+	naval_maintenance		= 	0.05
+	trade_efficiency 		= 	0.1
+	post_office = yes
+	naval_arsenal = yes
+
+}
+
+technology = {
+	# Tech 7
+	year = 0800
+	
+	naval_morale			=	0.1
+	naval_maintenance		= 	0.05
+	trade_efficiency 		= 	0.1
+	customs_house =	yes
+	naval_base = yes
+	
+}

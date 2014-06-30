@@ -1,0 +1,42 @@
+country_decisions = {
+	roman_empire = {
+		major = yes
+		potential = {
+		
+			tag = ROM
+
+		
+		}
+		allow = {
+
+			num_of_owned_provinces_with = { value = 40 }
+			government = roman_republic
+
+		}
+
+		effect = {
+
+			change_government = imperial_government
+			add_stability = -3
+			add_manpower = -0.25
+
+			random_owned_province = {
+			
+				roman_rebels = 2
+			}
+			random_owned_province = {
+			
+				roman_rebels = 3
+			}
+			random_owned_province = {
+			
+				roman_rebels = 2
+			}
+
+			capital_scope = {
+				roman_rebels = 3
+			}	
+		}
+	}
+
+}

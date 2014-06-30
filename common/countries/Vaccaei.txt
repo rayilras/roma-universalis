@@ -1,0 +1,74 @@
+graphical_culture = muslimgfx
+
+color = { 255 194 111}
+
+historical_idea_groups = {
+	diplomatic_ideas
+	quantity_ideas
+	religious_ideas
+	expansion_ideas
+	offensive_ideas
+	economic_ideas
+	
+}
+
+historical_units = {
+	barbarian_hoard
+	barbarian_cavalry
+	barbarian_chosen
+	barbarian_chosen_cavalry
+}
+
+
+
+monarch_names = { 
+	"Ambon #0"
+	"Arganthonios #0"
+	"Audax #0"
+	"Auaros #0"
+	"Caisaros #0"
+	"Caraunios #0"
+	"Caros #0"
+	"Caucenus #0"
+	"Cesarus #0"
+	"Culchas #0"
+	"Indibil #0"
+	"Leukon #0"
+	"Luxinius #0"
+	"Mandonius #0"
+	"Megaravicos #0"
+	"Punicus #0"
+	"Rhetogenes #0"
+	"Tautalus #0"
+	"Viriathos #0"
+}
+
+ship_names = {
+	Abiafelaesurraecus Abna Aegiamunniaegus Aernus Aetio Albucelainco Ameipicer Apuleius
+	Arabo Arabrigenses Aracus Aratibro Aravi Arentia Arentio "Ares Lusitani" Ataegina Attio
+	Baeculum Banderaeicus Bandiarbariaicus Bandonga Bandua Bandueaetobrigus Bmervasecus
+	Bormanico Breogan Brigus
+	Cabar Cabuniaegenis Caesarus Candeberonio Caraucenus Cariocecus Caros Carneus Castulus
+	Caucenus Cauleces Coilarni Collouesei Coniumbricenses Connoba Corocotta Coronus Coruae
+	Coso Crouga Curius Cusicelenses Cusuneneaecus
+	Debaroni Dercetius "Dominus Cusus Neneoecus" Duberdicus Durius
+	Edovio Endovelicus Eniragillo Epona Erbina
+	Frovida
+	Igaeditani Igaedo Ilerda Ilurbeda Indibil Intercatia "Iuppiter Optimus Maximus"
+	Laepo Laho Lancia Lancienses Laneana Laraucus Laribero Laro Lima Lucubo Luruni
+	Mandonius Meidubrigenses Miraro Moelio Moricilo Munidis
+	Nabia Nantosvelta Netaci Neton
+	Ocaere
+	Paesures Punicus
+	Quangeio
+	Rauda Reo Reue Runesocesius
+	Saur Segobriga Sucellus Sulo
+	Tameobrigus Tantalus Tapori Toga Tongoe Tongoenabiagus Torolo Trebaruna Turiacus Turolici
+	Ulaca
+	Verore Vestio Viriathus
+}
+
+leader_names = { 
+	Ambon Arganthonios Audax Auaros Caisaros Caraunios Caros Caucenus Cesarus Culchas Indibil Leukon Luxinius Mandonius Megaravicos
+		Punicus Rhetogenes Tautalus Viriathos
+}

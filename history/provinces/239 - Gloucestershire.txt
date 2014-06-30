@@ -1,0 +1,21 @@
+discovered_by = greek
+#239 - Gloucestershire
+
+owner = CTV
+controller = CTV
+add_core = CTV
+culture = celtic
+religion = druidism
+hre = no
+citysize = 80000
+base_tax = 5
+trade_goods = naval_supplies
+manpower = 4
+capital = "Trinovantes"
+fort1 = yes
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

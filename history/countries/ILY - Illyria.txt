@@ -1,0 +1,5 @@
+government = tribe
+mercantilism = 0.2
+technology_group = barbarian
+religion = shamanism
+primary_culture = illyrian

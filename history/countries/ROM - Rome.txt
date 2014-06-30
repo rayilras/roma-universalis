@@ -1,0 +1,28 @@
+government = roman_republic
+mercantilism = 0.2
+technology_group = roman
+religion = roman_pantheon
+primary_culture = roman
+capital = 118	# Rome
+historical_rival = CAR
+historical_friend = ROM
+
+faction = temples #mil
+faction = enuchs #merc
+faction = bureaucrats #civic
+
+temples = 80
+enuchs = 10
+bureaucrats = 10
+
+0474.1.1 = { 
+	monarch = {
+		name = "Publius Valerius"
+		dynasty = "Laevinus"
+		birth_date = 0438.1.1
+		adm = 3
+		dip = 2
+		mil = 3
+		death_date = 490.1.1
+	}
+}

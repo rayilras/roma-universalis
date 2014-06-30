@@ -1,0 +1,21 @@
+discovered_by = greek
+#336 - Tlemcen
+
+owner = CAR
+controller = CAR
+add_core = CAR
+culture = numidian
+religion = carthaginian_pantheon
+capital = "Cirta"
+trade_goods = grain
+hre = no
+base_tax = 4
+manpower = 2
+citysize = 69772
+fort1 = yes
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

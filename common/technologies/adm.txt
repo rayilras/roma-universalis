@@ -1,0 +1,89 @@
+ monarch_power = ADM
+
+
+# Pre-era techs
+technology = {
+	# Tech 0
+	year = 0475
+	despotic_monarchy = yes	
+	production_efficiency	=	0.1
+	may_support_rebels = yes
+	
+}
+
+technology = {
+	# Tech 1
+	year = 0500
+	allowed_idea_groups = 1
+	production_efficiency	=	0.1
+	constable = yes
+	temple = yes
+	farm_estate = yes
+}
+
+technology = {
+	# Tech 2
+	year = 0550
+	allowed_idea_groups = 2
+	production_efficiency	=	0.1
+	workshop = yes
+	courthouse = yes
+	fine_arts_academy = yes 
+	plantations = yes
+	
+
+}
+
+technology = {
+	# Tech 3
+	year = 0600
+	
+	production_efficiency	=	0.1
+	counting_house = yes 
+	spy_agency = yes
+	allowed_idea_groups = 3
+}
+
+technology = {
+	# Tech 4
+	year = 0650
+	production_efficiency	=	0.1
+	allowed_idea_groups = 4
+	treasury_office = yes
+	town_hall = yes
+	textile = yes 
+	grain_depot	= yes
+}
+
+technology = {
+	# Tech 5
+	year = 0700
+	production_efficiency	=	0.1
+	allowed_idea_groups = 5
+	college = yes
+	mint = yes  
+	university = yes  
+	
+	
+}
+
+technology = {
+	# Tech 6
+	year = 0750
+	allowed_idea_groups = 6
+	production_efficiency	 =	0.1
+	cathedral = yes
+	stock_exchange = yes
+	tax_assessor = yes
+
+}
+
+technology = {
+	# Tech 7
+	year = 0800
+	production_efficiency	=	0.1
+	glorious_monument = yes 
+	
+	
+}
+

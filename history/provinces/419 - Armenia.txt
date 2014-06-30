@@ -1,0 +1,22 @@
+discovered_by = greek
+#419 - Armenia
+
+owner = ARR
+controller = ARR
+add_core = ARR
+culture = armenian2
+religion = zoroaster
+capital = "Armenia"
+trade_goods = iron
+hre = no
+base_tax = 4
+manpower = 5
+citysize = 2730
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+
+fort1 = yes

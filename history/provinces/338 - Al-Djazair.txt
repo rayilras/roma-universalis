@@ -1,0 +1,21 @@
+discovered_by = greek
+#338 - Al-Djazair
+
+owner = CAR
+controller = CAR
+add_core = CAR 
+culture = numidian
+religion = carthaginian_pantheon
+capital = "Cartenae"
+trade_goods = grain
+hre = no
+base_tax = 7
+manpower = 4
+citysize = 20400
+fort1 = yes
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

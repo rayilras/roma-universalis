@@ -1,0 +1,7 @@
+discovered_by = seleucid
+discovered_by = greek
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian

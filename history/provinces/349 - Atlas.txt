@@ -1,0 +1,21 @@
+discovered_by = greek
+#349 - Atlas
+
+owner = NUM
+controller = NUM
+add_core = NUM
+culture = numidian
+religion = carthaginian_pantheon
+capital = "Massaesyli"
+trade_goods = slaves
+hre = no
+base_tax = 4
+manpower = 4
+citysize = 2146
+fort1 = yes
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

@@ -1,0 +1,22 @@
+discovered_by = greek
+#145 - Morea
+
+owner = SPR
+controller = SPR
+add_core = SPR
+culture = ancient_greek
+religion = greek_pantheon
+capital = "Sparta"
+trade_goods = iron
+hre = no
+base_tax = 8
+manpower = 10
+citysize = 50000
+fort1 = yes
+
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

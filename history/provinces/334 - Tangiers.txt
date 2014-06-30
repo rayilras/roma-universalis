@@ -1,0 +1,21 @@
+discovered_by = greek
+#334 - Tangiers
+
+owner = CAR
+controller = CAR
+add_core = CAR
+culture = numidian
+religion = carthaginian_pantheon
+capital = "Tingis"
+trade_goods = cloth
+hre = no
+base_tax = 3
+manpower = 5
+citysize = 5332
+fort1 = yes
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

@@ -1,0 +1,19 @@
+discovered_by = greek
+owner = EBU
+controller = EBU
+add_core = EBU
+culture = west_germanic
+religion = animism
+trade_goods = naval_supplies
+capital = "Atuatuca"
+base_tax = 4
+citysize = 10000
+manpower = 6
+hre = no
+
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

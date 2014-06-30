@@ -1,0 +1,19 @@
+discovered_by = greek
+#1747 - Caceres
+
+culture = iberian
+religion = druidism
+hre = no
+base_tax = 3
+trade_goods = wool 
+capital = "Turduli"
+native_size = 60
+native_ferocity = 5
+native_hostileness = 6 
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+

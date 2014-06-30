@@ -1,0 +1,22 @@
+discovered_by = greek
+#126 - Malta
+
+owner = CAR
+controller = CAR
+add_core = CAR
+culture = carthaginian 
+religion = carthaginian_pantheon
+hre = no 
+base_tax = 3
+trade_goods = fish
+manpower = 2
+fort1 = yes 
+capital = "Malta" 
+citysize = 4000 # Estimated
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+discovered_by = greek

@@ -1,0 +1,22 @@
+discovered_by = greek
+#316 - Izmit
+
+owner = BTH
+controller = BTH
+add_core = BTH
+culture = ancient_greek
+religion = greek_pantheon
+capital = "Nicaea"
+trade_goods = naval_supplies
+hre = no
+base_tax = 5
+manpower = 5
+citysize = 15900
+fort1 = yes
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+
