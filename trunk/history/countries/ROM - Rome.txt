@@ -5,7 +5,7 @@ religion = roman_pantheon
 primary_culture = roman
 capital = 118	# Rome
 historical_rival = CAR
-historical_friend = ROM
+historical_friend = MAS
 
 faction = temples #mil
 faction = enuchs #merc
