@@ -1,9 +1,9 @@
 discovered_by = greek
 #336 - Tlemcen
 
-owner = CAR
-controller = CAR
-add_core = CAR
+owner = NCA
+controller = NCA
+add_core = NCA
 culture = numidian
 religion = carthaginian_pantheon
 capital = "Cirta"

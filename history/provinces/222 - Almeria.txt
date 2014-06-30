@@ -1,9 +1,9 @@
 discovered_by = greek
 #1748 - La Mancha
 
-owner= CAR
-controller = CAR
-add_core = CAR
+owner= NCA
+controller = NCA
+add_core = NCA
 culture = iberian
 religion = druidism
 hre = no

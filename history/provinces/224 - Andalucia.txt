@@ -1,9 +1,9 @@
 discovered_by = greek
 #224 - Andalucía
 
-owner = CAR
-controller = CAR
-add_core = CAR
+owner = NCA
+controller = NCA
+add_core = NCA
 culture = iberian
 religion = druidism
 hre = no
