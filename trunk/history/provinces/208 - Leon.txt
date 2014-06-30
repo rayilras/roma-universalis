@@ -1,0 +1,19 @@
+discovered_by = greek
+#208 - León
+
+
+culture = celt_iberian
+religion = druidism
+hre = no
+base_tax = 5
+trade_goods = grain
+capital = "Vettones"
+native_size = 60
+native_ferocity = 4
+native_hostileness = 5
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

@@ -1,0 +1,292 @@
+britannia = 
+	{
+		location = 234
+		outgoing=
+		{
+			name="gaul"
+			path=
+			{
+							}
+			control=
+			{
+			}
+		}
+		outgoing=
+		{
+			name="iberia"
+			path=
+			{ 1273 1276 1290 1292
+							}
+			control=
+			{ 2720.000000 1490.000000 2765.000000 1410.0000000 2660.000000 1405.000000 2650.000000 1268.500000 2750.000000 1250.000000
+			}
+			
+		}
+			
+		
+		members = {
+250 248 245 1861 242 239 238 234 236 372 373 376 374
+	}
+}
+
+gaul = 
+	{
+		location = 193
+		outgoing=
+		{
+			name="iberia"
+			path=
+			{
+							}
+			control=
+			{
+			}
+		}
+		outgoing=
+		{
+			name="italia"
+			path=
+			{ 104 119
+							}
+			control=
+			{ 1000.000000
+			}
+		}
+
+		members = {
+96 87 167 168 170 180 179 192 186 1878 75 1880 193 199 195 174 173 198 200 201 204 
+	}
+}
+
+iberia = 
+	{
+		location = 221
+		outgoing=
+		{
+			name="italia"
+			path=
+			{
+							}
+			control=
+			{
+			}
+		}
+		outgoing=
+		{
+			name="carthage"
+			path=
+			{ 1301 1302
+							}
+			control=
+			{
+			}
+		}
+
+		members = {
+212 210 213 214 1746 215 207 208 206 231 1851 216 1747 227 217 219 220 221 230 224 1747 226 1748 219 222
+	}
+}
+italia = 
+	{
+		location = 118
+		
+
+		members = {
+118 69 104 101 112 1769 114 115 119 120 121 1933 1934 122 123 124 1247 107
+		
+	}
+}
+carthage = 
+	{
+		location = 341
+		outgoing=
+		{
+			name="italia"
+			path=
+			{
+							}
+			control=
+			{
+			}
+		}
+
+		members = {
+341 334 342 336 349 338 1882 350 351 352 353 354 355 356 126 125 127 333
+	}
+}
+germania = 
+	{
+		location = 264
+		outgoing=
+		{
+			name="gaul"
+			path=
+			{
+							}
+			control=
+			{
+			}
+		}
+		outgoing=
+		{
+			name="italia"
+			path=
+			{ 107 114
+							}
+			control=
+			{ 1000.000000
+			}
+		}
+		outgoing=
+		{
+			name="dacia"
+			path=
+			{
+							}
+			control=
+			{
+			}
+		}
+
+		members = {
+264 70 64 133 1863 1939 1841 60 46 1857 15 12 6 55 98 83 57 1858 67 1876 265 59
+	}
+}
+dacia = 
+	{
+		location = 1951
+		outgoing=
+		{
+			name="greece"
+			path=
+			{
+							}
+			control=
+			{
+			}
+		}
+
+		members = {
+1864 141 150 159 161 160 156 1954 155 1772 260 162 261 1951 1952 158 268 1756 281 
+	}
+}
+greece = 
+	{
+		location = 146
+		outgoing=
+		{
+			name="italia"
+			path=
+			{
+							}
+			control=
+			{
+			}
+		}
+		outgoing=
+		{
+			name="carthage"
+			path=
+			{
+							}
+			control=
+			{
+			}
+		}
+
+		members = {
+131 1826 136 1828 140 139 137 1827 143 148 144 147 146 164 1773 145 1765 151 163 320 317 316 318 319 
+	}
+}
+pheonicia = 
+	{
+		location = 1855
+		outgoing=
+		{
+			name="greece"
+			path=
+			{
+							}
+			control=
+			{
+			}
+		}
+		outgoing=
+		{
+			name="egypt"
+			path= 1855 1316 362
+			{
+							}
+			control=
+			{ 3320.000000 1180.000000
+			}
+		}
+
+		members = {
+325 326 322 323 324 328 1846 327 330 419 418 332 407 377 378 382 1855 421 420 321
+	}
+}
+egypt = 
+	{
+		location = 362 
+		outgoing=
+		{
+			name="greece"
+			path=
+			{
+							}
+			control=
+			{
+			}
+		}
+		outgoing=
+		{
+			name="carthage"
+			path=
+			{
+							}
+			control=
+			{
+			}
+		}
+		members = {
+362 361 360 357 364 379 381 380 383 405 
+	}
+}
+persia = 
+	{
+		location = 410
+		outgoing=
+		{
+			name="pheonicia"
+			path=
+			{
+							}
+			control=
+			{
+			}
+		}
+
+
+		members = {
+410 409 408 430 429 413 428 426 414 417 416 415 411 412 406 
+	}
+}
+sarmatia = 
+	{
+		location = 285 
+		outgoing=
+		{
+			name="greece"
+			path=
+			{
+							}
+			control=
+			{
+			}
+		}
+
+		members = {
+282 283 1974 286 284 285 287 1856 463 425 462 422 423 
+	}
+}

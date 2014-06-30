@@ -1,0 +1,22 @@
+discovered_by = greek
+#418 - Kurdistan
+owner = ARR
+controller = ARR
+add_core = ARR
+add_core = SEL
+culture = armenian2
+religion = zoroaster
+capital = "Amida"
+trade_goods = grain
+hre = no
+base_tax = 4
+manpower = 5
+citysize = 10000
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+
+fort1 = yes

@@ -1,0 +1,22 @@
+discovered_by = greek
+#420 - Qarabagh
+
+owner = ARR
+controller = ARR
+add_core = ARR
+culture = scythian
+religion = zoroaster
+capital = "Gelae"
+trade_goods = grain
+hre = no
+base_tax = 2
+manpower = 2
+citysize = 2011
+fort1 = yes
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+

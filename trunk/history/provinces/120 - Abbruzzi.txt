@@ -1,0 +1,21 @@
+discovered_by = greek
+#120 - Abbruzzi
+
+owner = ROM
+controller = ROM
+add_core = ROM
+culture = osco_umbrian 
+religion = roman_pantheon
+hre = no 
+base_tax = 8
+trade_goods = cloth 
+manpower = 3
+fort1 = yes 
+capital = "Bovianum" 
+citysize = 50000
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

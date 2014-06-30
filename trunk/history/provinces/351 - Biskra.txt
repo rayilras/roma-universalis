@@ -1,0 +1,21 @@
+discovered_by = greek
+#351 - Biskra
+
+owner = NUM
+controller = NUM
+add_core = NUM
+culture = numidian
+religion = carthaginian_pantheon
+capital = "Numidia"
+trade_goods = grain
+hre = no
+base_tax = 4
+manpower = 7
+citysize = 3668
+fort1 = yes
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

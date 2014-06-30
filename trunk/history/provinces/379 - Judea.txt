@@ -1,0 +1,21 @@
+discovered_by = greek
+#379 - Judea
+
+owner = EGT
+controller = EGT
+add_core = EGT
+culture = jewish
+religion = judaism
+capital = "Jerusalem"
+trade_goods = wine
+hre = no
+base_tax = 6
+manpower = 3
+citysize = 4880
+fort1 = yes
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

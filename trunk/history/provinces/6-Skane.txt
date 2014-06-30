@@ -1,0 +1,19 @@
+discovered_by = greek
+#Skåne
+
+
+culture = north_germanic
+religion = animism
+hre = no
+base_tax = 2
+trade_goods = grain
+capital = "Gothi"
+native_size = 60
+native_ferocity = 8
+native_hostileness = 5
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

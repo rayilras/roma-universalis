@@ -1,0 +1,21 @@
+discovered_by = greek
+#287 - Kouban
+
+owner = BSK
+controller = BSK
+add_core = BSK
+culture = sarmatian
+religion = shamanism
+hre = no
+base_tax = 5
+trade_goods = fish
+manpower = 5
+capital = "Maeotae"
+fort1 = yes
+citysize = 50000
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

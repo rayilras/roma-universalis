@@ -1,0 +1,23 @@
+discovered_by = greek
+#417 - Gilan
+
+owner = SEL
+controller = SEL
+add_core = SEL
+
+culture = median
+religion = zoroaster
+capital = "Amardi"
+trade_goods = wool
+hre = no
+base_tax = 3
+manpower = 2
+citysize = 3968
+fort1 = yes
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+

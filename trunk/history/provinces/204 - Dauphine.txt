@@ -1,0 +1,18 @@
+discovered_by = greek
+# 204 Dauphiné - Principal cities: Grenoble
+
+capital = "Vienne"
+culture = celtic
+religion = druidism
+hre = no
+base_tax = 5
+trade_goods = grain
+native_size = 50
+native_ferocity = 5
+native_hostileness = 4
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

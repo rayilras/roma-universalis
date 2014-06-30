@@ -1,0 +1,21 @@
+discovered_by = greek
+#122 - Apulia
+owner = MGN
+controller = MGN
+add_core = MGN
+add_core = ROM
+culture = messapic
+religion = roman_pantheon
+hre = no 
+base_tax = 5
+trade_goods = salt
+manpower = 2
+fort1 = yes 
+capital = "Tarentum"
+citysize = 25000 # Estimated 
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

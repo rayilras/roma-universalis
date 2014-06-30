@@ -1,0 +1,40 @@
+# This file contains the default idea group in order to make sure it is loaded last.
+
+####barbarian ideas####
+
+
+default_ideas = {
+	start = {
+		global_tax_modifier = 0.05
+		global_manpower_modifier = 0.50
+	}
+	
+	bonus = {
+		leader_shock = 1
+	}
+	
+	free = yes
+	
+	call_to_war = {
+		infantry_cost = -0.20
+	}
+	faith = {
+		tolerance_own = 5
+		religious_unity = 0.33
+	}	
+	daemons_in_the_forest = {
+		land_attrition = -0.20
+	}
+	tribal_warfare = {
+		war_exhaustion_cost = -0.10
+	}
+	celtic_art = {
+		stability_cost_modifier = -0.1
+	}
+	resistance = {
+		enemy_core_creation = 1.0
+	}
+	head_hunting = {
+		land_morale = 0.15
+	}
+}

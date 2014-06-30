@@ -1,0 +1,21 @@
+discovered_by = greek
+#137 - Ragusa
+
+owner = ILY
+controller = ILY
+add_core = ILY
+culture = illyrian
+religion = shamanism
+capital = "Scodra"
+trade_goods = naval_supplies
+hre = no
+base_tax = 2
+manpower = 3
+fort1 = yes
+citysize = 50000
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

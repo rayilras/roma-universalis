@@ -1,0 +1,22 @@
+discovered_by = greek
+# 1880 - Sundgau
+
+owner = SEQ
+controller = SEQ
+add_core = SEQ
+capital = "Vesontio"
+citysize = 5500
+culture = celtic
+religion = druidism
+hre = no
+base_tax = 5
+trade_goods = grain
+manpower = 6
+fort1 = yes
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+

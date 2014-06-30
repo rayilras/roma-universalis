@@ -1,0 +1,19 @@
+name = " The Pyrric War"
+
+war_goal = {
+	type = take_core
+	cassus_belli = cb_core
+	province = 123
+}
+
+0473.11.1 = { 
+	add_attacker = ROM
+	add_defender = MGN
+	add_defender = EPR
+}
+
+0475.1.1 = {
+	rem_attacker = ROM
+	rem_defender = MGN
+	rem_defender = EPR
+}

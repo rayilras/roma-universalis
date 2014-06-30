@@ -1,0 +1,24 @@
+discovered_by = greek
+#414 - Hamadan
+
+owner = SEL
+controller = SEL
+add_core = SEL
+add_core = PRT
+culture = parthian
+religion = zoroaster
+capital = "Ecbatana"
+trade_goods = cloth
+hre = no
+base_tax = 3
+manpower = 5
+citysize = 2855
+
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+
+fort1 = yes

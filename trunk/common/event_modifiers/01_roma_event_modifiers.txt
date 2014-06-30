@@ -1,0 +1,12 @@
+### Country modifiers
+
+
+### Province modifiers
+
+roma_temple_solomon = {
+	local_missionary_strength = -0.10
+	local_revolt_risk = -1
+	local_tax_modifier = 0.10
+}
+
+### Ruler modifiers

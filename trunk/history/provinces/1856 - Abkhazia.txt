@@ -1,0 +1,21 @@
+discovered_by = greek
+#1856 - Abkhazia
+
+owner = BSK
+controller = BSK
+add_core = BSK
+culture = ancient_greek
+religion = greek_pantheon
+capital = "Phanagoria"
+trade_goods = grain
+hre = no
+base_tax = 4
+manpower = 2
+citysize = 6600
+fort1 = yes
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

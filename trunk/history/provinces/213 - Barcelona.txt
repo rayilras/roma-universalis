@@ -1,0 +1,21 @@
+discovered_by = greek
+#213 - Barcelona
+
+owner = MAS
+controller = MAS
+add_core = MAS
+culture = ancient_greek
+religion = greek_pantheon
+hre = no
+base_tax = 6
+trade_goods = wine 
+manpower = 7
+fort1 = yes
+capital = "Emporion" 
+citysize = 35000
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

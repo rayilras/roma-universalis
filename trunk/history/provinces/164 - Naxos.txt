@@ -1,0 +1,22 @@
+discovered_by = greek
+#164 - Naxos
+
+owner = MAC
+controller = MAC
+add_core = MAC
+culture = ancient_greek
+religion = greek_pantheon
+capital = "Calcis"
+trade_goods = fish
+hre = no
+base_tax = 6
+manpower = 6
+citysize = 3008
+fort1 = yes
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+

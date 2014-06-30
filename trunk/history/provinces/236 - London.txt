@@ -1,0 +1,20 @@
+discovered_by = greek
+#236 - London
+
+
+culture = celtic
+religion = druidism
+hre = no
+base_tax = 5
+trade_goods = cloth
+manpower = 6
+capital = "Cantii"
+native_size = 50
+native_ferocity = 5
+native_hostileness = 5
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

@@ -1,0 +1,21 @@
+discovered_by = greek
+#119 - Ancona
+
+owner = ROM
+controller = ROM
+add_core = ROM
+culture = osco_umbrian 
+religion = roman_pantheon
+hre = no 
+base_tax = 9       
+trade_goods = wool
+manpower = 4        
+fort1 = yes 
+capital = "Perugia" 
+citysize = 28000 # Estimated 
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

@@ -1,0 +1,19 @@
+discovered_by = greek
+#381 - Hawran
+
+culture = nabatean
+religion = shamanism
+capital = "Bostra"
+trade_goods = grain
+hre = no
+base_tax = 2
+manpower = 2
+native_size = 40
+native_ferocity = 5
+native_agressiveness = 5
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

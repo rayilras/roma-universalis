@@ -1,0 +1,21 @@
+discovered_by = greek
+#318 - Izmir
+owner = SEL
+controller = SEL
+add_core = SEL
+culture = ancient_greek
+religion = greek_pantheon
+capital = "Ephesus"
+trade_goods = grain
+hre = no
+base_tax = 5
+manpower = 5
+citysize = 17500
+fort1 = yes
+
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

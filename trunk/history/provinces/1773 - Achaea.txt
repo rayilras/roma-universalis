@@ -1,0 +1,21 @@
+discovered_by = greek
+#1773 - Achaea
+
+owner = ACL
+controller = ACL
+add_core = ACL
+culture = ancient_greek
+religion = greek_pantheon
+capital = "Patras"
+trade_goods = wine
+hre = no
+base_tax = 8
+manpower = 6
+citysize = 50000
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+

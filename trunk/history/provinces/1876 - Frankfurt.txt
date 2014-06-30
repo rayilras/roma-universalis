@@ -1,0 +1,16 @@
+discovered_by = greek
+# 1876 - Frankfurt
+capital = "Treveri"
+culture = west_germanic
+religion = animism
+trade_goods = wool
+base_tax = 4
+native_size = 50
+native_ferocity = 5
+native_hostileness = 5
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

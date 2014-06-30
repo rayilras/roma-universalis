@@ -1,0 +1,21 @@
+discovered_by = greek
+# 1769 - Görz
+
+
+culture = venetic
+religion = animism
+base_tax = 5
+trade_goods = naval_supplies
+manpower = 2
+capital = "Histri"
+hre = no
+native_size = 40
+native_ferocity = 5
+native_hostileness = 5
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+

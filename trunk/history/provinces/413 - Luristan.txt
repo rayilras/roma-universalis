@@ -1,0 +1,23 @@
+discovered_by = greek
+#413 - Lorestan
+
+owner = SEL
+controller = SEL
+add_core = SEL
+add_core = PRT
+culture = parthian
+religion = zoroaster
+capital = "Susa"
+trade_goods = wool
+hre = no
+base_tax = 4
+manpower = 5
+citysize = 19500
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+
+fort1 = yes

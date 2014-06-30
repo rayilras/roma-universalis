@@ -1,0 +1,22 @@
+discovered_by = greek
+#319 - Mentese
+
+owner = EGT
+controller = EGT
+add_core = EGT
+capital = "Xanthos"
+culture = ancient_greek
+religion = greek_pantheon
+capital = "Xanthos"
+trade_goods = cloth
+hre = no
+base_tax = 5
+manpower = 3
+citysize = 9100
+fort1 = yes
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid

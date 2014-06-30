@@ -1,0 +1,28 @@
+discovered_by = greek
+#410 - Iraq-i-Arab
+owner = SEL
+controller = SEL
+add_core = SEL
+culture = assyrian
+religion = zoroaster
+capital = "Babylon"
+trade_goods = grain
+hre = no
+base_tax = 10
+manpower = 10
+citysize = 40150
+fort1 = yes
+
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+
+
+470.1.1 = {
+		add_permanent_province_modifier = {
+			name = center_of_trade_modifier
+			duration = -1
+		}

@@ -1,0 +1,22 @@
+discovered_by = greek
+#340 - Constantine
+
+owner = CAR
+controller = CAR
+add_core = CAR
+culture = carthaginian
+religion = carthaginian_pantheon
+capital = "Hippo Regius"
+trade_goods = grain
+hre = no
+base_tax = 5
+manpower = 7
+citysize = 17000
+fort1 = yes
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+

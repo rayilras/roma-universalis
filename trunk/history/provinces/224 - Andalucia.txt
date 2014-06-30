@@ -1,0 +1,21 @@
+discovered_by = greek
+#224 - Andalucía
+
+owner = CAR
+controller = CAR
+add_core = CAR
+culture = iberian
+religion = druidism
+hre = no
+base_tax = 5
+trade_goods = grain
+manpower = 4
+fort1 = yes
+capital = "Malaka" 
+citysize = 22000
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
