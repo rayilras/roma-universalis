@@ -108,6 +108,7 @@ l_english:
  DAC: "Daci"
  PRT: "Parthia"
  ODK: "Odrysian Kingdom"
+ NCA: "Nova Carthago"
  
  CAR_ADJ: "Punic"
  ATS_ADJ: "Athenian"
@@ -154,6 +155,7 @@ l_english:
  VAC_ADJ: "Vaccaen"
  PRT_ADJ: "Parthian"
  ODK_ADJ: "Odrysian"
+ NCA_ADJ: "Nova Carthaginian"
  ######
  roman_republic: "Roman Republic"
  roman_republic_ruler: "Consul"
