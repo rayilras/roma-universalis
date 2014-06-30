@@ -13,10 +13,10 @@ historical_idea_groups = {
 }
 
 historical_units = {
-	early_greek_phalanx
-	greek_cavalry
-	late_greek_phalanx
-	companion_cavalry
+	early_persian_infantry
+	early_persian_horse
+	late_persian_infantry
+	late_persian_horse
 }
 
 
