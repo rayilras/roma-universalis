@@ -766,7 +766,7 @@ persian_ideas = {
 	
 	trigger = {
 		
-		culture_group = persia
+		culture_group = persian
 	}
 	free = yes
 	
