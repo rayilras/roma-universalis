@@ -1,8 +1,8 @@
 discovered_by = greek
 #318 - Izmir
-owner = SEL
-controller = SEL
-add_core = SEL
+owner = SAD
+controller = SAD
+add_core = SAD
 culture = ancient_greek
 religion = greek_pantheon
 capital = "Ephesus"
