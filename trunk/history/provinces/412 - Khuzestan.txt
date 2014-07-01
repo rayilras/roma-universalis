@@ -1,9 +1,9 @@
 discovered_by = greek
 #412 - Khuzestan
 
-owner = SEL
-controller = SEL
-add_core = SEL
+owner = PSA
+controller = PSA
+add_core = PSA
 culture = persian2
 religion = zoroaster
 capital = "Antiochia"

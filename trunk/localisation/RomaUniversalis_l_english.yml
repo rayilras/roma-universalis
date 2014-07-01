@@ -116,6 +116,11 @@ l_english:
  SAD: "Sardes"
  CIA: "Cappadocia"
  GIA: "Galatia"
+ MED: "Media"
+ MDA: "Media Atropatene"
+ PSA: "Persia"
+ PVA: "Parthava"
+ SYC: "Syracuse"
  
  CAR_ADJ: "Punic"
  ATS_ADJ: "Athenian"
@@ -169,7 +174,11 @@ l_english:
  SAD_ADJ: "Sardesian"
  CIA_ADJ: "Cappadocian"
  GIA_ADJ: "Galatian"
- 
+ MED_ADJ: "Median"
+ MDA_ADJ: "Atropatenean"
+ PSA_ADJ: "Persian"
+ PVA_ADJ: "Parthavan"
+ SYC_ADJ: "Syracusan"
  ######
  roman_republic: "Roman Republic"
  roman_republic_desc: "A republican democracy consisting of a Consul, the Senate, and the people of Rome."

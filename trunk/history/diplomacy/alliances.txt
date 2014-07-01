@@ -1,34 +1,84 @@
 vassal = {
 	first = CAR
 	second = NUM
-	start_date = 0470.1.1
+	start_date = 0474.1.1
 	end_date = 500.2.13
 }
 
 vassal = {
 	first = CAR
 	second = NCA
-	start_date = 0470.1.1
+	start_date = 0474.1.1
 	end_date = 500.2.13
 }
 
 vassal = {
 	first = MAC
 	second = ATS
-	start_date = 0470.1.1
+	start_date = 0474.1.1
 	end_date = 500.2.13
 }
 
 vassal = {
 	first = EGT
 	second = TAR
-	start_date = 0470.1.1
+	start_date = 0474.1.1
+	end_date = 500.2.13
+}
+
+vassal = {
+	first = EGT
+	second = CYP
+	start_date = 0474.1.1
 	end_date = 500.2.13
 }
 
 vassal = {
 	first = SEL
 	second = SAD
-	start_date = 0470.1.1
+	start_date = 0474.1.1
 	end_date = 500.2.13
 }
+
+vassal = {
+	first = SEL
+	second = MDA
+	start_date = 0474.1.1
+	end_date = 500.2.13
+}
+
+vassal = {
+	first = SEL
+	second = MED
+	start_date = 0474.1.1
+	end_date = 500.2.13
+}
+
+vassal = {
+	first = SEL
+	second = PVA
+	start_date = 0474.1.1
+	end_date = 500.2.13
+}
+
+vassal = {
+	first = SEL
+	second = PSA
+	start_date = 0474.1.1
+	end_date = 500.2.13
+}
+
+guarantee = {
+	first = EPR
+	second = MGN
+	start_date = 0474.1.1
+	end_date = 500.2.13
+}
+
+guarantee = {
+	first = CAR
+	second = SYC
+	start_date = 0474.1.1
+	end_date = 500.2.13
+}
+

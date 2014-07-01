@@ -1,8 +1,8 @@
 discovered_by = greek
 #426 - Mazandaran
-owner = SEL
-controller = SEL
-add_core = SEL
+owner = PVA
+controller = PVA
+add_core = PVA
 add_core = PRT
 culture = parthian
 religion = zoroaster
