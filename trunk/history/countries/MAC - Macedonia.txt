@@ -8,6 +8,7 @@ historical_rival = SEL
 historical_rival = EGT
 historical_rival = EPR
 historical_rival = TYL
+capital = 148
 
 monarch = { 
 	name = "Antihonus I"

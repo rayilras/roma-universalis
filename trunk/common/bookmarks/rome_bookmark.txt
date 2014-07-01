@@ -1,5 +1,0 @@
-bookmark = {
-	name = "RISE_OF_ROME"
-	desc = "RISE_OF_ROME_DESC"
-	date = 0474.1.1
-}

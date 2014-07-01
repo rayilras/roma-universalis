@@ -1,0 +1,126 @@
+graphical_culture = westerngfx
+
+color = {0 206 206}
+
+historical_idea_groups = {
+	expansion_ideas
+	offensive_ideas
+	religious_ideas
+	naval_ideas
+	quality_ideas
+	economic_ideas
+	
+}
+
+historical_units = {
+	latin_spearmen
+	latin_cavalry
+	latin_noble_spearmen
+	etruscan_knights
+}
+
+
+monarch_names = { 
+	"Agrippa #0" = 0
+	"Agricola #0" = 0
+	"Albus #0" = 0
+	"Albinus #0" = 0
+	"Asina #0" = 0
+	"Balbus #0" = 0
+	"Brutus #0" = 0
+	"Calvus #0" = 0
+	"Calvinus #0" = 0
+	"Cethegus #0" = 0
+	"Cicero #0" = 0
+	"Cinna #0" = 0
+	"Cotta #0" = 0
+	"Curio #0" = 0
+	"Dentatus #0" = 0
+	"Dives #0" = 0
+	"Dolabella #4" = 0
+	"Drusus #0" = 0
+	"Fimbria #0" = 0
+	"Flaccus #0" = 0
+	"Gracchus #0" = 0
+	"Labeo #0" = 0
+	"Lepidus #0" = 0
+	"Lentulus #3" = 0
+	"Longus #0" = 0
+	"Messalla #0" = 0
+	"Murena #0" = 0
+	"Mus #0" = 0
+	"Nasica #0" = 0
+	"Pictor #0" = 0
+	"Pulcher #0" = 0
+	"Rufus #0" = 0
+	"Salinator #0" = 0
+	"Scaevola #0" = 0
+	"Scipio #0" = 0
+	"Strabo #0" = 0
+	"Varro #0" = 0
+	"Julius #0" = 0
+	"Tiberius #0" = 0
+	"Justinian #0" = 0
+	"Octavius #0" = 0
+	"Pompey #0" = 0
+	"Publius #0" = 0
+	"Quintus #0" = 0
+	"Domitianus #0" = 0
+	"Antonius #0 " = 0
+	"Aulus #2" = 0
+        "Hadrianus #0" = 0
+        "Commodus #0" = 0
+        "Gordianus #0" = 0
+	"Aurelian #0" = 0
+	"Carus #0" = 0
+	"Theodosius #0" = 0
+	"Valentinian #0" = 0
+	"Honorius #0" = 0
+	"Romulus #0" = 0
+	"Olybrius #0" = 0
+	"Libius #0" = 0
+	"Majorian #0" = 0
+	"Avitus #0" = 0
+	"Petronius #0" = 0
+	"Marcian #0" = 0
+	"Zeno #0" = 0
+	"Leo #0" = 0
+	"Justin #0" = 0
+	"Atilius #0" = 0
+	"Mathos #1" = 0
+	"Valens #0" = 0
+}
+
+ship_names = {
+	"Acqui Terme" Aemilia Albintimilium Alsium "Ante Amnem" Apollo Ardelica Arilica Ariolica Asti
+	"Aquae Labrodes" "Augusta Bagiennorum"
+	Bovillae Bruttium
+	Capitium "Carreum Potentia" Catina Cephaloedium Ceres Clavenna Corfinium Cremona
+	Daedalium Derthona Diana
+	Ebovium Entella Eporedia Eryx Etruria
+	"Falerii Novi" Fortuna "Forum Novum"
+	Genua
+	Helorus Himerenses Hispellum "Hybla Gereatis" "Hybla Heraea"
+	Imachara "Iulia Concordia"
+	Juno Jupiter
+	Lares Latium "Ligures Baebiani" Longaricum Lorium Luna "Lucus Feroniae"
+	Mantua Mars Mercurius Minerva Mytistratus
+	Neptunus Netum "Novum Comum"
+	Placentia Pluto Pollentia
+	Quirinus
+	Saepinum Selinuntiae Sentinum Sol Soluntum
+	Thermae Tauromenium Taurinorum Tusculum
+	"Vado Sabatia" Vardacate Venus Vercelum Vesta Vulcan
+}
+
+leader_names = { 
+	Hirtius Pullo Vorenus Brutus Sallustius Strabo Rufus Sulpicius Canutius Vopiscus Cicero Malefious
+	Pius Aurelius Cornelius Nepos Gothicus Julianus Verus Gallus Severus Chlorus Flavus Albus
+	Tubertus Quinctius Valerius Camillus Cossus Capitolinus Manlius Furius Torquatus Ambustus
+	Julius Priscus Postumius Aemilius Lartius Papirius Fabius Cursor Poetelius Suplicius Calvus
+	Rullianus Junius Bubulcus Corvus Scipio Caiatinus Italus Africanus Paterculus Regulus Sylvanus
+}
+
+fleet_names = {
+	"Classis Italia" "Classis $PROVINCE$"
+}

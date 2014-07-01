@@ -1,11 +1,11 @@
 discovered_by = greek
 #119 - Ancona
 
-owner = ROM
-controller = ROM
-add_core = ROM
+owner = ETL
+controller = ETL
+add_core = ETL
 culture = osco_umbrian 
-religion = roman_pantheon
+religion = etruscan_pantheon
 hre = no 
 base_tax = 9       
 trade_goods = wool
@@ -19,3 +19,6 @@ discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
 discovered_by = seleucid
+discovered_by = latin
+discovered_by = nomadic
+discovered_by = iberian

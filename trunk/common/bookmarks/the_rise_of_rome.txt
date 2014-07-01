@@ -1,0 +1,21 @@
+bookmark = {
+	name = "RISE_OF_ROME"
+	desc = "RISE_OF_ROME_DESC"
+	date = 0474.1.1
+
+	country = ROM
+	country = MAC
+	country = SEL
+	country = EGT
+	country = CAR
+	country = ETL
+	country = ODK
+	country = SEB
+	country = ATS
+	country = SPR
+
+	easy_country = ROM
+	easy_country = CAR
+	easy_country = SEL
+	easy_country = EGT
+}

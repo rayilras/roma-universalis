@@ -74,6 +74,12 @@ groups = {
 		cav_to_inf_ratio = 0.5
 		power = -1
 	}
+	latin = {
+		modifier = 0
+		start_level = 0
+		cav_to_inf_ratio = 0.5
+		power = -1
+	}
 	carthaginian = {
 		modifier = 0
 		start_level = 0

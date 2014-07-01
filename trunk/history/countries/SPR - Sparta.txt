@@ -6,3 +6,4 @@ primary_culture = ancient_greek
 historical_friend = MAC
 historical_rival = EPR
 historical_rival = ATS
+capital = 145

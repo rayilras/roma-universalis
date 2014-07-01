@@ -1,4 +1,3 @@
-discovered_by = greek
 # 1880 - Sundgau
 
 owner = SEQ
@@ -19,4 +18,7 @@ discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
 discovered_by = seleucid
+discovered_by = latin
+discovered_by = nomadic
+discovered_by = iberian
 

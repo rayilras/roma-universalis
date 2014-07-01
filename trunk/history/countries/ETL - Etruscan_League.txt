@@ -1,0 +1,19 @@
+government = etruscan_confederation
+mercantilism = 0.2
+technology_group = latin
+religion = etruscan_pantheon
+primary_culture = etruscan
+historical_rival = ROM
+capital = 115
+
+0474.1.1 = { 
+	monarch = {
+		name = "Hirtius"
+		dynasty = "Pullo"
+		birth_date = 0438.1.1
+		adm = 1
+		dip = 2
+		mil = 6
+		death_date = 490.1.1
+	}
+}

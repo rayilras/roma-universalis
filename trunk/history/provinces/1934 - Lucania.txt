@@ -1,4 +1,3 @@
-discovered_by = greek
 #1934 - Lucania
 
 owner = ROM
@@ -7,7 +6,7 @@ add_core = ROM
 culture = osco_umbrian 
 religion = roman_pantheon
 hre = no 
-base_tax = 7
+base_tax = 4
 trade_goods = wine
 manpower = 2
 fort1 = yes
@@ -19,4 +18,7 @@ discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
 discovered_by = seleucid
+discovered_by = latin
+discovered_by = nomadic
+discovered_by = iberian
 

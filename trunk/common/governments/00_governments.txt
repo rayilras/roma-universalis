@@ -801,3 +801,20 @@ athenian_democracy = {
 	global_revolt_risk = -1
 
 }
+
+etruscan_confederation = {
+	republic = yes
+	
+	duration = 1
+
+	royal_marriage = no
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	#bonus
+	land_morale = 0.10
+	idea_cost = -0.05
+	global_manpower_modifier = .10
+
+}
