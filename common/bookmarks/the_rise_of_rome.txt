@@ -13,6 +13,7 @@ bookmark = {
 	country = SEB
 	country = ATS
 	country = SPR
+	country = SYC
 
 	easy_country = ROM
 	easy_country = CAR

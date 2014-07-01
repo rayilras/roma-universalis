@@ -4,6 +4,7 @@ discovered_by = greek
 owner = SEL
 controller = SEL
 add_core = SEL
+add_core = SAD
 culture = phrygian
 religion = greek_pantheon	
 capital = "Amorium"
