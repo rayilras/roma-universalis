@@ -4,3 +4,4 @@ technology_group = greek
 religion = greek_pantheon
 primary_culture = thracian
 historical_rival = TYL
+capital = 159

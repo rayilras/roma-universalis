@@ -1,11 +1,10 @@
-discovered_by = greek
 #1247 - Corsica
 
-owner = CAR
-controller = CAR
-add_core = CAR
-culture = carthaginian
-religion = carthaginian_pantheon
+owner = ETL
+controller = ETL
+add_core = ETL
+culture = etruscan
+religion = etruscan_pantheon
 capital = "Alalia"
 hre =no
 base_tax = 3
@@ -19,3 +18,6 @@ discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
 discovered_by = seleucid
+discovered_by = latin
+discovered_by = nomadic
+discovered_by = iberian

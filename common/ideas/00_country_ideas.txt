@@ -3269,3 +3269,42 @@ ODK_ideas = {
 	}
 
 }
+
+ETL_ideas = {
+	start = {
+		merchants = 1
+		global_trade_income_modifier = 0.05
+	}
+	
+	bonus = {
+		prestige = 1
+	}
+	
+	trigger = {
+		tag = ETL
+	}
+	
+	free = yes
+	
+	etruscan_legacy = {
+		land_morale = 0.1
+	}
+	etruscan_mythology = {
+		global_missionary_strength = 0.01
+	}
+	latin_art = {
+		prestige = 1
+	}
+	etruscan_slave_monopoly = {
+		global_tax_modifier = 0.10
+	}
+	etruscan_rome_rivalry = {
+		land_forcelimit_modifier = 0.5
+	}
+	latin_levies = {
+		manpower_recovery_speed = 0.10
+	}
+	latin_science = {
+		idea_cost = -0.05
+	}
+}

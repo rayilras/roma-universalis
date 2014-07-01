@@ -46,6 +46,9 @@ technology = {
 	enable = persian_mercenaries
 	enable = seleucid_cavalry
 
+	enable = latin_spearmen
+	enable = latin_cavalry
+
 
 ###
 
@@ -101,6 +104,8 @@ technology = {
 	enable = carthaginian_infantry
 	enable = companion_cavalry
 	enable = late_persian_infantry
+	enable = etruscan_knights
+	enable = latin_noble_spearmen
 	
 	
 	

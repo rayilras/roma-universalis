@@ -5,3 +5,4 @@ religion = carthaginian_pantheon
 primary_culture = numidian
 capital = 351	
 historical_friend = CAR
+historical_friend = NCA

@@ -1,4 +1,3 @@
-discovered_by = greek
 #1846 - Amasya
 owner = SEL
 controller = SEL
@@ -8,7 +7,7 @@ religion = greek_pantheon
 capital = "Mazaca"
 trade_goods = wine
 hre = no
-base_tax = 2
+base_tax = 4
 manpower = 3
 citysize = 8450
 fort1 = yes
@@ -18,4 +17,7 @@ discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
 discovered_by = seleucid
+discovered_by = latin
+discovered_by = nomadic
+discovered_by = iberian
 

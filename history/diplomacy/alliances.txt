@@ -18,3 +18,17 @@ vassal = {
 	start_date = 0470.1.1
 	end_date = 500.2.13
 }
+
+vassal = {
+	first = EGT
+	second = TAR
+	start_date = 0470.1.1
+	end_date = 500.2.13
+}
+
+vassal = {
+	first = EGT
+	second = CYP
+	start_date = 0470.1.1
+	end_date = 500.2.13
+}

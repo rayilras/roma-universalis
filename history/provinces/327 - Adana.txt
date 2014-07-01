@@ -1,9 +1,9 @@
 discovered_by = greek
 #327 - Adana
 
-owner = SEL
-controller = SEL
-add_core = SEL
+owner = TAR
+controller = TAR
+add_core = TAR
 culture = ancient_greek
 religion = greek_pantheon
 capital = "Soli"

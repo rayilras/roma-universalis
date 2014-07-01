@@ -1,4 +1,3 @@
-discovered_by = greek
 #1951 - Hunyad
 
 owner = DAC
@@ -7,11 +6,11 @@ add_core = DAC
 culture = dacian
 religion = shamanism
 capital = "Sarmisegetuza"
-trade_goods = salt
+trade_goods = salt # Famous salt mines
 hre = no
 base_tax = 5
 manpower = 5
-citysize = 80000
+citysize = 3760
 fort1 = yes
 discovered_by = roman
 discovered_by = carthaginian
@@ -19,3 +18,6 @@ discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
 discovered_by = seleucid
+discovered_by = latin
+discovered_by = nomadic
+discovered_by = iberian
