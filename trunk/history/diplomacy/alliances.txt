@@ -27,8 +27,8 @@ vassal = {
 }
 
 vassal = {
-	first = EGT
-	second = CYP
+	first = SEL
+	second = SAD
 	start_date = 0470.1.1
 	end_date = 500.2.13
 }

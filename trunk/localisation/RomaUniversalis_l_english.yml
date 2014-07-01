@@ -113,6 +113,9 @@ l_english:
  ETL: "Etruscan League"
  CYP: "Cyrus"
  TAR: "Tarsus"
+ SAD: "Sardes"
+ CIA: "Cappadocia"
+ GIA: "Galatia"
  
  CAR_ADJ: "Punic"
  ATS_ADJ: "Athenian"
@@ -162,7 +165,10 @@ l_english:
  NCA_ADJ: "Carthaginian"
  ETL_ADJ: "Etruscan"
  CYP_ADJ: "Cypriot"
- TAR_ADJ: "Tarsiot"
+ TAR_ADJ: "Tarsusian"
+ SAD_ADJ: "Sardesian"
+ CIA_ADJ: "Cappadocian"
+ GIA_ADJ: "Galatian"
  
  ######
  roman_republic: "Roman Republic"
@@ -189,7 +195,7 @@ l_english:
  ######
  PRT_Ideas: "Parthian Ideas"
  parthian_shot: "Parthian Shot"
- parthian_shot_desc: "Parthia fields the finest archers in the Eastern: we can prove it if needed."
+ parthian_shot_desc: "Parthia fields the finest archers in the East: we can prove it if needed."
  
  ATS_ideas_start: "Athenian Traditions"
  ATS_ideas_bonus: "Athenian Ambitions"

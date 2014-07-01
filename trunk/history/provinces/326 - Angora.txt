@@ -1,9 +1,10 @@
 discovered_by = greek
 #326 - Ankara
 
-owner = SEL
-controller = SEL
+owner = GIA
+controller = GIA
 add_core = SEL
+add_core = GIA
 culture = phrygian
 religion = greek_pantheon
 capital = "Ancyra"
