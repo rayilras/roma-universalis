@@ -6856,7 +6856,7 @@
  NOT_SIEGED_BY: "Is NOT sieged by "
  SIEGED_BY: "Sieged by "
  ###########
- noble_republic_ruler: ""
+ noble_republic_ruler: "Noble"
  noble_republic_ruler_female: ""
  merchant_republic_ruler_female: ""
  merchant_republic_ruler: ""

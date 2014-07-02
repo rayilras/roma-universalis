@@ -1,16 +1,17 @@
 discovered_by = greek
 #210 - Navarra
 
-
-culture = aquitanian
+add_core = VES
+owner = VES
+controller = VES
+culture = basque2
 religion = druidism
 hre = no
 base_tax = 5
+manpower = 3
 trade_goods = naval_supplies
 capital = "Vascones" 
-native_size = 60
-native_ferocity = 5
-native_hostileness = 5
+
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

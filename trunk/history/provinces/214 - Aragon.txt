@@ -1,16 +1,16 @@
 discovered_by = greek
 #214 - Aragón
 
-
+owner = CTB		
+controller = CTB
+add_core = CTB
 culture = iberian
 religion = druidism
 hre = no
 base_tax = 4
-trade_goods = grian
+manpower = 3
+trade_goods = grain
 capital = "Ilerda" 
-native_size = 70
-native_ferocity = 5
-native_hostileness = 5
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

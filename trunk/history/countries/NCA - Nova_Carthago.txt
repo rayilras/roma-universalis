@@ -5,3 +5,4 @@ religion = carthaginian_pantheon
 primary_culture = carthaginian
 historical_friend = NUM
 historical_friend = CAR
+capital = 226

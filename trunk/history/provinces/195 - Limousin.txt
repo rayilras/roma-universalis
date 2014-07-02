@@ -1,6 +1,9 @@
 discovered_by = greek
 # 195 Limousin - Principal cities: Limoges
 
+controller = ARV
+owner = ARV
+add_core = ARV
 capital = "Avaricon"
 culture = celtic
 religion = druidism
@@ -8,9 +11,6 @@ hre = no
 base_tax = 5
 trade_goods = grain
 manpower = 2
-native_size = 40
-native_ferocity = 4
-native_hostileness = 4
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

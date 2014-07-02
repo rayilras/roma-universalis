@@ -4,6 +4,7 @@ discovered_by = greek
 owner = NCA
 controller = NCA
 add_core = NCA
+add_core = TNI
 culture = iberian
 religion = druidism
 hre = no

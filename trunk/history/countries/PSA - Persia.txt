@@ -4,3 +4,4 @@ technology_group = persian
 religion = zoroaster
 primary_culture = persian2
 historical_rival = SEL
+capital = 412

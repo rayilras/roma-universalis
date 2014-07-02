@@ -1,15 +1,16 @@
 discovered_by = greek
 #231 - Porto
 
+owner = GCI
+add_core = GCI
+controller = GCI
 culture = celt_iberian
 religion = druidism
 capital = "Bracara"
 trade_goods = naval_supplies
 hre = no
 base_tax = 5
-native_size = 60
-native_ferocity = 5
-native_hostileness = 4
+manpower = 5
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

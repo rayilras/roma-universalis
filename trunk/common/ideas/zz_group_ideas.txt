@@ -792,3 +792,45 @@ persian_ideas = {
 		merc_maintenance_modifier = -0.25
 	}
 }
+
+iberian_ideas = {
+	start = {
+		discipline = .05
+		global_manpower_modifier = 0.25
+	}
+	
+	trigger = {
+		religion = druidism
+		OR = {
+			culture_group = gallic
+			culture_group = iberian2
+		}
+	}
+	bonus = {
+		infantry_cost = -0.20
+	}
+	
+	free = yes
+	
+	gallic_commerce = {
+		merchants = 1
+	}
+	gallic_unity = {
+		global_revolt_risk = -1
+	}	
+	celtic_glory = {
+		prestige = 1
+	}
+	gallic_cavalry = {
+		cavalry_cost = -0.1
+	}
+	gallic_art = {
+		stability_cost_modifier = -0.05
+	}
+	gallic_zeal = {
+		land_morale = 0.15
+	}
+	the_war_march = {
+		land_forcelimit_modifier = 0.35
+	}
+}
