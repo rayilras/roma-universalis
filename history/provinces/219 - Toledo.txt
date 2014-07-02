@@ -8,6 +8,7 @@ culture = celt_iberian
 religion = druidism
 hre = no
 base_tax = 4
+fort1 = yes
 manpower = 3
 trade_goods = grain
 capital = "Belli" 

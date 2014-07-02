@@ -6,5 +6,5 @@ discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
 discovered_by = latin
-discovered_by = nomadic
 discovered_by = iberian
+discovered_by = nomadic

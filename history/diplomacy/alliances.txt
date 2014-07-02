@@ -42,13 +42,6 @@ vassal = {
 
 vassal = {
 	first = SEL
-	second = MDA
-	start_date = 0474.1.1
-	end_date = 500.2.13
-}
-
-vassal = {
-	first = SEL
 	second = MED
 	start_date = 0474.1.1
 	end_date = 500.2.13

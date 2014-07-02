@@ -801,10 +801,6 @@ iberian_ideas = {
 	
 	trigger = {
 		religion = druidism
-		OR = {
-			culture_group = gallic
-			culture_group = iberian2
-		}
 	}
 	bonus = {
 		infantry_cost = -0.20
