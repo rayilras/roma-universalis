@@ -1097,7 +1097,6 @@ scythian = {
 	dynasty_names = { 
 		"Abeacid" "Galatid" "Madyid" "Palacid" "Partatid"
 	}
-	}
 }
 
 
@@ -1206,6 +1205,10 @@ iberian2 = {
 	
 	celt_iberian = {
 		primary =
+	}
+
+	basque2 = {
+		primary = VES
 	}
 
 	dynasty_names = { 

@@ -4,6 +4,7 @@ discovered_by = greek
 owner = EGT
 controller = EGT
 add_core = EGT
+add_core = CAR
 culture = ancient_greek
 religion = greek_pantheon
 capital = "Cyrene"

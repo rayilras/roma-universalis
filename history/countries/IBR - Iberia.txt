@@ -3,3 +3,4 @@ mercantilism = 0.2
 technology_group = persian
 religion = zoroaster
 primary_culture = ibero
+capital = 423

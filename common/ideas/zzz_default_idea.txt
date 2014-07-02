@@ -8,7 +8,7 @@ default_ideas = {
 		global_tax_modifier = 0.05
 		global_manpower_modifier = 0.50
 	}
-	
+
 	bonus = {
 		leader_shock = 1
 	}

@@ -1,0 +1,25 @@
+name = "Punic Reconquest of Cyrenaica"
+
+war_goal = {
+	type = take_core
+	cassus_belli = cb_core
+	province = 356
+}
+
+0473.11.1 = { 
+	add_attacker = CAR
+	add_attacker = NUM
+	add_attacker = NCA
+	add_defender = EGT
+	add_defender = CYP
+	add_defender = TAR
+}
+
+0475.1.1 = {
+	rem_attacker = CAR
+	rem_attacker = NUM
+	rem_attacker = NCA
+	rem_defender = EGT
+	rem_defender = CYP
+	rem_defender = TAR
+}

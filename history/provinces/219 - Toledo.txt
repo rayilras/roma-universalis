@@ -1,16 +1,16 @@
 discovered_by = greek
 #219 - Toledo
 
-
+owner = ARE
+controller = ARE
+add_core = ARE
 culture = celt_iberian
 religion = druidism
 hre = no
 base_tax = 4
+manpower = 3
 trade_goods = grain
 capital = "Belli" 
-native_size = 50
-native_ferocity = 4
-native_hostileness = 5
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

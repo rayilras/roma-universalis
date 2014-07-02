@@ -1,0 +1,17 @@
+name = "Pontic Reconquest of Cappadocia"
+
+war_goal = {
+	type = take_core
+	cassus_belli = cb_core
+	province = 1846
+}
+
+0473.11.1 = { 
+	add_attacker = PON
+	add_defender = CIA
+}
+
+0475.1.1 = {
+	rem_attacker = PON
+	rem_defender = CIA
+}

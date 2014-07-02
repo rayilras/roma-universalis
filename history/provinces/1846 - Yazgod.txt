@@ -3,6 +3,7 @@ owner = CIA
 controller = CIA
 add_core = SEL
 add_core = CIA
+add_core = PON
 culture = phrygian
 religion = greek_pantheon
 capital = "Mazaca"

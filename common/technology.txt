@@ -116,7 +116,12 @@ groups = {
 		cav_to_inf_ratio = 0.5
 		power = -1
 	}
-
+	iberian = {
+		modifier = 0.2
+		start_level = 0
+		cav_to_inf_ratio = 0.5
+		power = -1
+	}
 }
 
 tables = {

@@ -1,7 +1,9 @@
 discovered_by = greek
 #216 - Salamanca
 
-
+add_core = ARE
+owner = ARE
+controller = ARE
 culture = celt_iberian
 religion = druidism
 hre = no
@@ -9,9 +11,7 @@ base_tax = 4
 trade_goods = grain
 manpower = 7
 capital = "Brigantia"
-native_size = 50
-native_ferocity = 4
-native_hostileness = 5
+
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

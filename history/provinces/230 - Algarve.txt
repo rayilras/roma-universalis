@@ -1,7 +1,9 @@
 discovered_by = greek
 #230 - Algarve
 
-
+owner = CCI
+controller = CCI
+add_core = CCI
 culture = celt_iberian
 religion = druidism
 capital = "Conistorgis"
@@ -9,9 +11,6 @@ trade_goods = grain
 hre = no
 base_tax = 5
 manpower = 4
-native_size = 40
-native_ferocity = 4
-native_hostileness = 5
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

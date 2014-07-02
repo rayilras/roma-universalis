@@ -49,6 +49,9 @@ technology = {
 	enable = latin_spearmen
 	enable = latin_cavalry
 
+	enable = iberian_infantry
+	enable = iberian_cavalry
+
 
 ###
 
@@ -106,6 +109,8 @@ technology = {
 	enable = late_persian_infantry
 	enable = etruscan_knights
 	enable = latin_noble_spearmen
+	enable = iberian_noble_infantry
+	enable = iberian_noble_cavalry
 	
 	
 	

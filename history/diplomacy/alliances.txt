@@ -82,3 +82,9 @@ guarantee = {
 	end_date = 500.2.13
 }
 
+alliance = {
+	first = ARE
+	second = ENI
+	start_date = 0474.1.1
+	end_date = 500.2.13
+}
