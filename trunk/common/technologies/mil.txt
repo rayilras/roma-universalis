@@ -23,7 +23,6 @@ technology = {
 	enable = early_persian_infantry
 	enable = early_persian_horse
 
-
 	enable = early_roman_legionnairs
 	enable = roman_equites
 
@@ -51,7 +50,6 @@ technology = {
 
 	enable = iberian_infantry
 	enable = iberian_cavalry
-
 
 ###
 
@@ -111,7 +109,6 @@ technology = {
 	enable = latin_noble_spearmen
 	enable = iberian_noble_infantry
 	enable = iberian_noble_cavalry
-	
 	
 	
 	infantry_shock 		= 	0.01	

@@ -10,6 +10,7 @@ hre = no
 base_tax = 5
 trade_goods = wool 
 manpower = 5
+fort1 = yes
 capital = "Numantia" 
 discovered_by = roman
 discovered_by = carthaginian

@@ -9,6 +9,7 @@ religion = druidism
 hre = no
 base_tax = 4
 manpower = 3
+fort1 = yes
 trade_goods = fish
 capital = "Gallaicoi" 
 discovered_by = roman

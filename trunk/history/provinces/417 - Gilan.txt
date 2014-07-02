@@ -1,9 +1,9 @@
 discovered_by = greek
 #417 - Gilan
 
-owner = MED
-controller = MED
-add_core = MED
+owner = MDA
+controller = MDA
+add_core = MDA
 
 culture = median
 religion = zoroaster

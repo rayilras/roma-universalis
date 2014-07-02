@@ -13,6 +13,7 @@ base_tax = 5
 trade_goods = wool
 manpower = 4
 fort1 = yes
+
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

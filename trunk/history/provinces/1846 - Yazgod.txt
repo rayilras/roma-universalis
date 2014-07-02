@@ -1,9 +1,7 @@
 #1846 - Amasya
-owner = CIA
-controller = CIA
+owner = SEL
+controller = SEL
 add_core = SEL
-add_core = CIA
-add_core = PON
 culture = phrygian
 religion = greek_pantheon
 capital = "Mazaca"
@@ -21,5 +19,5 @@ discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
 discovered_by = latin
-discovered_by = nomadic
 discovered_by = iberian
+discovered_by = nomadic

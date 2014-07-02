@@ -535,6 +535,7 @@ l_english:
  persian: "Eastern"
  egyptian: "Egyptian"
  latin: "Latin"
+ nomadic: "Nomadic"
  ######
  seleucid.EVTNAME1: "Parthian Revolt!"
  seleucid.EVTDESC1: "Arsaces I of Parthia was the founder of the Arsacid dynasty, who were Parthian kings for 30 generations. Around 250 BC Arsaces rose to power whithin the Parni tribe and rebelled agaisnt his Hellenic overlords."

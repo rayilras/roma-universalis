@@ -11,8 +11,8 @@ default_ideas = {
 
 	bonus = {
 		leader_shock = 1
-	}
-	
+	}s
+		
 	free = yes
 	
 	call_to_war = {

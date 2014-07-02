@@ -10,6 +10,7 @@ hre = no
 base_tax = 4
 manpower = 3
 trade_goods = grain
+fort1 = yes
 capital = "Ilerda" 
 discovered_by = roman
 discovered_by = carthaginian
