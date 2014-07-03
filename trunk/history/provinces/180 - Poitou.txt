@@ -1,17 +1,18 @@
 discovered_by = greek
 # 180 Poitou - Principal cities: Poitiers
 
-
+owner = PES
+controller = PES
+add_core = PES
 capital = "Lemonum"
 culture = celtic
 religion = druidism
 hre = no
 base_tax = 4
 trade_goods = salt
-native_size = 70
-native_ferocity = 5
-native_hostileness = 6
-
+manpower = 3
+fort1 = yes
+citysize = 40000
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

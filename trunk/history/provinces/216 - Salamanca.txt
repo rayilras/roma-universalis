@@ -12,6 +12,7 @@ trade_goods = grain
 manpower = 7
 capital = "Brigantia"
 fort1 = yes
+citysize = 11000
 
 discovered_by = roman
 discovered_by = carthaginian

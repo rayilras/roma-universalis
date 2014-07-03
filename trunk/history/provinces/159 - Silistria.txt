@@ -11,6 +11,7 @@ trade_goods = grain
 hre = no
 base_tax = 14
 manpower = 8
+citysize = 45000
 fort1 = yes
 discovered_by = roman
 discovered_by = carthaginian

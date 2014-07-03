@@ -129,6 +129,10 @@ l_english:
  TNI: "Turdetani"
  VES: "Vascones"
  ENI: "Edetani"
+ VAE: "Volcae"
+ VVI: "Vivisci"
+ PES: "Pictones"
+ NNS: "Namnetes"
  
  CAR_ADJ: "Punic"
  ATS_ADJ: "Athenian"
@@ -193,6 +197,10 @@ l_english:
  TNI_ADJ: "Turdetanian"
  VES_ADJ: "Vasconian"
  ENI_ADJ: "Edetanian"
+ VAE_ADJ: "Volcaen"
+ VVI_ADJ: "Viviscian"
+ PES_ADJ: "Pictonian"
+ NNS_ADJ: "Namnetesian"
  ######
  roman_republic: "Roman Republic"
  roman_republic_desc: "A republican democracy consisting of a Consul, the Senate, and the people of Rome."

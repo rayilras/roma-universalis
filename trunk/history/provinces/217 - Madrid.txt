@@ -11,6 +11,7 @@ base_tax = 5
 trade_goods = wool 
 manpower = 5
 fort1 = yes
+citysize = 40000
 capital = "Numantia" 
 discovered_by = roman
 discovered_by = carthaginian

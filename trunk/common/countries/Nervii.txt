@@ -13,10 +13,10 @@ historical_idea_groups = {
 }
 
 historical_units = {
-	iberian_infantry
-	iberian_cavalry
-	iberian_noble_infantry
-	iberian_noble_cavalry
+	barbarian_hoard
+	barbarian_cavalry
+	barbarian_chosen
+	barbarian_chosen_cavalry
 }
 
 monarch_names = { 

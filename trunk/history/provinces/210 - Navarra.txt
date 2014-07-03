@@ -12,7 +12,7 @@ manpower = 3
 fort1 = yes
 trade_goods = naval_supplies
 capital = "Vascones" 
-
+citysize = 75000
 discovered_by = seleucid
 discovered_by = greek
 discovered_by = roman

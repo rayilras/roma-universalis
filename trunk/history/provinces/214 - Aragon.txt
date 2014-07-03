@@ -12,6 +12,7 @@ manpower = 3
 trade_goods = grain
 fort1 = yes
 capital = "Ilerda" 
+citysize = 14000
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
