@@ -11,6 +11,7 @@ technology = {
 	naval_morale			=	2.0
 	range					=	40
 	trade_range				=	100000000
+	trade_efficiency 		= 	0.20
 	enable = cog
 	enable = galley
 

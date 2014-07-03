@@ -756,7 +756,7 @@ carthaginian_olligarchy = {
 ptolemaic_kingdom = {
 	monarchy = yes
 	
-	valid_for_new_country = yes
+	valid_for_new_country = no
 	allow_convert = no
 
 	ai_will_do = {
@@ -792,6 +792,8 @@ athenian_democracy = {
 
 	royal_marriage = no
 
+	republican_name = yes
+
 	valid_for_new_country = no
 	allow_convert = no
 
@@ -808,6 +810,8 @@ etruscan_confederation = {
 	duration = 1
 
 	royal_marriage = no
+
+	republican_name = yes
 
 	valid_for_new_country = no
 	allow_convert = no

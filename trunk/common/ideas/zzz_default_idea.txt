@@ -9,9 +9,17 @@ default_ideas = {
 		global_manpower_modifier = 0.50
 	}
 
+	trigger = {
+		OR = {
+			culture_group = germanic2
+			culture_group = dacian
+			culture_group = illyrian
+		}
+	}
+
 	bonus = {
 		leader_shock = 1
-	}s
+	}
 		
 	free = yes
 	
