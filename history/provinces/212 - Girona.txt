@@ -1,16 +1,18 @@
 discovered_by = greek
 #212 - Girona
 
-
+owner = VAE
+controller = VAE
+add_core = VAE
 culture = celtic
 religion = druidism
 hre = no
 base_tax = 4
 trade_goods = wine 
 capital = "Tolosa" 
-native_size = 70
-native_ferocity = 6
-native_hostileness = 5
+manpower = 4
+fort1 = yes
+citysize = 30000
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

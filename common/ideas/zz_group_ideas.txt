@@ -795,7 +795,7 @@ persian_ideas = {
 
 iberian_ideas = {
 	start = {
-		discipline = .05
+		discipline = 0.05
 		global_manpower_modifier = 0.25
 	}
 	

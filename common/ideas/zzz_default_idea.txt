@@ -18,7 +18,7 @@ default_ideas = {
 	}
 
 	bonus = {
-		leader_shock = 1
+		land_forcelimit_modifier = .50
 	}
 		
 	free = yes

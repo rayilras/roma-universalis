@@ -12,6 +12,8 @@ hre = no
 base_tax = 5
 manpower = 5
 fort1 = yes
+citysize = 5000
+
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

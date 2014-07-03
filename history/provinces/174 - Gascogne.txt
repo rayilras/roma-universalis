@@ -1,17 +1,19 @@
 discovered_by = greek
 # 174 Gascogne - Principal cities: Bordeaux
 
-
+owner = VVI
+controller = VVI
+add_core = VVI
+add_core = VES
 capital = "Santones"
-culture = gascon
+culture = basque2
 religion = shamanism
 hre = no
 base_tax = 4
 trade_goods = cloth
 manpower = 5
-native_size = 50
-native_ferocity = 5
-native_hostileness = 6
+fort1 = yes
+citysize = 34000
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

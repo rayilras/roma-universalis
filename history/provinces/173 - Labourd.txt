@@ -12,7 +12,7 @@ manpower = 3
 base_tax = 3
 fort1 = yes
 trade_goods = salt
-
+citysize = 14000
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

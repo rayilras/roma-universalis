@@ -12,7 +12,7 @@ trade_goods = wine
 capital = "Contestani" 
 manpower = 3
 fort1 = yes
-
+citysize = 42000
 discovered_by = seleucid
 discovered_by = greek
 discovered_by = roman

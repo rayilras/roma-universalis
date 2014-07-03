@@ -1,16 +1,18 @@
 discovered_by = greek
 # 198 Rouergue - Principal cities: Rodez
 
-
+owner = VAE
+controller = VAE
+add_core = VAE
 capital = "Cadurci"
 culture = aquitanian
 religion = druidism
 hre = no
 base_tax = 4
 trade_goods = wool
-native_size = 40
-native_ferocity = 4
-native_hostileness = 4
+manpower = 5
+fort1 = yes
+citysize = 30000
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

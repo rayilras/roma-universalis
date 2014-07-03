@@ -1,16 +1,18 @@
 discovered_by = greek
 # 96 Zeeland - Principal cities: Middelburg, Vlissingen & Zierikzee
 
-
+owner = NRV
+controller = NRV
+add_core = NRV
 capital = "Cassel"
 culture = west_germanic
-religion = druidism
+religion = animism
 hre = no
 base_tax = 4
 trade_goods = naval_supplies
-native_size = 70
-native_ferocity = 5
-native_hostileness = 6
+manpower = 6
+citysize = 5000
+
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
