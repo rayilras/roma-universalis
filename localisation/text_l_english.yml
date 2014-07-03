@@ -1561,7 +1561,7 @@
  COMBAT_WINNERTYPE_THEIR: "their"
  COMBAT_WINNERTYPE_OUR: "our"
  NO_SHIPS: "No ships"
- WORLD_YEAR: "The world $YEAR$ AD"
+ WORLD_YEAR: "The world $YEAR$ AUC"
  NEWWORLD_NAME: "A New World!"
  NEWWORLD_DESC: "In 1492 Cristóbal Colón had managed to convince Isabel I de Castilla that a new route to the East could be found by sailing West. He was about to discover an entirely New World. Lead him to it and bring Castile fantastic wealth by exploring, conquering and colonizing a massive empire."
  LEAGUE_OF_CAMBRAI_NAME: "War of the League of Cambrai"
