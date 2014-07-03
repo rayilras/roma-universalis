@@ -84,7 +84,7 @@ iron = {
 slaves = {
 	color = { 0.0 0.0 0.0 }
 	modifier = {
-		global_production_efficiency = 0.10
+		production_efficiency = 0.10
 	}
 }
 

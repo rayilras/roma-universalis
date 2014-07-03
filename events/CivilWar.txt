@@ -1,0 +1,437 @@
+namespace = civil_war
+
+# Civil war
+country_event = {
+	id = civil_war.1
+	title = "EVTNAME3091"
+	desc = "EVTDESC3091"
+	picture = CIVIL_WAR_eventPicture
+	
+	major = yes
+	
+	trigger = {
+		NOT = { has_country_flag = religious_turmoil } 
+		NOT = { has_country_flag = peasant_war }
+		NOT = { has_country_flag = internal_conflicts }
+		NOT = { has_country_flag = FRA_french_revolution }
+		NOT = { has_country_flag = revolution }
+		NOT = { has_country_flag = liberalism }
+		NOT = { has_country_flag = civil_war } 
+		NOT = { has_country_flag = total_war_series } 
+		num_of_cities = 2
+		is_at_war = no
+		government = monarchy
+		has_regency = no
+		NOT = { legitimacy = 50 }
+		NOT = { adm = 4 }
+		any_owned_province = {
+			base_tax = 5
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 720
+		modifier = {
+			factor = 0.5
+			overextension_percentage = 0.50
+		}
+		modifier = {
+			factor = 0.9
+			revolt_percentage = 0.1
+		}
+		modifier = {
+			factor = 1.5
+			stability = 0
+		}
+		modifier = {
+			factor = 2.0
+			stability = 1
+		}
+		modifier = {
+			factor = 2.5
+			stability = 2
+		}
+		modifier = {
+			factor = 5
+			stability = 3
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { stability = -2 }
+		}
+		modifier = {
+			factor = 1.5
+			prestige = 50
+		}
+		modifier = {
+			factor = 1.5
+			prestige = 30
+		}
+		modifier = {
+			factor = 2.0
+			mil  = 5
+		}
+	}
+	
+	immediate = {
+		set_country_flag = civil_war
+	}
+	
+	option = {
+		name = "EVTOPTA3091"			# Crush them!
+		random_owned_province = {
+			limit = { 
+				is_core = ROOT 
+				base_tax = 5
+			}
+			pretender_rebels = 2
+			change_siege = 20		#so they take them quickly
+		}
+		every_owned_province = {
+			add_revolt_risk = 10
+		}
+	}
+}
+
+
+# A cry for help
+country_event = {
+	id = civil_war.2
+	title = "EVTNAME3092"
+	desc = "EVTDESC3092"
+	picture = DIPLOMACY_eventPicture
+	
+	trigger = {
+		has_country_flag = civil_war
+		NOT = { has_country_flag = allies }
+		revolt_percentage = 0.15
+		num_of_allies = 1
+	}
+
+	mean_time_to_happen = {
+		months = 24
+
+		modifier = {
+			factor = 0.9
+			num_of_allies = 3
+		}
+		modifier = {
+			factor = 0.9
+			num_of_allies = 4
+		}
+		modifier = {
+			factor = 0.9
+			revolt_percentage = 0.2
+		}
+		modifier = {
+			factor = 0.9
+			revolt_percentage = 0.3
+		}
+		modifier = {
+			factor = 0.9
+			stability = 0
+		}
+		modifier = {
+			factor = 1.1
+			advisor = statesman
+		}
+		modifier = {
+			factor = 1.1
+			stability = 1
+		}
+	}
+	
+	immediate = {
+		set_country_flag = allies
+	}
+	
+	option = {
+		name = "EVTOPTA3092"			# Request aid from your allies
+		ai_chance = { factor = 40 }
+
+		random_owned_province = {
+			limit = { is_core = ROOT }
+			pretender_rebels = 1
+		}
+		add_prestige = -50
+		add_dip_power = -100
+	}
+	option = {
+		name = "EVTOPTB3092"			# Rely on your own strength
+		ai_chance = { factor = 60 }
+		
+		random_owned_province = {
+			limit = { is_core = ROOT }
+			pretender_rebels = 1
+			change_siege = 20		#so they take them quickly
+		}	
+		random_owned_province = {
+			limit = { is_core = ROOT }
+			pretender_rebels = 1
+			change_siege = 20		#so they take them quickly
+		}
+	}
+}
+
+# Unscrupulous in-laws
+country_event = {
+	id = civil_war.3
+	title = "EVTNAME3093"
+	desc = "EVTDESC3093"
+	picture = CIVIL_WAR_eventPicture
+	
+	trigger = {
+		has_country_flag = civil_war
+		NOT = { has_country_flag = unscrupulous_inlaws }
+		num_of_royal_marriages = 1
+	}
+
+	mean_time_to_happen = {
+		months = 36
+
+		modifier = {
+			factor = 0.9
+			num_of_royal_marriages = 3
+		}
+		modifier = {
+			factor = 0.9
+			revolt_percentage = 0.2
+		}
+		modifier = {
+			factor = 0.9
+			revolt_percentage = 0.3
+		}
+		modifier = {
+			factor = 0.9
+			stability = 0
+		}
+		modifier = {
+			factor = 1.1
+			advisor = diplomat
+		}
+		modifier = {
+			factor = 1.1
+			dip = 4
+		}
+		modifier = {
+			factor = 1.1
+			dip = 5
+		}
+		modifier = {
+			factor = 1.1
+			stability = 1
+		}
+	}
+	
+	immediate = {
+		set_country_flag = unscrupulous_inlaws
+	}
+	
+	option = {
+		name = "EVTOPTA3093"			# Take appropriate measures
+		ai_chance = { factor = 40 }
+		add_adm_power = -25		
+		random_owned_province = {
+			limit = { is_core = ROOT }
+			pretender_rebels = 1
+		}
+	}
+	option = {
+		name = "EVTOPTB3093"			# Ignore their pathetic attempts
+		ai_chance = { factor = 60 }
+		add_prestige = -50
+	}
+}
+
+# Rebel forces take over
+province_event = {
+	id = civil_war.4
+	title = "EVTNAME3094"
+	desc = "EVTDESC3094"
+	picture = ANGRY_MOB_eventPicture
+	
+	trigger = {
+		owner = {
+			has_country_flag = civil_war
+			is_at_war = no
+		}
+		has_siege = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+
+		modifier = {
+			factor = 0.9
+			owner = { NOT = { mil = 2 } }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { mil = 4 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { NOT = { stability = 0 } }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 2 }
+		}
+
+		modifier = {
+			factor = 1.1
+			owner = { is_monarch_leader = yes }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB3094"			# We'll have to accept defeat, for now
+		change_siege = 2
+	}
+}
+
+# Army deserters
+country_event = {
+	id = civil_war.5
+	title = "EVTNAME3095"
+	desc = "EVTDESC3095"
+	picture = LAND_MILITARY_eventPicture
+	
+	trigger = {
+		has_country_flag = civil_war
+		NOT = { has_country_flag = deserting_troops }
+		manpower_percentage = 0.01
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+
+		modifier = {
+			factor = 1.1
+			is_monarch_leader = yes
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { prestige = 1 }
+		}
+		modifier = {
+			factor = 1.1
+			adm = 4
+		}
+		modifier = {
+			factor = 1.1
+			adm = 5
+		}
+		modifier = {
+			factor = 1.1
+			 mil = 4
+		}
+		modifier = {
+			factor = 1.1
+			mil = 5
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { adm = 2 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { adm = 1 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { mil = 2 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { mil = 1 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA3095"			# Try to strengthen their morale
+		add_years_of_income = -0.50
+		add_country_modifier = {
+			name = "morale_boost"
+			duration = 1825
+		}		
+	}
+	option = {
+		name = "EVTOPTB3095"			# We have no resources for that
+		set_country_flag = deserting_troops
+		add_country_modifier = {
+			name = "deserters"
+			duration = 1825
+		}		
+		add_yearly_manpower = -0.25
+	}
+}
+
+#Support in capital
+country_event = {
+	id = civil_war.6
+	title = civil_war.6.t
+	desc = civil_war.6.d
+	picture = LAND_MILITARY_eventPicture
+	
+	trigger = {
+		has_country_flag = civil_war
+		NOT = { 
+			has_country_flag = civilwar_on_capital
+		}
+		capital_scope = {
+			controlled_by = owner
+			has_siege = no		
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	immediate = {
+		set_country_flag = civilwar_on_capital
+	}
+	option = {
+		name = civil_war.6.a
+		capital_scope = {
+			pretender_rebels = 1
+			change_siege = 20		#so they take them quickly
+		}
+	
+	}	
+}
+
+# End of Civil War
+country_event = {
+	id = civil_war.100
+	title = "EVTNAME3096"
+	desc = "EVTDESC3096"
+	picture = ANGRY_MOB_eventPicture
+	
+	trigger = {
+		has_country_flag = civil_war
+		had_country_flag = { flag = civil_war days = 1095 }
+		NOT = { has_spawned_rebels = pretender_rebels }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	immediate = {
+		clr_country_flag = civil_war
+		clr_country_flag = allies
+		clr_country_flag = unscrupulous_inlaws
+		clr_country_flag = deserting_troops
+		clr_country_flag = civilwar_on_capital
+	}
+	
+	option = {
+		name = "EVTOPTA3096"
+		add_prestige = 10
+	}
+}
