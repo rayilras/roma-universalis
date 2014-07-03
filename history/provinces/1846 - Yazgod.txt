@@ -1,6 +1,8 @@
 #1846 - Amasya
-owner = SEL
-controller = SEL
+owner = CIA
+controller = CIA
+add_core = CIA
+ad_core = PON
 add_core = SEL
 culture = phrygian
 religion = greek_pantheon
