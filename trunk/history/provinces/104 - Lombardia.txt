@@ -1,15 +1,19 @@
 discovered_by = greek
 #104 - Lombardia
 
-culture = celtic
+add_core = ISB
+owner = ISB
+controller = ISB
+culture = gallo_ligurian
 religion = druidism
 hre = no
 base_tax = 6
 trade_goods = wine
+manpower = 5
 capital = "Milano"
-native_size = 50
-native_ferocity = 5
-native_hostileness = 4
+citysize = 20000
+fort1 = yes
+
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
