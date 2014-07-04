@@ -1,4 +1,4 @@
-government = noble_republic
+government = merchant_republic
 mercantilism = 0.2
 technology_group = greek
 religion = greek_pantheon

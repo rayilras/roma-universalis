@@ -3,7 +3,6 @@ NDefines = {
 NGame = {
 	START_DATE = "0474.1.1",
 	END_DATE = "0824.1.1",
-	MAX_RANDOM_NEW_WORLD = "1492.1.1"
 },
 
 NDiplomacy = {
@@ -331,7 +330,7 @@ NEconomy = {
 	TRADE_PROPAGATE_THRESHOLD = 2,
 	REGAIN_COST_BEFORE_PROGRESS = 0.1,				-- Before what percentage will the full cost be regained
 	ALLOW_DESTROY_MANUFACTORY = 0,					-- Should the player be permitted to destroy manufactories?
-	TRADE_POWER_INLAND_FACTOR = 100,					-- Trade efficiency multiply by this value gives the trade power.
+	TRADE_POWER_INLAND_FACTOR = 1,					-- Trade efficiency multiply by this value gives the trade power.
 	PIRATES_TRADE_POWER_FACTOR = 1.5,
 	TRADE_COMPANY_CONTROL_LIMIT = 0.6,
 	TRADE_COMPANY_DAYS_TO_SWAP_LEADER = 30,

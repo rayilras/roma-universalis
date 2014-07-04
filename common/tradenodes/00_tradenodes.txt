@@ -94,6 +94,7 @@ italia =
 		members = {
 118 69 104 101 112 1769 114 115 119 120 121 1933 1934 122 123 124 1247 107
 		
+	end = yes
 	}
 }
 carthage = 
@@ -158,6 +159,17 @@ dacia =
 		outgoing=
 		{
 			name="greece"
+			path=
+			{
+							}
+			control=
+			{
+			}
+		}
+
+		outgoing=
+		{
+			name="sarmatia"
 			path=
 			{
 							}
@@ -278,6 +290,17 @@ sarmatia =
 		outgoing=
 		{
 			name="greece"
+			path=
+			{
+							}
+			control=
+			{
+			}
+		}
+
+		outgoing=
+		{
+			name="persia"
 			path=
 			{
 							}

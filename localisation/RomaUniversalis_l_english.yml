@@ -133,6 +133,9 @@ l_english:
  VVI: "Vivisci"
  PES: "Pictones"
  NNS: "Namnetes"
+ ISB: "Insubres"
+ LGU: "Liguria"
+ VTI: "Veneti"
  
  CAR_ADJ: "Punic"
  ATS_ADJ: "Athenian"
@@ -201,6 +204,10 @@ l_english:
  VVI_ADJ: "Viviscian"
  PES_ADJ: "Pictonian"
  NNS_ADJ: "Namnetesian"
+ ISB_ADJ: "Insubrian"
+ LGU_ADJ: "Ligurian"
+ VTI_ADJ: "Venetic"
+ 
  ######
  roman_republic: "Roman Republic"
  roman_republic_desc: "A republican democracy consisting of a Consul, the Senate, and the people of Rome."

@@ -1,15 +1,19 @@
 discovered_by = greek
 #112 - Venezia
 
+add_core = VTI
+controller = VTI
+owner = VTI
 culture = venetic
 religion = animism
 hre = no 
-base_tax = 5  
+base_tax = 5
+manpower = 8
+fort1 = yes
+citysize = 45000  
 trade_goods = cloth
 capital = "Verona" 
-native_size = 30
-native_ferocity = 2
-native_hostileness = 3
+
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

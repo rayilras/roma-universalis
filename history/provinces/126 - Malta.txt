@@ -1,11 +1,11 @@
 discovered_by = greek
 #126 - Malta
 
-owner = CAR
-controller = CAR
-add_core = CAR
-culture = carthaginian 
-religion = carthaginian_pantheon
+owner = SYC
+controller = SYC
+add_core = SYC
+culture = ancient_greek 
+religion = greek_pantheon
 hre = no 
 base_tax = 3
 trade_goods = fish
