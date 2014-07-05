@@ -1,6 +1,5 @@
 #Marienburg
 
-
 capital = "Rugii"
 culture = north_germanic
 religion = animism
@@ -10,13 +9,14 @@ base_tax = 4
 native_size = 50
 native_ferocity = 5
 native_hostileness = 5
+
 discovered_by = seleucid
 discovered_by = greek
 discovered_by = roman
+discovered_by = nomadic
 discovered_by = carthaginian
 discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
 discovered_by = latin
 discovered_by = iberian
-discovered_by = nomadic

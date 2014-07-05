@@ -1,6 +1,8 @@
-discovered_by = greek
 #373 - Meath
 
+owner = EDB
+controller = EBD
+add_core = EBD
 culture = celtic
 religion = druidism
 hre = no
@@ -8,9 +10,10 @@ base_tax = 5
 trade_goods = grain
 manpower = 3
 capital = "Eblana"
-native_size = 50
-native_ferocity = 5
-native_hostileness = 5
+citysize = 12000
+fort1 = yes
+
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

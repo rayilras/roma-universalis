@@ -1,7 +1,9 @@
 discovered_by = greek
 #234 - Wessex
 
-
+owner = BGA
+controller = BGA
+add_core = BGA
 culture = celtic
 religion = druidism
 hre = no
@@ -9,9 +11,9 @@ base_tax = 4
 trade_goods = iron
 manpower = 3
 capital = "Damnonii"
-native_size = 60
-native_ferocity = 6
-native_hostileness = 8
+citysize = 6000
+fort1 = yes
+
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

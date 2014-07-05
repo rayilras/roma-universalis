@@ -1,9 +1,9 @@
 discovered_by = greek
 #57 - morcomanni
 
-owner = SEB
-controller = SEB
-add_core = SEB
+owner = LGI
+controller = LGI
+add_core = LGI
 culture = west_germanic
 religion = animism
 capital = "Morcomanon"

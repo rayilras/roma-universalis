@@ -1,8 +1,7 @@
-discovered_by = greek
 #147 - Salonica
 
-owner = EPR
-controller = EPR
+owner = MAC
+controller = MAC
 add_core = MAC
 add_core = EPR
 culture = ancient_greek
@@ -15,13 +14,14 @@ manpower = 2
 citysize = 26887
 fort1 = yes
 
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
 discovered_by = seleucid
-discovered_by = greek
 discovered_by = latin
 discovered_by = nomadic
 discovered_by = iberian
+

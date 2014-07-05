@@ -1,21 +1,26 @@
-discovered_by = greek
 #133 - Linz
 
+owner = NRI
+controller = NRI
+add_core = NRI
 culture = celtic
 religion = druidism
 base_tax = 5
 trade_goods = naval_supplies
 capital = "Noreia" 
 hre = no
-native_size = 60
-native_ferocity = 5
-native_hostileness = 4
+manpower = 5
+citysize = 12000
+fort1 = yes
+
+discovered_by = seleucid
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
-discovered_by = seleucid
 discovered_by = latin
-discovered_by = iberian
 discovered_by = nomadic
+discovered_by = iberian
+

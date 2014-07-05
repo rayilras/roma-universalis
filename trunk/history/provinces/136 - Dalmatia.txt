@@ -1,4 +1,3 @@
-discovered_by = greek
 #136 - Dalmatia
 
 owner = ILY
@@ -14,6 +13,7 @@ manpower = 3
 citysize = 8400
 fort1 = yes
 
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

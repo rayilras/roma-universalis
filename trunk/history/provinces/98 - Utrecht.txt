@@ -1,9 +1,8 @@
-discovered_by = greek
 # 98 Utrecht - Principal cities: Utrecht
 
-owner = NRV
-add_core = NRV
-controller = NRV
+owner = FSI
+add_core = FSI
+controller = FSI
 capital = "Batavi"
 culture = west_germanic
 religion = animism
@@ -13,12 +12,13 @@ manpower = 6
 citysize = 5000
 trade_goods = iron
 
+discovered_by = seleucid
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
-discovered_by = seleucid
 discovered_by = latin
 discovered_by = nomadic
 discovered_by = iberian

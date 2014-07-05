@@ -1,22 +1,26 @@
-discovered_by = greek
 #64 - Niederbayern
 
-
+owner = MNI
+controller = MNI
+add_core = MNI
 culture = suebi
 religion = animism
 base_tax = 3
 trade_goods = naval_supplies
 capital	= "Hermunduri" 
 hre = no
-native_size = 50
-native_ferocity = 4
-native_hostileness = 5
+citysize = 15000
+manpower = 4
+fort1 = yes
+
+discovered_by = seleucid
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
-discovered_by = seleucid
 discovered_by = latin
-discovered_by = iberian
 discovered_by = nomadic
+discovered_by = iberian
+

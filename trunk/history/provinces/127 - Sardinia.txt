@@ -1,4 +1,4 @@
-discovered_by = greek
+
 #127 - Sardinia
 
 owner = CAR
@@ -12,13 +12,17 @@ trade_goods = grain
 manpower = 2
 fort1 = yes 
 capital = "Karalis" 
-citysize = 25000 # Estimated 
+citysize = 25000 
+
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
 discovered_by = seleucid
-discovered_by = latin
 discovered_by = nomadic
+discovered_by = latin
 discovered_by = iberian
+
+

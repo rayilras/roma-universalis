@@ -1,16 +1,18 @@
 discovered_by = greek
 #46 - Mecklenburg
 
-
+owner = RUG
+controller = RUG
+add_core = RUG
 culture = north_germanic
 religion = animism
 hre = no
 base_tax = 3
 trade_goods = grain
 capital = "Langobardi"
-native_size = 50
-native_ferocity = 4
-native_hostileness = 6
+citysize = 15000
+manpower = 4
+fort1 = yes
 
 discovered_by = roman
 discovered_by = carthaginian

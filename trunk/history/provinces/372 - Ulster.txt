@@ -1,16 +1,19 @@
 discovered_by = greek
 #372 - Ulster
 
-
+owner = EBD
+controller = EBD
+add_core = EBD
 culture = celtic
 religion = druidism
 hre = no
 base_tax = 4
 trade_goods = grain
 capital = "Rhobogdi"
-native_size = 50
-native_ferocity = 5
-native_agressiveness = 5
+citysize = 5000
+manpower = 5
+fort1 = yes
+
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

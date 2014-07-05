@@ -1,16 +1,18 @@
 discovered_by = greek
 #107 - Brescia
 
-
+owner = RAE
+controller = RAE
+add_core = RAE
 culture = celtic 
 religion = druidism
 hre = no
 base_tax = 6     
 trade_goods = naval_supplies
 capital = "Raetia" 
-native_size = 70
-native_ferocity = 5
-native_hostileness = 3
+citysize = 7000
+manpower = 5
+
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

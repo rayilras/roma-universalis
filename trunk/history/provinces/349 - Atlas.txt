@@ -1,9 +1,10 @@
 discovered_by = greek
 #349 - Atlas
 
-owner = NUM
-controller = NUM
+owner = GTI
+controller = GTI
 add_core = NUM
+add_core = GTI
 culture = numidian
 religion = carthaginian_pantheon
 capital = "Massaesyli"

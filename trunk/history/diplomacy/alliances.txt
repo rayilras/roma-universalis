@@ -103,3 +103,9 @@ alliance = {
 	end_date = 500.2.13
 }
 
+vassal = {
+	first = ROM
+	second = ETL
+	start_date = 0474.1.1
+	end_date = 500.2.13
+}

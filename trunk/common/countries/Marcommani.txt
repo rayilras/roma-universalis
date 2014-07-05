@@ -1,0 +1,129 @@
+graphical_culture = muslimgfx
+
+color = {71 13 33}
+
+historical_idea_groups = {
+	quantity_ideas
+	religious_ideas
+	expansion_ideas
+	civic_ideas
+	offensive_ideas
+	economic_ideas
+	
+}
+
+historical_units = {
+	barbarian_hoard
+	barbarian_cavalry
+	barbarian_chosen
+	barbarian_chosen_cavalry
+}
+
+monarch_names = { 
+	"Acco #0" =0	
+	"Addedomarus #0"=0
+	"Adiatuanus #0"=0
+	"Adminius #0"=0
+	"Aiorix #0"=0
+	"Ambicatos #0"=0
+	"Andecombogius #0"=0
+	"Aneroestes #0"=0
+	"Ariovistus #0"=0
+	"Arverus #0"=0
+	"Arvirargus #0"=0
+	"Atis #0"=0
+	"Avitus #0" =0
+	"Bellicianus #0"=0
+	"Bellovesus #0"=0
+	"Boduognatus #0"=0
+	"Boio #0"=0
+	"Boiorix #0"=0
+	"Bolgios #0"=0
+	"Brennus #0"=0
+	"Bricussa #0"=0
+	"Britomaris #0"=0
+	"Brucetius #0"=0
+	"Buite #0"=0
+	"Cailtram #0"=0
+	"Caractacus #0" =0
+	"Carvilius #0"=0
+	"Cassivellaunus #0"=0
+	"Catugnatus #0"=0
+	"Cavarinus #0"=0
+	"Cavarus #0"=0
+	"Celatus #0"=0
+	"Cingetorix #0"=0
+	"Coilus #0"=0
+	"Commios #0"=0
+	"Concolitanus #0"=0
+	"Correus #0"=0
+	"Cottius #0"=0
+	"Crixus #0"=0
+	"Cunobelinus #0"=0
+	"Diviciacus #0"=0
+	"Divico #0"=0
+	"Donnus #0"=0
+	"Drappes #0"=0
+	"Dubnovellaunus #0"=0
+	"Dumnacus #0"=0
+	"Ducarius #0"=0
+	"Duratios #0"=0
+	"Dumnocoveros #0"=0
+	"Dumnorix #0"=0
+	"Elitovius #0"=0
+	"Etitovius #0"=0
+	"Galan #0"=0
+	"Galba #0"=0
+	"Guiderius #0"=0
+	"Iacus #0"=0
+	"Iccius #0"=0
+	"Indutiomarus #0"=0
+	"Kimarcus #0"=0
+	"Lucterius #0"=0
+	"Lugotorix #0"=0
+	"Lutarius #0"=0
+	"Mallaius #0"=0
+	"Mandubracius #0"=0
+	"Marganus #0"=0
+	"Mascelio #0"=0
+	"Orgetorix #0"=0
+	"Segovax #0"=0
+	"Sinatus #0"=0
+	"Sinorix #0"=0
+	"Sisillius #0"=0
+	"Talorc #0"=0
+	"Tasciovanus #0"=0
+	"Tasgetius #0"=0
+	"Taximagulus #0"=0
+	"Teutomalius #0"=0
+	"Tincomarus #0"=0
+	"Togodumnus #0"=0
+	"Vertiscus #0"=0
+	"Viridorix #0"=0
+	"Vosenius #0"=0
+	"Vodenos #0"=0
+}
+
+ship_names = {
+	Arduinna
+	Bagaco Belisama Branavinda
+	Camaraco Carantiana Catotaxos
+	Dubibebros
+	Erecura Exsobinos
+	Hesus
+	Ivos
+	Mantibarga Mosa
+	Rhenos
+	Scaldis Sucellos
+	Tornaco
+	Viromandis Viromanuduoro
+}
+
+leader_names = { 
+	Acco Addedomarus Adiatuanus Adminius Aiorix Ambicatos Andecombogius Aneroestes Ariovistus Arverus Arvirargus Atis Avitus 
+	Bellicianus Bellovesus Boduognatus Boio Boiorix Bolgios Brennus Bricussa Britomaris Brucetius Buite Cailtram Caractacus 
+	Carvilius Cassivellaunus Catugnatus Cavarinus Cavarus Celatus Cingetorix Coilus Commios Concolitanus Correus Cottius Crixus
+	Cunobelinus Diviciacus Divico Donnus Drappes Dubnovellaunus Dumnacus Ducarius Duratios Dumnocoveros Dumnorix Elitovius Etitovius
+	Galan Galba Guiderius Iacus Iccius Indutiomarus Kimarcus Lucterius Lugotorix Lutarius Mallaius Mandubracius Marganus Mascelio
+	Orgetorix Segovax Sinatus Sinorix Sisillius Talorc Tasciovanus Tasgetius Taximagulus Teutomalius Tincomarus Togodumnus Vertiscus
+	Viridorix Vosenius Vodenos}

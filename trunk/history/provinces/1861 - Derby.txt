@@ -1,22 +1,25 @@
 #1861 - Derby
 
-
-culture =celtic
+owner = BGT
+add_core = BGT
+controller = BGT
+culture = celtic
 religion = druidism
 hre = no
 base_tax = 4
 trade_goods = iron
 capital = "Corieltauvi"
-native_size = 50
-native_ferocity = 5
-native_hostileness = 6
+citysize = 5000
+manpower = 5
+fort1 = yes
+
 discovered_by = seleucid
 discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
+discovered_by = nomadic
 discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
 discovered_by = latin
 discovered_by = iberian
-discovered_by = nomadic
