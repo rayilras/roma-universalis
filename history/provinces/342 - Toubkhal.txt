@@ -1,16 +1,19 @@
 discovered_by = greek
 #342 - Toubkhal
 
- 
+owner = GTI
+controller = GTI
+add_core = GTI
 culture = numidian
 religion = carthaginian_pantheon
 capital = "Mogador"
 trade_goods = wool
 hre = no
 base_tax = 4
-native_size = 50
-native_ferocity = 5
-native_hostileness = 5
+citysize = 15000
+manpower = 7
+fort1 = yes
+
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

@@ -1,22 +1,26 @@
-discovered_by = greek
 # 67 - Franken
 
-
-culture = suebi
-religion = animism
+owner = BOI
+controller = BOI
+add_core = BOI
+culture = celtic
+religion = druidism
 base_tax = 4
 trade_goods = naval_supplies
 capital = "Chatti"
 hre = no
-native_size = 50
-native_ferocity = 5
-native_hostileness = 3
+citysize = 5000
+manpower = 5
+fort1 = yes
+
+discovered_by = seleucid
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
-discovered_by = seleucid
 discovered_by = latin
-discovered_by = iberian
 discovered_by = nomadic
+discovered_by = iberian
+

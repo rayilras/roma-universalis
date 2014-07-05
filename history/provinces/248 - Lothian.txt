@@ -1,6 +1,8 @@
-discovered_by = greek
 #248 - Lothian
 
+owner = PCT
+controller = PCT
+add_core = PCT
 culture = celtic
 religion = druidism
 hre = no
@@ -8,9 +10,10 @@ base_tax = 5
 trade_goods = fish
 manpower = 3
 capital = "Dumnonii"
-native_size = 70
-native_ferocity = 6
-native_hostileness = 8
+citysize = 7000
+fort1 = yes
+
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

@@ -13,10 +13,10 @@ historical_idea_groups = {
 }
 
 historical_units = {
-	barbarian_hoard
-	barbarian_cavalry
-	barbarian_chosen
-	barbarian_chosen_cavalry
+	nomadic_tribesmen
+	nomadic_cavalry
+	nomadic_archers
+	nomadic_steppe_archers
 }
 
 

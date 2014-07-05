@@ -1,15 +1,18 @@
 #1772 - Pozsony
 
-
-culture = celtic
-religion = druidism
+owner = LGI
+controller = LGI
+add_core = LGI
+culture = vandalic
+religion = animism
 capital = "Cotini"
 trade_goods = iron
 hre = no
 base_tax = 3
-native_size = 60
-native_ferocity = 5
-native_hostileness = 6
+citysize = 6000
+manpower = 5
+fort1 = yes
+
 discovered_by = seleucid
 discovered_by = greek
 discovered_by = roman
@@ -18,5 +21,6 @@ discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
 discovered_by = latin
-discovered_by = iberian
 discovered_by = nomadic
+discovered_by = iberian
+

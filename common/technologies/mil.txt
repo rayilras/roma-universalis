@@ -51,6 +51,8 @@ technology = {
 	enable = iberian_infantry
 	enable = iberian_cavalry
 
+	enable = nomadic_tribesmen
+	enable = nomadic_cavalry
 ###
 
 	enable = halberd_infantry
@@ -62,7 +64,7 @@ technology = {
 
 technology = {
 	# Tech 1
-	year = 0500
+	year = 0510
 	
 	
 	
@@ -97,7 +99,7 @@ technology = {
 
 technology = {
 	# Tech 3
-	year = 0600
+	year = 0590
 
 	enable = late_roman_legionnairs
 	enable = barbarian_chosen
@@ -125,7 +127,7 @@ technology = {
 
 technology = {
 	# Tech 4
-	year = 0650
+	year = 0630
 
 	enable = carthaginian_cavalry
 	enable = late_greek_phalanx
@@ -134,7 +136,8 @@ technology = {
 	enable = silver_shield_phalanx
 	enable = seleucid_companion_cavalry
 	enable = late_persian_horse
-
+	enable = nomadic_archers
+	enable = nomadic_steppe_archers
 	
 	infantry_shock 		= 	0.01	
 	cavalry_shock  		= 	0.01	
@@ -148,7 +151,7 @@ technology = {
 
 technology = {
 	# Tech 5
-	year = 0700
+	year = 0670
 
 	
 	infantry_shock 		= 	0.01	
@@ -163,7 +166,7 @@ technology = {
 
 technology = {
 	# Tech 6
-	year = 0750
+	year = 0710
 
 	enable = imperial_roman_legionnairs
 	enable = romanized_infantry
@@ -180,7 +183,7 @@ technology = {
 
 technology = {
 	# Tech 7
-	year = 0800
+	year = 0750
 	
 	
 	infantry_shock 		= 	0.01	

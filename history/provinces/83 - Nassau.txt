@@ -1,20 +1,25 @@
-discovered_by = greek
 
+owner = CSI
+controller = CSI
+add_core = CSI
 capital = "Ampsivarii"
 trade_goods = copper
 hre = no
 culture = west_germanic
 religion = animism
 base_tax = 3
-native_size = 60
-native_ferocity = 5
-native_hostileness = 6
+citysize = 16000
+manpower = 6
+fort1 = yes
+
+discovered_by = seleucid
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
-discovered_by = seleucid
 discovered_by = latin
-discovered_by = iberian
 discovered_by = nomadic
+discovered_by = iberian
+

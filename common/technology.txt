@@ -125,7 +125,7 @@ groups = {
 	nomadic = {
 		modifier = 0.2
 		start_level = 0
-		cav_to_inf_ratio = 0.6
+		cav_to_inf_ratio = 0.9
 		power = -1
 	}
 }

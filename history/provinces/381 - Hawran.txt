@@ -1,6 +1,9 @@
 discovered_by = greek
 #381 - Hawran
 
+owner = NEA
+controller = NEA
+add_core = NEA
 culture = nabatean
 religion = shamanism
 capital = "Bostra"
@@ -8,9 +11,9 @@ trade_goods = grain
 hre = no
 base_tax = 2
 manpower = 2
-native_size = 40
-native_ferocity = 5
-native_agressiveness = 5
+citysize = 4000
+fort2 = yes
+
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

@@ -765,9 +765,13 @@ persian_ideas = {
 	}
 	
 	trigger = {
-		
-		culture_group = persian
+		OR = {
+			tag = QID
+			tag = NEA
+			culture_group = persian
+		}
 	}
+
 	free = yes
 	
 	satrap_levies = {
@@ -830,3 +834,45 @@ iberian_ideas = {
 		land_forcelimit_modifier = 0.35
 	}
 }
+
+nomadic_ideas = {
+	start = {
+		global_manpower_modifier = 1.0
+		cavalry_cost = -0.50
+	}
+	
+	trigger = {
+		OR = {
+			technology_group = nomadic
+			tag = RXL
+		}
+	}
+	bonus = {
+		land_forcelimit_modifier = 1.0
+	}
+	
+	free = yes
+
+	on_the_plains = {
+		land_morale = 0.1
+	}
+	nomadic_spirit = {
+		discipline = 0.05
+	}
+	assimilation = {
+		stability_cost_modifier = -0.10
+	}
+	nomadic_tax_reform = {
+		global_tax_modifier = 0.1
+	}
+	ancient_discovery = {
+		idea_cost = -0.05
+	}
+	purebred_horses = {
+		cavalry_cost = -0.1
+	}
+	annual_migration = {
+		build_cost = -0.05
+	}
+}
+		

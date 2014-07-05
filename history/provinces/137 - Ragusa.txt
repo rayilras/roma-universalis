@@ -1,4 +1,3 @@
-discovered_by = greek
 #137 - Ragusa
 
 owner = ILY
@@ -13,12 +12,14 @@ base_tax = 2
 manpower = 3
 fort1 = yes
 citysize = 50000
+
+discovered_by = seleucid
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
-discovered_by = seleucid
 discovered_by = latin
 discovered_by = nomadic
 discovered_by = iberian

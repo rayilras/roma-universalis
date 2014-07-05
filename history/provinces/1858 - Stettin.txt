@@ -1,6 +1,9 @@
 #1858 - Stettin
 
-
+owner = GUT
+controller = GUT
+add_core = GUT
+add_core = RUG
 culture = north_germanic
 religion = animism
 trade_goods = iron
@@ -8,9 +11,8 @@ hre = no
 base_tax = 4
 manpower = 2
 capital = "Varini"
-native_size = 60
-native_ferocity = 5
-native_hostileness = 5
+citysize = 6000
+fort1 = yes
 discovered_by = seleucid
 discovered_by = greek
 discovered_by = roman

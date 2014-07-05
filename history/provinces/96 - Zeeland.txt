@@ -1,4 +1,3 @@
-discovered_by = greek
 # 96 Zeeland - Principal cities: Middelburg, Vlissingen & Zierikzee
 
 owner = NRV
@@ -13,12 +12,14 @@ trade_goods = naval_supplies
 manpower = 6
 citysize = 5000
 
+discovered_by = seleucid
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
-discovered_by = seleucid
 discovered_by = latin
-discovered_by = iberian
 discovered_by = nomadic
+discovered_by = iberian
+

@@ -241,13 +241,13 @@ offensive_ideas = {
 	}
 
 	bayonet_leaders = {
-		leader_shock = 1
+		leader_land_shock = 1
 	}
 	national_conscripts = {
 		global_manpower_modifier = 0.25
 	}
 	superior_firepower = {
-		leader_fire = 1
+		leader_land_fire = 1
 	}
 	glorious_arms = {
 		prestige_from_land = 1.0

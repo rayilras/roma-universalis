@@ -1,0 +1,87 @@
+graphical_culture = muslimgfx
+
+color = {255 138 0}
+
+historical_idea_groups = {
+	quantity_ideas
+	religious_ideas
+	expansion_ideas
+	civic_ideas
+	offensive_ideas
+	economic_ideas
+	
+}
+
+historical_units = {
+	barbarian_hoard
+	barbarian_cavalry
+	barbarian_chosen
+	barbarian_chosen_cavalry
+}
+
+
+monarch_names = { 
+	"Ageric #0" =0
+	"Alberic #0"=0
+	"Amalaric #0"=0
+	"Amand #0"=0
+	"Andica #0"=0
+	"Arminius #0"=0
+	"Athanaric #0"=0
+	"Attalus #0"=0
+	"Ballomar #0"=0
+	"Catualda #0"=0
+	"Chararic #0"=0
+	"Childeric #0"=0
+	"Dagaric #0"=0
+	"Gararic #0"=0
+	"Geiseric #0"=0
+	"Gelimer #0"=0
+	"Gerold #0"=0
+	"Godigisel #0"=0
+	"Godomar #0"=0
+	"Gunderic #0"=0
+	"Gunthamund #0"=0
+	"Hilderic #0"=0
+	"Huneric #0"=0
+	"Magneric #0"=0
+	"Malaric #0"=0
+	"Mannus #0"=0
+	"Marbod #0"=0
+	"Munderic #0" =0
+	"Nithard #0"=0
+	"Odoacre #0"=0
+	"Priarios #0"=0
+	"Sigeric #0"=0
+	"Tassilo #0"=0
+	"Teutobod #0"=0
+	"Theodoric #0"=0
+	"Thrasamund #0"=0
+}
+
+ship_names = {
+	Agilaz Albaz Alfheim Auzawandilaz
+	Berchta
+	Donar Dwergaz
+	Ermunaz
+	Fosite Frijo Fullo
+	Gautaz
+	Haljo Holda
+	Irmin Isaz
+	Lorelei Lureln
+	Medjanagardaz Muthspell
+	Nerthus Nikwuz
+	Ostara
+	Ragnarök
+	Sowilo
+	Teiwaz Thunraz Thurisaz
+	Valhalla
+	Waelanduz Wodanaz Wulthuz Wurdiz
+	Ziu
+}
+
+leader_names = { 
+	Ageric Alberic Amalaric Amand Andica Arminius Athanaric Attalus Ballomar Catualda Chararic Childeric Dagaric Gararic
+		Geiseric Gelimer Gerold Godigisel Godomar Gunderic Gunthamund Hilderic Huneric Magneric Malaric Mannus Marbod Munderic 
+		Nithard Odoacre Priarios Sigeric Tassilo Teutobod Theodoric Thrasamund
+}

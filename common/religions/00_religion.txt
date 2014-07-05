@@ -60,11 +60,11 @@ pagan = {
 		color = { 0.5 0.7 0.2 }
 		icon = 4
 		province = {
-			local_missionary_strength = 0.02
+			local_missionary_strength = 0.03
 		}
 		country = {
-			tolerance_own = 1
-			global_revolt_risk = -1
+			heir_chance = 0.50
+			hostile_attrition = 1.0
 		}
 		
 		heretic = { BEAR_SPIRIT }
@@ -77,10 +77,10 @@ pagan = {
 		color = { 0.0 0.6 0.6 }
 		icon = 5
 		province = {
-			local_missionary_strength = 0.02
+			local_missionary_strength = -0.03
 		}
 		country = {
-			tolerance_heretic = 2
+			tolerance_own = 3
 			tolerance_heathen = 1
 		}
 		
@@ -98,11 +98,11 @@ zoroaster = {
 		color = { 0.3 0.9 0.9 }
 		icon = 6
 		province = {
-			local_missionary_strength = 0.02
+			local_missionary_strength = -0.03
 		}
 		country = {
-			tolerance_own = 1
-			heir_chance = 1.0
+			tolerance_own = 3
+			discipline = 0.05
 		}
 		
 		heretic = { BEAR_SPIRIT }
@@ -123,8 +123,8 @@ pantheon = {
 			local_missionary_strength = 0.02
 		}
 		country = {
-			tolerance_own = 1
-			global_revolt_risk = -1
+			global_tax_modifier = 0.10
+			tolerance_heretic = 3
 		}
 		
 		heretic = { BEAR_SPIRIT }
@@ -139,8 +139,8 @@ pantheon = {
 			local_missionary_strength = 0.02
 		}
 		country = {
-			tolerance_own = 1
-			global_revolt_risk = -1
+			idea_cost = -0.10
+			possible_advisors = 1
 		}
 		
 		heretic = { BEAR_SPIRIT }
@@ -152,11 +152,11 @@ pantheon = {
 		icon = 9
 		color = { 1.0 0.0 0.0 }
 		province = {
-			local_missionary_strength = 0.02
+			local_missionary_strength = 0.05
 		}
 		country = {
-			tolerance_own = 1
-			global_revolt_risk = -1
+			land_morale = 0.05
+			stability_cost_modifier = -0.10
 		}
 		
 		heretic = { BEAR_SPIRIT }
@@ -171,8 +171,8 @@ pantheon = {
 			local_missionary_strength = 0.02
 		}
 		country = {
-			tolerance_own = 1
-			global_revolt_risk = -1
+			diplomatic_reputation = 1
+			naval_morale = 0.10
 		}
 		
 		heretic = { BEAR_SPIRIT }
@@ -184,11 +184,12 @@ pantheon = {
 		icon = 11
 		color = { 160 160 219 }
 		province = {
-			local_missionary_strength = 0.02
+			local_missionary_strength = 0.03
 		}
 		country = {
-		tolerance_own = 1
-		global_revolt_risk = -2
+			tolerance_own = 1
+			tolerance_heretic = -5
+			global_revolt_risk = -3
 		}
 
 		heretic = {BEAR_SPIRIT }

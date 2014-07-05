@@ -1,3 +1,4 @@
+
 #1933 - Bari
 owner = ROM
 controller = ROM
@@ -10,7 +11,8 @@ trade_goods = grian
 manpower = 3
 fort1 = yes 
 capital = "Barium"
-citysize = 25000 # Estimated 
+citysize = 25000 
+
 discovered_by = seleucid
 discovered_by = greek
 discovered_by = roman
@@ -19,5 +21,5 @@ discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
 discovered_by = latin
-discovered_by = iberian
 discovered_by = nomadic
+discovered_by = iberian

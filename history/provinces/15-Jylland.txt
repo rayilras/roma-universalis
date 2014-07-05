@@ -1,16 +1,19 @@
 discovered_by = greek
 #Jylland, incl. Aarhus, Aalborg, Viborg and Kolding
 
-
+owner = CIM
+controller = CIM
+add_core = CIM
 culture = west_germanic
 religion = animism
 hre = no
 base_tax = 3
 trade_goods = fish
 capital = "Cimbri"
-native_size = 60
-native_ferocity = 6
-native_hostileness = 9
+citysize = 16000
+manpower = 6
+fort1 = yes
+
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

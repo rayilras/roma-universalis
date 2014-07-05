@@ -1,4 +1,3 @@
-discovered_by = greek
 # 69 - Konstanz
 
 owner = HEL
@@ -13,12 +12,14 @@ manpower = 5
 fort1 = yes
 hre = no
 citysize = 50000
+
+discovered_by = seleucid
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
-discovered_by = seleucid
 discovered_by = latin
 discovered_by = nomadic
 discovered_by = iberian

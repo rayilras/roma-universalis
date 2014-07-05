@@ -1,6 +1,5 @@
 #1828 - Soli
 
-
 culture = pannonian
 religion = shamanism
 capital = "Maezaei"
@@ -10,6 +9,7 @@ base_tax = 2
 native_size = 60
 native_ferocity = 6
 native_hostileness = 6
+
 discovered_by = seleucid
 discovered_by = greek
 discovered_by = roman
@@ -18,5 +18,6 @@ discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
 discovered_by = latin
-discovered_by = iberian
 discovered_by = nomadic
+discovered_by = iberian
+

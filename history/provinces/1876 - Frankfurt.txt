@@ -1,12 +1,17 @@
 # 1876 - Frankfurt
+
+owner = TVI
+controller = TVI
+add_core = TVI
 capital = "Treveri"
 culture = west_germanic
 religion = animism
 trade_goods = wool
 base_tax = 4
-native_size = 50
-native_ferocity = 5
-native_hostileness = 5
+citysize = 12000
+fort1 = yes
+manpower = 5
+
 discovered_by = seleucid
 discovered_by = greek
 discovered_by = roman
@@ -17,3 +22,4 @@ discovered_by = barbarian
 discovered_by = latin
 discovered_by = iberian
 discovered_by = nomadic
+

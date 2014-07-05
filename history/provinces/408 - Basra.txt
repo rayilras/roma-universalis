@@ -1,9 +1,9 @@
 discovered_by = greek
 #408 - Basra
 
-owner = PSA
-controller = PSA
-add_core = PSA
+owner = SEL
+controller = SEL
+add_core = SEL
 culture = persian2
 religion = zoroaster
 capital = "Uruk"

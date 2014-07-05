@@ -10,7 +10,6 @@ bookmark = {
 	country = SEL
 	country = EGT
 	country = SPR
-	country = ETL
 	country = SEB
 	country = CTB
 	country = CNU

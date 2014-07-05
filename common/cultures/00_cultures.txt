@@ -1039,7 +1039,7 @@ south_levantine = {
 	nabatean = {
 		primary =
 	}
-	
+
 	dynasty_names = { 
 		"Abiatarid" "Akabonid" "Amitid" "Amramid" "Boazid" "Dorid" "Dovid" "Eiranid" "Eleazid" "Heroid" "Honioid" "Hillelid" "Joazid" "Kahanid" "Nahumid" "Nirid" "Nogahid" 
 		"Oferid" "Omrid" "Pinchasid" "Raananid" "Shemidid" "Shemidid" "Yairid"
@@ -1109,7 +1109,7 @@ illyrian = {
 	}
 	
 	illyrian = {
-		primary = ILY
+		primary = 
 	}
 	
 

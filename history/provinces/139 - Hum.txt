@@ -1,6 +1,4 @@
-discovered_by = greek
 #139 - Hum
-
 
 culture = pannonian
 religion = shamanism
@@ -11,12 +9,14 @@ base_tax = 2
 native_size =  40
 native_ferocity = 5
 native_hostileness = 5
+
+discovered_by = seleucid
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
 discovered_by = persian
 discovered_by = barbarian
-discovered_by = seleucid
 discovered_by = latin
 discovered_by = nomadic
 discovered_by = iberian

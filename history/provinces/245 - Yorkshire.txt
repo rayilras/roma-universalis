@@ -1,7 +1,8 @@
-discovered_by = greek
 #245 - Yorkshire
 
-
+add_core = BGT
+owner = BGT
+controller = BGT
 culture = celtic
 religion = druidism
 hre = no
@@ -9,9 +10,10 @@ base_tax = 5
 trade_goods = iron
 manpower = 3
 capital = "Brigantes"
-native_size = 70
-native_ferocity = 6
-native_hostileness = 8
+citysize = 7000
+fort1 = yes
+
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
