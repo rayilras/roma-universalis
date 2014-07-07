@@ -1,16 +1,17 @@
-discovered_by = greek
 #131 - Zagorje
 
-
+owner = SCI
+controller = SCI
+add_core = SCI
 culture = pannonian
 religion = shamanism
 capital = "Siscia"
 trade_goods = iron
 hre = no
 base_tax = 3
-native_size = 50
-native_ferocity = 4
-native_hostileness = 6
+citysize = 5000
+manpower = 4
+fort1 = yes
 
 discovered_by = roman
 discovered_by = carthaginian
@@ -19,5 +20,7 @@ discovered_by = persian
 discovered_by = barbarian
 discovered_by = seleucid
 discovered_by = latin
+discovered_by = greek
 discovered_by = nomadic
 discovered_by = iberian
+

@@ -1,0 +1,96 @@
+graphical_culture = muslimgfx
+
+color = {227 220 201}
+
+historical_idea_groups = {
+	trade_ideas
+	quantity_ideas
+	religious_ideas
+	expansion_ideas
+	offensive_ideas
+	economic_ideas
+	
+}
+
+historical_units = {
+	barbarian_hoard
+	barbarian_cavalry
+	barbarian_chosen
+	barbarian_chosen_cavalry
+}
+
+
+monarch_names = { 
+	"Agirrus #0"=0
+	"Agis #0"=0
+	"Agron #0" =15
+	"Alban #0"=0
+	"Andes #0"=0
+	"Annaeus #0"=0
+	"Artan #0"=0
+	"Audoleon #0"=0
+	"Ballaios #0"=0
+	"Bardyllis #0"=0
+	"Bastareus #0"=0
+	"Baton #0"=0
+	"Blodus #0"=0
+	"Boria #0"=0
+	"Dardan #0"=0
+	"Dasius #0" =0
+	"Dazas #0"=0
+	"Derronaios #0"=0
+	"Ditus #0"=0
+	"Dropion #0"=0
+	"Epicadus #0"=0
+	"Epicaris #0"=0
+	"Epidius #0"=0
+	"Eupolemenos #0"=0
+	"Genthena #0"=0
+	"Gentius #0" = 15
+	"Glaukias #0"=0
+	"Glavus #0"=0
+	"Laedio #0"=0
+	"Laiscus #0"=0
+	"Lycceius #0"=0
+	"Madena #0"=0
+	"Messor #0"=0
+	"Monounios #0"=0
+	"Mytilus #0" =15
+	"Nicarchus #0"=0
+	"Patraus #0"=0
+	"Pinnes #0" =15
+	"Plares #0"=0
+	"Pleuratus #0" =15
+	"Posantio #0"=0
+	"Pravaius #0"=0
+	"Scerdis #0"=0
+	"Skerdilaidas #0"=0
+	"Tatta #0"=0
+	"Temus #0"=0
+	"Teuda #0"=0
+	"Thana #0"=0
+	"Vendes #0"=0
+	"Verzo #0"=0
+	"Zanatis #0"=0
+	"Ziraeus #0"=0
+	}
+
+ship_names = {
+	Bardhylli Bato Broket
+	Genusus Glaukias
+	Mikon
+	Ou
+	Korrotos
+	Pleuratus
+	Redo
+	Shkumbe
+	Zeau
+}
+
+leader_names = { 
+	Agirrus Agis Agron Alban Andes Annaeus Artan Audoleon Ballaios Bardyllis Bastareus Baton Blodus Boria Dardan Dasius 
+		Dazas Derronaios Ditus Dropion Epicadus Epicaris Epidius Eupolemenos Genthena Gentius Glaukias Glavus Laedio Laiscus 
+		Lycceius Madena Messor Monounios Mytilus Nicarchus Patraus Pinnes Plares Pleuratus Posantio Pravaius Scerdis Skerdilaidas
+		 Tatta Temus Teuda Thana Vendes Verzo Zanatis Ziraeus
+	}
+

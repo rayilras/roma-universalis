@@ -1,12 +1,15 @@
+owner = AEI
+controller = AEI
+add_core = AEI
 capital = "Vandals"
 culture = vandalic
 religion = animism
 trade_goods = cloth
 hre = no
 base_tax = 5
-native_size = 70
-native_ferocity = 5
-native_hostileness = 5
+citysize = 7000
+manpower = 5
+fort1 = yes
 
 discovered_by = seleucid
 discovered_by = greek
@@ -18,4 +21,6 @@ discovered_by = barbarian
 discovered_by = latin
 discovered_by = nomadic
 discovered_by = iberian
+
+
 

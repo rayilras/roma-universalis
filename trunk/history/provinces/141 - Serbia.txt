@@ -1,14 +1,17 @@
 #141 - Serbia
 
+owner = BEC
+controller = BEC
+add_core = BEC
 culture = illyrian
 religion = shamanism
 capital = "Naissus"
 trade_goods = grain
 hre = no
 base_tax = 4
-native_size = 50
-native_ferocity = 4
-native_hostileness = 5
+citysize = 15000
+manpower = 4
+fort1 = yes
 
 discovered_by = seleucid
 discovered_by = greek
@@ -20,4 +23,5 @@ discovered_by = barbarian
 discovered_by = latin
 discovered_by = nomadic
 discovered_by = iberian
+
 

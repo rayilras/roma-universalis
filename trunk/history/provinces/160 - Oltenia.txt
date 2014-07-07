@@ -1,16 +1,17 @@
-discovered_by = greek
 #160 - Oltenia
 
- 
+owner = GTE
+controller = GTE
+add_core = GTE
 culture = dacian
 religion =  shamanism
 capital = "Sucidava"
 trade_goods = iron
 hre = no
 base_tax = 3
-native_size = 60
-native_ferocity = 6
-native_hostileness = 5
+citysize = 6000
+fort1 = yes
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

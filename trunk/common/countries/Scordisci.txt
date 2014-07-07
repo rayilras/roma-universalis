@@ -1,0 +1,77 @@
+graphical_culture = muslimgfx
+
+color = {238 225 157}
+
+historical_idea_groups = {
+	quantity_ideas
+	religious_ideas
+	expansion_ideas
+	civic_ideas
+	offensive_ideas
+	economic_ideas
+	
+}
+
+historical_units = {
+	barbarian_hoard
+	barbarian_cavalry
+	barbarian_chosen
+	barbarian_chosen_cavalry
+}
+
+
+monarch_names = { 
+	"Adaeus #0" = 0
+	"Adeos #0" = 0
+	"Adon #0" = 0
+	"Amadokos #0" = 0
+	"Charnabon #0" = 0
+	"Coson #0" = 0
+	"Cotiso #0" = 0
+	"Dapyx #0" = 0
+	"Decebalus #0" = 0
+	"Diagil #0" = 0
+	"Dicomes #0" = 0
+	"Dromichaetes #0" = 0
+	"Duras #0" = 0
+	"Kotys #0" = 0
+	"Manes #0" = 0
+	"Moskon #0" = 0
+	"Odroes #0" = 0
+	"Oroles #0" = 0
+	"Pieporus #0" = 0
+	"Rhemaxos #0" = 0
+	"Rholes #0" = 0
+	"Roimitalkes #0" = 0
+	"Rubobostes #0" = 0
+	"Sadalas #0" = 0
+	"Seuthes #0" = 0
+	"Sitalkes #0" = 0
+	"Tires #0" = 0
+	"Zalmodegikos #0" = 0
+	"Zalmoxis #0" = 0
+	"Zoltes #0" = 0
+	"Zyraxes #0" = 0
+	"Burebista #0" = 10
+	
+}
+
+ship_names = {
+	Adila Aprus Azila
+	Benndis
+	Caropithla Cotiata Cycolis
+	Dicotella Diesema Dokela Dracontos
+	Hormea
+	Iele
+	Manteia Mendruta
+	Nemenepsa
+	Pegrina Polpum Priadela
+	Rathibida Riborasta
+	Salia Skiare Stirsozila
+	Zalmoxis Zena Zired
+}
+
+leader_names = { 
+	Adaeus Adeos Adon Amadokos Charnabon Coson Cotiso Dapyx Decebalus Diagil Dicomes Dromichaetes Duras Kotys Manes Moskon Odroes
+		Oroles Pieporus Rhemaxos Rholes Roimitalkes Rubobostes Sadalas Seuthes Sitalkes Tires Zalmodegikos Zalmoxis Zoltes Zyraxes
+	}

@@ -1,14 +1,18 @@
 #1826 - Lika
 
+owner = DLM
+controller = DLM
+add_core = DLM
+add_core = VTI
 culture = venetic
 religion = animism
 capital = "Iadera"
 trade_goods = cloth
 hre = no
 base_tax = 3
-native_size = 50
-native_ferocity = 5
-native_hostileness = 5
+citysize = 15000
+manpower = 5
+fort1 = yes
 
 discovered_by = seleucid
 discovered_by = greek
