@@ -1,14 +1,15 @@
 #139 - Hum
 
+owner = DSI
+controller = DSI
+add_core = DSI
 culture = pannonian
 religion = shamanism
 capital = "Ditiones"	
 trade_goods = wool
 hre = no
-base_tax = 2
-native_size =  40
-native_ferocity = 5
-native_hostileness = 5
+manpower = 5
+fort1 = yes
 
 discovered_by = seleucid
 discovered_by = greek
@@ -20,3 +21,4 @@ discovered_by = barbarian
 discovered_by = latin
 discovered_by = nomadic
 discovered_by = iberian
+

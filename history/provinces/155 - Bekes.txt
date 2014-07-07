@@ -1,7 +1,8 @@
-discovered_by = greek
 #155 - Békés
 
-
+owner = EVI
+controller = EVI
+add_core = EVI
 culture = celtic
 religion = druidism
 capital = "Eravisci"
@@ -9,9 +10,10 @@ trade_goods = wine
 hre = no
 base_tax = 3
 manpower = 4
-native_size = 40
-native_ferocity = 5
-native_hostileness = 4
+citysize = 14000
+fort1 = yes
+
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
@@ -21,4 +23,5 @@ discovered_by = seleucid
 discovered_by = latin
 discovered_by = nomadic
 discovered_by = iberian
+
 

@@ -1,7 +1,8 @@
-discovered_by = greek
 #281 - Podolia
 
-
+owner = BNI
+controller = BNI
+add_core = BNI
 culture = sarmatian
 religion = shamanism
 hre = no
@@ -9,9 +10,9 @@ base_tax = 4
 trade_goods = iron
 manpower = 3 
 capital = "Navari"
-native_size = 60
-native_ferocity = 4
-native_hostileness = 6
+fort1 = yes
+
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
@@ -21,3 +22,5 @@ discovered_by = seleucid
 discovered_by = latin
 discovered_by = nomadic
 discovered_by = iberian
+
+

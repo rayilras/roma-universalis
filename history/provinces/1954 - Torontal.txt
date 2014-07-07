@@ -1,14 +1,17 @@
 #1954 - Torontál
 
+owner = EVI
+controller = EVI
+add_core = EVI
+add-core = BEC
 culture = pannonian
 religion = shamanism
 capital = "Breuci"
 trade_goods = wool
 hre = no
 base_tax = 4
-native_size = 60
-native_ferocity = 5
-native_hostileness = 5
+manpower = 5
+fort1 = yes
 
 discovered_by = seleucid
 discovered_by = greek
@@ -20,4 +23,5 @@ discovered_by = barbarian
 discovered_by = latin
 discovered_by = nomadic
 discovered_by = iberian
+
 

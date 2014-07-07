@@ -1,9 +1,9 @@
 discovered_by = greek
 #162 - Zemplén
 
-owner = DAC
-controller = DAC
-add_core = DAC
+owner = ANR
+controller = ANR
+add_core = ANR
 culture = dacian
 religion = shamanism
 capital = "Apulon"
@@ -22,3 +22,4 @@ discovered_by = seleucid
 discovered_by = latin
 discovered_by = nomadic
 discovered_by = iberian
+

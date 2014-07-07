@@ -1,8 +1,8 @@
 #136 - Dalmatia
 
-owner = ILY
-controller = ILY
-add_core = ILY
+owner = DLM
+add_core = DLM
+controller = DLM
 culture = illyrian
 religion = shamanism
 capital = "Delmion"

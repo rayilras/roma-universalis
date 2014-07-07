@@ -1,9 +1,8 @@
-discovered_by = greek
 #143 - Albania
 
-owner = ILY
-controller = ILY
-add_core = ILY
+owner = ARD
+controller = ARD
+add_core = ARD
 culture = illyrian
 religion = shamanism
 capital = "Epidamnos"
@@ -13,6 +12,7 @@ base_tax = 4
 manpower = 4
 citysize = 6000
 fort1 = yes
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
@@ -22,3 +22,4 @@ discovered_by = seleucid
 discovered_by = latin
 discovered_by = nomadic
 discovered_by = iberian
+

@@ -1,0 +1,59 @@
+graphical_culture = easterngfx
+
+color = {179 122 68}
+
+historical_idea_groups = {
+	diplomatic_ideas
+	quantity_ideas
+	religious_ideas
+	expansion_ideas
+	offensive_ideas
+	economic_ideas
+	
+}
+
+historical_units = {
+	nomadic_tribesmen
+	nomadic_cavalry
+	nomadic_archers
+	nomadic_steppe_archers
+}
+
+
+
+monarch_names = { 
+	"Abeacus #0" 
+	"Apsyrtos #0"
+	"Arpharnes #0"
+	"Askhkadar #0"
+	"Atheas #0"
+	"Galat #0"
+	"Kuluk #0"
+	"Madyes #0"
+	"Oltak #0"
+	"Palacus #0"
+	"Partatua #0"
+	"Skilurus #0"
+	"Skunxa #0"
+	"Spadines #0"
+	"Tasius #0"
+	"Zanticus #0"
+	"Respendial #0" 
+}
+
+ship_names = {
+	Anahars Api Argipp Ariant Ariapit Arimasp Arginpaza
+	Ditagoia
+	Gnur
+	Idantir
+	Kaizos Kolaksay
+	Oitosuros
+	Papay Rha
+	Sag Skilur Spargapit
+	Tabiti Targitay Tagimasadas Tour Traetaona
+}
+
+leader_names = { 
+	Abeacus Apsyrtos Arpharnes Askhkadar Atheas Galat Kuluk Madyes Oltak Palacus Partatua Skilurus Skunxa Spadines Tasius Zanticus Respendial 
+}
+

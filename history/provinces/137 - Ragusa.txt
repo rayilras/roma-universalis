@@ -1,8 +1,8 @@
 #137 - Ragusa
 
-owner = ILY
-controller = ILY
-add_core = ILY
+owner = DSI
+controller = DSI
+add_core = DSI
 culture = illyrian
 religion = shamanism
 capital = "Scodra"
@@ -23,3 +23,4 @@ discovered_by = barbarian
 discovered_by = latin
 discovered_by = nomadic
 discovered_by = iberian
+

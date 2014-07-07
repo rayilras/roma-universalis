@@ -1,9 +1,8 @@
-discovered_by = greek
 #158 - Maros
 
-owner = DAC
-controller = DAC
-add_core = DAC
+owner = BSE
+controller = BSE
+add_core = BSE
 culture = dacian
 religion = shamanism
 capital = "Buridava"
@@ -12,6 +11,7 @@ hre = no
 base_tax = 3
 manpower = 4
 citysize = 20000
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
@@ -21,4 +21,8 @@ discovered_by = seleucid
 discovered_by = latin
 discovered_by = nomadic
 discovered_by = iberian
+
+
+
+
 
