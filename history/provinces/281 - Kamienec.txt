@@ -6,9 +6,9 @@ add_core = BNI
 culture = sarmatian
 religion = shamanism
 hre = no
-base_tax = 4
+base_tax = 6
 trade_goods = iron
-manpower = 3 
+manpower = 7 
 capital = "Navari"
 fort1 = yes
 
@@ -22,5 +22,6 @@ discovered_by = seleucid
 discovered_by = latin
 discovered_by = nomadic
 discovered_by = iberian
+
 
 

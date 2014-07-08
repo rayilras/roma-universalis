@@ -1,16 +1,18 @@
-discovered_by = greek
 #463 - Alania
 
-
+owner = KTI
+controller = KTI
+add_core = KTI
 culture = sarmatian
 religion = shamanism
 capital = "Alans"
 trade_goods = gold
 hre = no
 base_tax = 4
-native_size = 70
-native_ferocity = 6
-native_hostileness = 8
+citysize = 7000
+manpower = 6
+fort1 = yes
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
