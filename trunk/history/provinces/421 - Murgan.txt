@@ -1,16 +1,18 @@
-discovered_by = greek
 #421 - Shirvan
 
-
+owner = ABI
+controller = ABI
+add_core = ABI
 culture = ibero
 religion = shamanism
 capital = "Kabulaka"
 trade_goods = grain
 hre = no
 base_tax = 4
-native_size = 50
-native_ferocity = 4
-native_hostileness = 5
+citysize = 5000
+manpower = 4
+fort1 = yes
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian

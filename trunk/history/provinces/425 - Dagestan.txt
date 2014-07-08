@@ -1,16 +1,18 @@
-discovered_by = greek
 #425 - Dagestan
 
-
+owner = KTI
+controller = KTI
+add_core = KTI
 culture = sarmatian
 religion = shamanism
 capital = "Aorsi"
-trade_goods = wool
+trade_goods = spices
 hre = no
 base_tax = 3
 manpower = 3
 citysize = 2550
 fort1 = yes
+discovered_by = greek
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
@@ -20,3 +22,4 @@ discovered_by = seleucid
 discovered_by = latin
 discovered_by = nomadic
 discovered_by = iberian
+

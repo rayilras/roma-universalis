@@ -1,0 +1,126 @@
+graphical_culture = indiangfx
+
+color = {253 187 30}
+
+historical_idea_groups = {
+	diplomatic_ideas
+	quantity_ideas
+	religious_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	
+}
+
+historical_units = {
+	early_persian_infantry
+	early_persian_horse
+	late_persian_infantry
+	late_persian_horse
+}
+
+
+monarch_names = { 
+	"Pharnavaz #0" = 15
+	"Mirian #0" = 15
+	"Saurmag #0" = 15
+	"Abdagas #0"
+	"Ara Aram Aramu #0" = 0
+	"Arbaces #0" =0
+	"Ardashir #0" =0
+	"Argishti #0" =0
+	"Ariovast #0" =0
+	"Arkha #0" =0
+	"Armin #0" =0
+	"Arsaces #0" =0
+	"Arsames #0" =0
+	"Artabanus #0" = 0
+	"Artabazus #0" = 0
+	"Artasyras #0" = 0
+	"Artavazd #0"  = 0
+	"Artaxias #0" = 0
+	"Aryanes #0" = 0
+	"Asheri #0" = 0
+	"Asina #0" = 0
+	"Ashina #0" = 0
+	"Astashpa #0" = 0
+	"Astyages #0" = 0
+	"Atamaita #0" = 0
+	"Aturpat #0" = 0
+	"Bagayash #0" = 0
+	"Bayad #0" = 0
+	"Chosroes #0" = 0
+	"Cyaxares #0" = 0
+	"Cyrus #0" = 0
+	"Darius #0" = 0
+	"Deioces #0" = 0
+	"Evagoras #0" = 0
+	"Fravarti #0" = 0
+	"Gaumata #0" = 0
+	"Gobryas #0" = 0
+	"Gotarzes #0" = 0
+	"Haldita #0" = 0
+	"Hidarnes #0" = 0
+	"Hydarnes #0" = 0
+	"Manchihr #0" = 0
+	"Mardonius #0" = 0
+	"Martiya #0" = 0
+	"Mazaces #0" = 0
+	"Megabyzus #0" = 0
+	"Menua #0" = 0
+	"Nambed #0" = 0
+	"Napad #0" = 0
+	"Orodes #0" = 0
+	"Orxines #0" = 0
+	"Osroes #0" = 0
+	"Oxydates #0" = 0
+	"Pacorus #0" = 0
+	"Peucestas #0" = 0
+	"Phraates #0" = 0
+	"Phraortes #0" = 0
+	"Rusa #0" = 0
+	"Sames #0" = 0
+	"Sarduri #0" = 0
+	"Sarsamas #0" = 0
+	"Savaces #0" = 0
+	"Shapur #0" = 0
+	"Sinatruces #0"  = 0
+	"Tigraios #0" = 0
+	"Tigranes #0" = 0
+	"Tiridates #0" = 0
+	"Umamaita #0" = 0
+	"Upadarma #0" = 0
+	"Vahbarz #0" = 0
+	"Vardanes #0" = 0
+	"Vologases #0" = 0
+	"Vonones #0" = 0
+	"Xerxes #0" = 0
+}
+
+ship_names = {
+	Aban Adar Amardad Aneran Ard "Arda-Fravash" Ardibehesht Armazi Ashtad Asman Avan
+	Bahman Barzo Behram
+	"Dae-pa-Adar" "Dae-pa-Din" Daham Din
+	Erman
+	Ghosh Govad
+	Hom
+	Khordad Korshed Kurosh
+	Lazica
+	Mah Marespand Meher Mithra Mohor Mtskheta Nelkari
+	Ormuzd
+	Parnawaz
+	Ram Rashn
+	Sapandomad Shehrevar Sorush Spendarmad
+	Tir Tsunda
+	Uplistsikhe
+	Zamyad
+}
+
+leader_names = { 
+	Abdagas Ara Aram Aramu Arbaces Ardashir Argishti Ariovast Arkha Armin Arsaces Arsames Artabanus Artabazus Artasyras Artavazd 
+	Artaxias Aryanes Asheri Asina Ashina Astashpa Astyages Atamaita Aturpat Bagayash Bayad Chosroes Cyaxares Cyrus Darius Deioces 
+	Evagoras Fravarti Gaumata Gobryas Gotarzes Haldita Hidarnes Hydarnes Manchihr Mardonius Martiya Mazaces Megabyzus Menua Nambed 
+	Napad Orodes Orxines Osroes Oxydates Pacorus Peucestas Phraates Phraortes Rusa Sames Sarduri Sarsamas Savaces Shapur Sinatruces 
+	Tigraios Tigranes Tiridates Umamaita Upadarma Vahbarz Vardanes Vologases Vonones Xerxes
+}
+

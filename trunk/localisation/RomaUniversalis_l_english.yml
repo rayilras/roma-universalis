@@ -171,6 +171,9 @@ l_english:
  EVI: "Eravisci"
  BEC: "Breuci"
  SCI: "Scordisci"
+ BZT: "Byzantion"
+ KTI: "Kartli"
+ ABI: "Albania"
  
  CAR_ADJ: "Punic"
  ATS_ADJ: "Athenian"
@@ -276,6 +279,9 @@ l_english:
  EVI_ADJ: "Eraviscian"
  BEC_ADJ: "Breucian"
  SCI_ADJ: "Scordiscian"
+ BZT_ADJ: "Byzantine"
+ KTI_ADJ: "Kartlian"
+ ABI_ADJ: "Albanian"
  
  ######
  roman_republic: "Roman Republic"

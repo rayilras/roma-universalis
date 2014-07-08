@@ -6,7 +6,7 @@ add_core = BNI
 culture = sarmatian
 religion = shamanism
 hre = no
-base_tax = 4
+base_tax = 6
 capital = "Iazygas"
 trade_goods = naval_supplies
 manpower = 7
@@ -21,5 +21,6 @@ discovered_by = seleucid
 discovered_by = latin
 discovered_by = nomadic
 discovered_by = iberian
+
 
 

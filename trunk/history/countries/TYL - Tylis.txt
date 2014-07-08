@@ -5,4 +5,4 @@ religion = druidism
 primary_culture = celtic
 historical_rival = ODK
 historical_rival = MAC
-capital = 151
+capital = 149
