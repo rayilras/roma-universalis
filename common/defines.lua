@@ -2,7 +2,7 @@ NDefines = {
 
 NGame = {
 	START_DATE = "0474.1.1",
-	END_DATE = "0824.1.1",
+	END_DATE = "1229.1.1",
 },
 
 NDiplomacy = {
