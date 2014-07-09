@@ -1,5 +1,3 @@
-#281 - Podolia
-
 owner = BNI
 controller = BNI
 add_core = BNI
@@ -7,10 +5,11 @@ culture = sarmatian
 religion = shamanism
 hre = no
 base_tax = 6
+manpower = 7
 trade_goods = iron
-manpower = 7 
 capital = "Navari"
 fort1 = yes
+citysize = 14000
 
 discovered_by = greek
 discovered_by = roman

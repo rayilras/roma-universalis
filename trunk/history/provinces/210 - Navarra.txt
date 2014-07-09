@@ -1,5 +1,3 @@
-#210 - Navarra
-
 add_core = VES
 owner = VES
 controller = VES
@@ -11,7 +9,8 @@ manpower = 3
 fort1 = yes
 trade_goods = gold
 capital = "Vascones" 
-citysize = 75000
+citysize = 35000
+
 discovered_by = seleucid
 discovered_by = greek
 discovered_by = roman

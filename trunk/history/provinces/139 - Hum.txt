@@ -1,5 +1,3 @@
-#139 - Hum
-
 owner = DSI
 controller = DSI
 add_core = DSI
@@ -8,6 +6,7 @@ religion = shamanism
 capital = "Ditiones"	
 trade_goods = wool
 hre = no
+citysize = 16000
 manpower = 5
 fort1 = yes
 
