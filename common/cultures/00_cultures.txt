@@ -1128,7 +1128,7 @@ thracian = {
 	}
 	
 	dacian = {
-		primary = DAC
+		primary = 
 	}
 	
 	phrygian = {
@@ -1184,6 +1184,9 @@ gallic = {
 		primary =
 	}
 	
+	pictish = {
+		primary =
+	}
 
 	dynasty_names = { 
 		"Correid" "Divicid" "Duratid" "Elitovid" "Galbid" "Iacid" "Marganid" "Sinatid" "Vodenosid"

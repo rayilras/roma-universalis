@@ -766,9 +766,7 @@ persian_ideas = {
 	
 	trigger = {
 		OR = {
-			tag = QID
-			tag = NEA
-			culture_group = persian
+			technology_group = persian
 		}
 	}
 
@@ -804,7 +802,7 @@ iberian_ideas = {
 	}
 	
 	trigger = {
-		religion = druidism
+		technology_group = iberian
 	}
 	bonus = {
 		infantry_cost = -0.20
@@ -844,7 +842,6 @@ nomadic_ideas = {
 	trigger = {
 		OR = {
 			technology_group = nomadic
-			tag = RXL
 		}
 	}
 	bonus = {
@@ -875,4 +872,86 @@ nomadic_ideas = {
 		build_cost = -0.05
 	}
 }
+
+illyrian_ideas = {
+	start = {
+		global_manpower_modifier = 0.5
+		land_morale = 0.05
+	}
+	
+	trigger = {
+		culture_group = illyrian
+		technology_group = barbarian
+	}
+
+	bonus = {
+		global_missionary_strength = 0.03
+	}
+
+	free = yes
+
+	logistics = {
+		land_maintenance_modifier = -0.1
+	}
+	expert_farmers = {
+		production_efficiency = 0.1
+	}
+	greek_influence = {
+		idea_cost = -0.05
+	}
+	fortification_experts = {
+		defensiveness = 0.20
+	}
+	ambush_tactics = {
+		hostile_attrition = 1
+	}
+	merc_marketplace = {
+		mercenary_cost = -0.25
+	}
+	illyrian_unity = {
+		global_revolt_risk = -1
+	}
+}
+
+dacian_ideas = {
+	start = {
+		diplomatic_reputation = 2
+		global_manpower_modifier = 0.25
+	}
+
+	trigger = {
+		primary_culture = dacian
+	}
+	
+	bonus = {
+		advisor_cost = -0.33
+	}
+
+	free = yes
+	
+	piety = {
+		global_missionary_strength = 0.02
+	}
+	dacian_horses = {
+		cavalry_cost = -0.1
+	}
+	cultural_resiliency = {
+		enemy_core_creation = 1.0
+	}
+	expert_diplomats = {
+		core_creation = -0.10
+	}
+	dacian_mines = {
+		production_efficiency = 0.10
+	}
+	village_taxation = {
+		global_tax_modifier = 0.10
+	}
+	art_of_war = {
+		land_morale = 0.10
+	}
+}
+	
+	
+		
 		

@@ -1857,9 +1857,9 @@
  promote_the_curonian_kings_desc: "The Curonian Kings are the descendants of the ancient Curonian chiefs. Back to the ages of Livonian Order, they enjoyed a series of privilege and served in the army during war times. After the foundation of the Duchy, they lost some of their privileges and are pushed back from the military service. Maybe we should re-promote them again, so that our country can make the best use of these descendants of fierce warriors."
  
  #####################
- default_ideas: "Barbarian Ideas"
- default_ideas_start: "Barbarian Traditions"
- default_ideas_bonus: "Barbarian Ambitions"
+ default_ideas: "Germanic Ideas"
+ default_ideas_start: "Germanic Traditions"
+ default_ideas_bonus: "Germanic Ambitions"
  
  exploration_ideas: "Civic Ideas"
  exploration_ideas_bonus: "Full Civic Focus"

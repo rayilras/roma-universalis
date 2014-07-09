@@ -78,7 +78,7 @@ country_event = {
 			mil = 1
 			adm = 4
 			dip = 1			
-			fixed = no
+			fixed = yes
 		}
 	}
 	option = {
@@ -88,7 +88,7 @@ country_event = {
 			dip = 4
 			adm = 1
 			mil = 1				
-			fixed = no
+			fixed = yes
 		}
 	}
 	option = {
@@ -98,7 +98,7 @@ country_event = {
 			mil = 4
 			adm = 1
 			dip = 1				
-			fixed = no
+			fixed = yes
 		}
 	}
 }
@@ -124,7 +124,7 @@ country_event = {
 			mil = 1
 			adm = 4
 			dip = 1					
-			fixed = no
+			fixed = yes
 		}
 	}
 	option = {
@@ -134,7 +134,7 @@ country_event = {
 			dip = 4
 			adm = 1
 			mil = 1				
-			fixed = no
+			fixed = yes
 		}
 	}
 	option = {
@@ -144,7 +144,7 @@ country_event = {
 			mil = 4
 			adm = 1
 			dip = 1				
-			fixed = no
+			fixed = yes
 		}
 	}
 }

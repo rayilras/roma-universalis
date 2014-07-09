@@ -5,17 +5,17 @@ bookmark = {
 
 	country = ROM
 	country = CAR
-	country = PON
 	country = MAC
+	country = EPR
+	country = PON
 	country = SEL
 	country = EGT
 	country = SPR
 	country = SEB
-	country = CTB
-	country = CNU
+	country = ETL
+	country = RXL
 
 	easy_country = ROM
 	easy_country = CAR
-	easy_country = PON
 	easy_country = MAC
 }

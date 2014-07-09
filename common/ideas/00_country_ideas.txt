@@ -2916,11 +2916,11 @@ CRE_ideas = {
 ROM_ideas = {
 	start = {
 		global_tax_modifier = 0.25
-		global_manpower_modifier = 0.25
+		land_maintenence_modifier = -0.25
 	}
 	
 	bonus = {
-		discipline = 0.2
+		infantry_cost = -0.1
 	}
 	
 	trigger = {
@@ -2994,9 +2994,9 @@ SEL_ideas = {
 
 CAR_ideas = {
 	start = {
-		mercenary_cost = -0.5
-		naval_morale = 0.15
-	
+		mercenary_cost = -0.75
+		merc_maintenance_modifier = -0.50
+		infantry_cost = 0.50
 	}
 	
 	bonus = {
@@ -3005,12 +3005,13 @@ CAR_ideas = {
 	}
 	
 	trigger = {
-		tag = CAR
+		technology_group = carthaginian
 	}
+
 	free = yes		# will be added at load
 	
 	mercenary_regulars = {
-		merc_maintenance_modifier = -0.5
+		merc_maintenance_modifier = -0.1
 	}
 	carthaginian_olligarchy = {
 		merchants = 1
