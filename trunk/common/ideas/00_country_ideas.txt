@@ -2932,7 +2932,7 @@ ROM_ideas = {
 		core_creation = -0.3
 	}
 	retired_legionnairs = {
-		colonists = 1
+		global_revolt_risk = -1
 	}
 	dignitas = {
 		diplomatic_reputation = 3
@@ -2948,7 +2948,7 @@ ROM_ideas = {
 	}
 	senatus_populusque_romanus = {
 		legitimacy = 0.01
-		republican_tradition = 0.001
+		republican_tradition = 0.01
 	}
 }
 
