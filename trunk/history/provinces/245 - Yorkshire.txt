@@ -3,7 +3,7 @@
 add_core = BGT
 owner = BGT
 controller = BGT
-culture = celtic
+culture = pictish
 religion = druidism
 hre = no
 base_tax = 5

@@ -3,7 +3,7 @@
 owner = PCT
 controller = PCT
 add_core = PCT
-culture = celtic
+culture = pictish
 religion = druidism
 hre = no
 base_tax = 5

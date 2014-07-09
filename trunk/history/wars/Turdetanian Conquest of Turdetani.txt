@@ -1,0 +1,21 @@
+name = "Turdetanian Conquest of Turdetani"
+
+war_goal = {
+	type = take_core
+	cassus_belli = cb_core
+	province = 224
+}
+
+0473.11.1 = { 
+	add_attacker = TNI
+	add_defender = NCA
+	add_defender = CAR
+	add_defender = NUM
+}
+
+0475.1.1 = {
+	rem_attacker = TNI
+	rem_defender = NCA
+	rem_defender = CAR
+	rem_defender = NUM
+}

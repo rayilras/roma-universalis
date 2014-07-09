@@ -5,14 +5,12 @@
 
 default_ideas = {
 	start = {
-		global_tax_modifier = 0.05
+		land_forcelimit_modifier = 0.50
 		global_manpower_modifier = 0.50
 	}
 
 	trigger = {
-		OR = {
-			technology_group = barbarian
-		}
+			culture_group = germanic2
 	}
 
 	bonus = {
@@ -25,7 +23,7 @@ default_ideas = {
 		infantry_cost = -0.20
 	}
 	faith = {
-		tolerance_own = 5
+		tolerance_own = 3
 		religious_unity = 0.33
 	}	
 	daemons_in_the_forest = {

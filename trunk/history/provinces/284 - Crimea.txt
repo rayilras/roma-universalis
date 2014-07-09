@@ -1,7 +1,8 @@
-discovered_by = greek
 #284 - Crimea
 
-
+owner = RXL
+controller = RXL
+add_core = RXL
 culture = scythian
 religion = shamanism
 hre = no
@@ -9,9 +10,9 @@ base_tax = 5
 trade_goods = salt
 manpower = 5
 capital = "Neapolis"
-native_size = 30
-native_ferocity = 4
-native_hostileness = 5
+citysize = 13000
+manpower
+fort1 = yes
 discovered_by = roman
 discovered_by = carthaginian
 discovered_by = egyptian
@@ -20,4 +21,6 @@ discovered_by = barbarian
 discovered_by = seleucid
 discovered_by = latin
 discovered_by = nomadic
+discovered_by = greek
 discovered_by = iberian
+
