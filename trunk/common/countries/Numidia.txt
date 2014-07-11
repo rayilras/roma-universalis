@@ -18,7 +18,6 @@ historical_units = {
 	carthaginian_cavalry
 }
 
-
 monarch_names = { 
 	"Massinissa #0" = 15
 	"Adherbal #0" = 20

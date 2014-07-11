@@ -19,42 +19,60 @@ historical_units = {
 	barbarian_chosen_cavalry
 }
 
-
 monarch_names = { 
-	"Adaeus #0" = 0
-	"Adeos #0" = 0
-	"Adon #0" = 0
-	"Amadokos #0" = 0
-	"Charnabon #0" = 0
-	"Coson #0" = 0
-	"Cotiso #0" = 0
-	"Dapyx #0" = 0
-	"Decebalus #0" = 0
-	"Diagil #0" = 0
-	"Dicomes #0" = 0
-	"Dromichaetes #0" = 0
-	"Duras #0" = 0
-	"Kotys #0" = 0
-	"Manes #0" = 0
-	"Moskon #0" = 0
-	"Odroes #0" = 0
-	"Oroles #0" = 0
-	"Pieporus #0" = 0
-	"Rhemaxos #0" = 0
-	"Rholes #0" = 0
-	"Roimitalkes #0" = 0
-	"Rubobostes #0" = 0
-	"Sadalas #0" = 0
-	"Seuthes #0" = 0
-	"Sitalkes #0" = 0
-	"Tires #0" = 0
-	"Zalmodegikos #0" = 0
-	"Zalmoxis #0" = 0
-	"Zoltes #0" = 0
-	"Zyraxes #0" = 0
-	"Burebista #0" = 10
-	
-}
+	"Agirrus #0" = 1 
+	"Agis #0" = 1 
+	"Agron #0" = 1 
+	"Alban #0" = 1 
+	"Andes #0" = 1 
+	"Annaeus #0" = 1 
+	"Artan #0" = 1 
+	"Audoleon #0" = 1 
+	"Ballaios #0" = 1 
+	"Bardyllis #0" = 1 
+	"Bastareus #0" = 1 
+	"Baton #0" = 1 
+	"Blodus #0" = 1 
+	"Boria #0" = 1 
+	"Dardan #0" = 1 
+	"Dasius #0" = 1 
+	"Dazas #0" = 1 
+	"Derronaios #0" = 1 
+	"Ditus #0" = 1 
+	"Dropion #0" = 1 
+	"Epicadus #0" = 1 
+	"Epicaris #0" = 1 
+	"Epidius #0" = 1 
+	"Eupolemenos #0" = 1 
+	"Genthena #0" = 1 
+	"Gentius #0" = 15
+	"Glaukias #0" = 1 
+	"Glavus #0" = 1 
+	"Laedio #0" = 1 
+	"Laiscus #0" = 1 
+	"Lycceius #0" = 1 
+	"Madena #0" = 1 
+	"Messor #0" = 1 
+	"Monounios #0" = 1 
+	"Mytilus #0" =15
+	"Nicarchus #0" = 1 
+	"Patraus #0" = 1 
+	"Pinnes #0" =15
+	"Plares #0" = 1 
+	"Pleuratus #0" =15
+	"Posantio #0" = 1 
+	"Pravaius #0" = 1 
+	"Scerdis #0" = 1 
+	"Skerdilaidas #0" = 1 
+	"Tatta #0" = 1 
+	"Temus #0" = 1 
+	"Teuda #0" = 1 
+	"Thana #0" = 1 
+	"Vendes #0" = 1 
+	"Verzo #0" = 1 
+	"Zanatis #0" = 1 
+	"Ziraeus #0" = 1 
+	}
 
 ship_names = {
 	Adila Aprus Azila

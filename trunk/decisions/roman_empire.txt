@@ -16,7 +16,7 @@ country_decisions = {
 
 		effect = {
 
-			change_government = imperial_government
+			change_tag = IRO
 			add_stability = -3
 			add_manpower = -0.25
 
@@ -36,6 +36,10 @@ country_decisions = {
 			capital_scope = {
 				roman_rebels = 3
 			}	
+			ai_will_do = {
+				factor = 1
+			}
+		ai_importance = 1600
 		}
 	}
 

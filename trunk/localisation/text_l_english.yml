@@ -7012,8 +7012,8 @@
  ###########
  noble_republic_ruler: "Noble"
  noble_republic_ruler_female: ""
- merchant_republic_ruler_female: ""
- merchant_republic_ruler: ""
+ merchant_republic_ruler_female: "Patriciana"
+ merchant_republic_ruler: "Patrician"
  cog: "Nemiolia"
  barque: "Lembos"
  galley: "Trireme"

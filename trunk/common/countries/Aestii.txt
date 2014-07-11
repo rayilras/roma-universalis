@@ -22,23 +22,23 @@ historical_units = {
 
 
 monarch_names = { 
-	"Abeacus #0" 
-	"Apsyrtos #0"
-	"Arpharnes #0"
-	"Askhkadar #0"
-	"Atheas #0"
-	"Galat #0"
-	"Kuluk #0"
-	"Madyes #0"
-	"Oltak #0"
-	"Palacus #0"
-	"Partatua #0"
-	"Skilurus #0"
-	"Skunxa #0"
-	"Spadines #0"
-	"Tasius #0"
-	"Zanticus #0"
-	"Respendial #0" 
+	"Abeacus #0" = 1 
+	"Apsyrtos #0" = 1
+	"Arpharnes #0" = 1
+	"Askhkadar #0"= 1
+	"Atheas #0" = 1
+	"Galat #0" = 1
+	"Kuluk #0" = 1
+	"Madyes #0" = 1
+	"Oltak #0" = 1
+	"Palacus #0" = 1
+	"Partatua #0" = 1
+	"Skilurus #0" = 1
+	"Skunxa #0" = 1
+	"Spadines #0" = 1
+	"Tasius #0" = 1
+	"Zanticus #0" = 1
+	"Respendial #0" = 
 }
 
 ship_names = {

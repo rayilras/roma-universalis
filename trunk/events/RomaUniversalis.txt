@@ -65,4 +65,3 @@ country_event = {
 				
 		}
 	}
-##roman_civil_wars

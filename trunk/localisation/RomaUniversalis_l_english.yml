@@ -1,7 +1,7 @@
 l_english:
  RISE_OF_ROME: "The Rise of Rome"
  RISE_OF_ROME_DESC: "The year is 279 BC; Rome sits at the heart of Italia, and wages war against the collective Greek colonies of Magna Graecia; Pyrrhus of Epirus has honored his obligation and has landed in southern Italy to fight the Romans; in the East, the Seleucid Empire waits for the right time to strike against the Successor kingdoms and rebuild Alexander's empire; Carthage controls the trade of the Mediterranean, and is eager to strike down the growing power of the West: Rome."
- ######
+ ###### RELIGIONS
  druidism: "Druidism"
  judaism: "Judaism"
  zoroaster: "Zoroastrian"
@@ -11,7 +11,7 @@ l_english:
  egyptian_pantheon: "Egyptian"
  carthaginian_pantheon: "Punic"
  etruscan_pantheon: "Etruscan"
- ######
+ ###### CULTURES
  latin2: "Latin"
  roman: "Roman"
  etruscan: "Etruscan"
@@ -64,8 +64,10 @@ l_english:
  basque2: "Basque"
  arabian: "Arabian"
  pictish: "Pictish"
+ arian: "Aryan"
+ arachosian: "Arachosian"
  
- ######
+ ###### NATIONS
  ATS: "Athens"
  ROM: "Rome"
  EGT: "Ptolemaic Egypt"
@@ -96,7 +98,7 @@ l_english:
  MAC: "Macedon"
  IBR: "Iberia"
  ARV: "Arverni"
- ILY: "Illyria"
+ ILY: "Illyrian Kingdom"
  PRS: "Parisii"
  ATR: "Atrebates"
  LUS: "Lusitani"
@@ -110,7 +112,7 @@ l_english:
  CTV: "Catuvellauni"
  AUL: "Aulerci"
  TYL: "Tylis"
- DAC: "Daci"
+ DAC: "Dacian Kingdom"
  PRT: "Parthia"
  ODK: "Odrysian Kingdom"
  NCA: "Nova Carthago"
@@ -175,6 +177,9 @@ l_english:
  BZT: "Byzantion"
  KTI: "Kartli"
  ABI: "Albania"
+ ISR: "Israel"
+ IRO: "Imperium Romanum"
+ IAX: "Imperium Alexandros"
  
  CAR_ADJ: "Punic"
  ATS_ADJ: "Athenian"
@@ -283,8 +288,11 @@ l_english:
  BZT_ADJ: "Byzantine"
  KTI_ADJ: "Kartlian"
  ABI_ADJ: "Albanian"
+ ISR_ADJ: "Israeli"
+ IRO_ADJ: "Imperial Roman"
+ IAX_ADJ: "Imperial Alexandrian"
  
- ######
+ ###### GOVERNMENTS
  roman_republic: "Roman Republic"
  roman_republic_desc: "A republican democracy consisting of a Consul, the Senate, and the people of Rome."
  roman_republic_ruler: "Consul"
@@ -306,7 +314,7 @@ l_english:
  etruscan_confederation: "Etruscan Confederation"
  etruscan_confederation_ruler: "Lucumo"
  etruscan_confederation_desc: "A confederation of Etruscan city states, who meet together once a year and elect a new leader titled Lucumo."
- ######
+ ###### IDEAS
  PRT_Ideas: "Parthian Ideas"
  parthian_shot: "Parthian Shot"
  parthian_shot_desc: "Parthia fields the finest archers in the East: we can prove it if needed."
@@ -343,6 +351,12 @@ l_english:
  illyrian_ideas_bonus: "Illyrian Ambitions"
  dacian_ideas_start: "Dacian Traditions"
  dacian_ideas_bonus: "Dacian Ambitions"
+ default_ideas: "Germanic Ideas"
+ default_ideas_start: "Germanic Traditions"
+ default_ideas_bonus: "Germanic Ambitions"
+ 
+ exploration_ideas: "Civic Ideas"
+ exploration_ideas_bonus: "Full Civic Focus"
  
  ancientgreek_ideas: "Greek Ideas"
  aegean_naval_traditions: "Aegean Naval Traditions"
@@ -376,7 +390,7 @@ l_english:
  the_war_march: "The War March"
  the_war_march_desc: "We Gauls love war; let us march to make it so on our enemies."
  
- persian_ideas: "Persian Ideas"
+ persian_ideas: "Eastern Ideas"
  satrap_levies: "Satrap Levies"
  satrap_levies_desc: "Satrapies are good sources of manpower."
  slave_armies: "Slave Armies"
@@ -610,7 +624,7 @@ l_english:
  art_of_war: "The Art of War"
  art_of_war_desc: "Dacians have always been good at one thing and one thing alone: war."
  
- ######
+ ###### TRADE NODES
  egypt: "Alexandria"
  greece: "Hellas"
  italia: "Italia"
@@ -621,7 +635,7 @@ l_english:
  gaul: "Gaulia"
  britannia: "Britannia"
  germania: "Germania"
- ######
+ ###### UNITS
  ptolamaic_phalanx: "Ptolemaic Hoplites"
  etheopian_mercenaries: "Ethiopian Spearmen"
  egyptian_phalanx: "Egyptian Hoplites"
@@ -680,7 +694,7 @@ l_english:
  nomadic_archers: "Nomadic Archers"
  nomadic_steppe_archers: "Nomadic Steppe Archers"
  
- ######
+ ###### TECHNOLOGIES
  seleucid: "Seleucid"
  barbarian: "Barbarian"
  iberian: "Celtic"
@@ -690,21 +704,36 @@ l_english:
  egyptian: "Egyptian"
  latin: "Latin"
  nomadic: "Nomadic"
- ######
- seleucid.EVTNAME1: "Parthian Revolt!"
+ ###### EVENTS
+ seleucid.EVTNAME1: "Parthian Revolt"
  seleucid.EVTDESC1: "Arsaces I of Parthia was the founder of the Arsacid dynasty, who were Parthian kings for 30 generations. Around 250 BC Arsaces rose to power whithin the Parni tribe and rebelled agaisnt his Hellenic overlords."
- seleucid.EVTOPTA1: "Hellenic superiority will win through!"
+ seleucid.EVTOPTA1: "Let us crush the Parthians"
  
- seleucid.EVTNAME2: "Parthian Revolt!"
+ seleucid.EVTNAME2: "Parthian Revolt"
  seleucid.EVTDESC2: "Mithridates I of Parthia made Parthia into a major power around 150BC, after conquoring Greco-Bactria and with control over the trade from the silk road, Mithridates turns his attention to the Seleucids......"
- seleucid.EVTOPTA2: "Hellenic superiority will win through!"
- #######
- roman_rebels: "Roman Repubican Rebels"
+ seleucid.EVTOPTA2: "Let us crush the Parthians"
+ ####### REBELS
+ roman_rebels: "Roman Republican Rebels"
  roman_rebels_name: "Roman Republican Rebels"
  roman_rebels_desc: "Roman nobles and citizens fighting to reinstatute the power of the Senate."
  roman_rebels_title: "Roman Republicans"
  roman_rebels_army: "Roman Republican Army"
- #######
+ ####### DECISIONS
  roman_empire_title: "Form the Roman Empire"
- roman_empire_desc: "Rome is in a state of change, Rome is big, civil war and constant expansion has changed it. The institute of the Senate is corrupt and weak, power must be given to one man. The Emperor."
+ roman_empire_title_desc: "Rome is the greatest power in the West; the bureacracy of the Senate is not enough to protect Rome's borders; let power be consolidated in one man, who is to be the champion of Rome: the Emperor."
+ roman_empire: "Form the Roman Empire"
+ roman_empire_desc: "Rome is the greatest power in the West; the bureacracy of the Senate is not enough to protect Rome's borders; let power be consolidated in one man, who is to be the champion of Rome: the Emperor."
+ illyrian_kingdom_title: "Form the Illyrian Kingdom"
+ illyrian_kingdom_title_desc: "Illyria has been a land of divided tribes and warring peoples; it is time for a great Illyrian Kingdom to be forged."
+ illyrian_kingdom: "Form the Illyrian Kingdom"
+ illyrian_kingdom_desc: "Illyria has been a land of divided tribes and warring peoples; it is time for a great Illyrian Kingdom to be forged."
+ dacian_kingdom_title: "Form the Dacian Kingdom"
+ dacian_kingdom_title_desc: "Dacia is a land of a culturally united people; let us unite politically and forge a Dacian Kingdom."
+ dacian_kingdom: "Form the Dacian Kingdom"
+ dacian_kingdom_desc: "Dacia is a land of a culturally united people; let us unite politically and forge a Dacian Kingdom."
+ empire_of_alexander: "Rebuild the Empire of Alexander"
+ empire_of_alexander_desc: "It is a shame that Alexander's empire fractured upon his death; let it rise once again."
+ empire_of_alexander_title: "Rebuild the Empire of Alexander"
+ empire_of_alexander_title_desc: "It is a shame that Alexander's empire fractured upon his death; let it rise once again."
+ 
  

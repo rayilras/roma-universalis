@@ -17,6 +17,7 @@ historical_units = {
 	greek_cavalry
 	late_greek_phalanx
 	companion_cavalry
+	petrobolos
 }
 
 

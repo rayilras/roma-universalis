@@ -1,0 +1,89 @@
+country_decisions = {
+	empire_of_alexander = {
+		major = yes
+		potential = {
+			OR = {
+				tag = MAC
+				tag = SEL
+				tag = EGT
+			}
+		}
+
+		allow = {
+
+			is_core = 143
+			is_core = 144
+			is_core = 147
+			is_core = 146
+			is_core = 1773
+			is_core = 145
+			is_core = 163
+			is_core = 320
+			is_core = 1765
+			is_core = 150
+			is_core = 151
+			is_core = 159
+			is_core = 316
+			is_core = 317
+			is_core = 318
+			is_core = 322
+			is_core = 319
+			is_core = 325
+			is_core = 326
+			is_core = 323
+			is_core = 324
+			is_core = 1846
+			is_core = 328
+			is_core = 330
+			is_core = 327			
+			is_core = 332
+			is_core = 418
+			is_core = 377
+			is_core = 378
+			is_core = 1855
+			is_core = 379
+			is_core = 364
+			is_core = 362
+			is_core = 361
+			is_core = 360
+			is_core = 357
+			is_core = 1852
+			is_core = 381
+			is_core = 406
+			is_core = 409
+			is_core = 408
+			is_core = 410
+			is_core = 407
+			is_core = 411
+			is_core = 415
+			is_core = 410
+			is_core = 413
+			is_core = 416
+			is_core = 414
+			is_core = 420
+			is_core = 417
+			is_core = 426
+			is_core = 428
+			is_core = 429
+			is_core = 430
+			is_core = 412
+
+		}
+
+		effect = {
+
+			change_tag = IAX
+			add_stability = 1
+			add_prestige = 100
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+				}
+			}
+			ai_will_do = {
+				factor = 1
+			}	
+			ai_importance = 1600
+		}
+	}
+}

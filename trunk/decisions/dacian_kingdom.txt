@@ -1,0 +1,37 @@
+country_decisions = {
+	dacian_kingdom = {
+		major = yes
+		potential = {
+		
+			primary_culture = dacian
+
+		
+		}
+		allow = {
+
+			is_core = 158	
+			is_core = 160
+			is_core = 161	
+			is_core = 268
+			is_core = 1756
+			government = tribe
+
+		}
+
+		effect = {
+
+			change_tag = DAC
+			add_stability = 1
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+				}
+			}
+			ai_will_do = {
+				factor = 1
+			}	
+			ai_importance = 1600
+		}
+	}
+}

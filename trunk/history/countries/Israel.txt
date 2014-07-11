@@ -1,0 +1,6 @@
+government = despotic_monarchy		
+mercantilism = 0.2
+technology_group = persian
+religion = judaism
+primary_culture = jewish
+capital = 379
