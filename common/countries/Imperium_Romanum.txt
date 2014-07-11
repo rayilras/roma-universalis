@@ -1,0 +1,132 @@
+graphical_culture = westerngfx
+
+color = {122 0 0}
+
+historical_idea_groups = {
+	expansion_ideas
+	offensive_ideas
+	religious_ideas
+	naval_ideas
+	quality_ideas
+	economic_ideas
+	
+}
+
+historical_units = {
+	early_roman_legionnairs
+	roman_equites
+	late_roman_legionnairs
+	auxiliery_cavalry
+	imperial_roman_legionnairs
+	arcuballista
+}
+
+
+monarch_names = { 
+	"Agrippa #0" = 10
+	"Agricola #0" = 10
+	"Albus #0" = 10
+	"Albinus #0" = 10
+	"Asina #0" = 10
+	"Balbus #0" = 10
+	"Brutus #0" = 10
+	"Calvus #0" = 10
+	"Calvinus #0" =10
+	"Cethegus #0" = 0
+	"Cicero #0" = 1
+	"Cinna #0" = 1
+	"Cotta #0" = 1
+	"Curio #0" = 1
+	"Dentatus #0" = 1
+	"Dives #0" = 1
+	"Dolabella #0" = 1
+	"Drusus #0" = 1
+	"Fimbria #0" = 1
+	"Flaccus #0" = 1
+	"Gracchus #0" = 1
+	"Labeo #0" = 1
+	"Lepidus #0" = 1
+	"Lentulus #0" = 1
+	"Longus #0" = 1
+	"Messalla #0" = 1
+	"Murena #0" = 10
+	"Mus #0" = 1
+	"Nasica #0" = 10
+	"Pictor #0" = 1
+	"Pulcher #0" = 1
+	"Rufus #0" = 1
+	"Salinator #0" = 1
+	"Scaevola #0" = 1
+	"Scipio #0" = 10
+	"Strabo #0" = 1
+	"Varro #0" = 1
+	"Julius #0" = 1
+	"Tiberius #0" = 10
+	"Justinian #0" = 1
+	"Octavius #0" = 1
+	"Pompey #0" = 1
+	"Publius #0" = 1
+	"Quintus #0" = 1
+	"Domitianus #0" = 1
+	"Antonius #0 " = 1
+	"Aulus #0" = 1
+        "Hadrianus #0" = 1
+        "Commodus #0" = 1
+        "Gordianus #0" = 1
+	"Aurelian #0" = 1
+	"Carus #0" = 1
+	"Theodosius #0" = 1
+	"Valentinian #0" = 1
+	"Honorius #0" = 1
+	"Romulus #0" = 1
+	"Olybrius #0" = 1
+	"Libius #0" = 1
+	"Majorian #0" = 1
+	"Avitus #0" = 1
+	"Petronius #0" = 1
+	"Marcian #0" = 1
+	"Zeno #0" = 1
+	"Leo #0" = 1
+	"Justin #0" = 1
+	"Atilius #0" = 1
+	"Mathos #0" = 1
+	"Valens #0" = 1
+}
+
+ship_names = {
+	"Acqui Terme" Aemilia Albintimilium Alsium "Ante Amnem" Apollo Ardelica Arilica Ariolica Asti
+	"Aquae Labrodes" "Augusta Bagiennorum"
+	Bovillae Bruttium
+	Capitium "Carreum Potentia" Catina Cephaloedium Ceres Clavenna Corfinium Cremona
+	Daedalium Derthona Diana
+	Ebovium Entella Eporedia Eryx Etruria
+	"Falerii Novi" Fortuna "Forum Novum"
+	Genua
+	Helorus Himerenses Hispellum "Hybla Gereatis" "Hybla Heraea"
+	Imachara "Iulia Concordia"
+	Juno Jupiter
+	Lares Latium "Ligures Baebiani" Longaricum Lorium Luna "Lucus Feroniae"
+	Mantua Mars Mercurius Minerva Mytistratus
+	Neptunus Netum "Novum Comum"
+	Placentia Pluto Pollentia
+	Quirinus
+	Saepinum Selinuntiae Sentinum Sol Soluntum
+	Thermae Tauromenium Taurinorum Tusculum
+	"Vado Sabatia" Vardacate Venus Vercelum Vesta Vulcan
+}
+
+leader_names = { 
+	Hirtius Pullo Vorenus Brutus Sallustius Strabo Rufus Sulpicius Canutius Vopiscus Cicero Malefious
+	Pius Aurelius Cornelius Nepos Gothicus Julianus Verus Gallus Severus Chlorus Flavus Albus
+	Tubertus Quinctius Valerius Camillus Cossus Capitolinus Manlius Furius Torquatus Ambustus
+	Julius Priscus Postumius Aemilius Lartius Papirius Fabius Cursor Poetelius Suplicius Calvus
+	Rullianus Junius Bubulcus Corvus Scipio Caiatinus Italus Africanus Paterculus Regulus Sylvanus
+}
+
+fleet_names = {
+	"Classis Italia" "Classis $PROVINCE$"
+}
+
+army_names = {
+	"I Legion" "II Legion" "III Legion" "IV Legion" "V Legion" "VI Legion" "VII Legion" "VIII Legion" "IX Legion" "X Legion" "XI Legion" "XII Legion" "XIII Legion" "XIV Legion" "XV Legion" "XVI Legion" "XVII Legion" "XVIII Legion" "XIX Legion" "XX Legion" "Auxilia Ex $PROVINCE$" 
+}

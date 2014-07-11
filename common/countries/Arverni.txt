@@ -20,8 +20,6 @@ historical_units = {
 	iberian_noble_cavalry
 }
 
-
-
 monarch_names = { 
 	"Acco #0" = 10	
 	"Addedomarus #0"= 10

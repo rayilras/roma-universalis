@@ -1,0 +1,40 @@
+country_decisions = {
+	illyrian_kingdom = {
+		major = yes
+		potential = {
+		
+			culture_group = illyrian
+
+		
+		}
+		allow = {
+
+			is_core = 143	
+			is_core = 137
+			is_core = 139	
+			is_core = 136
+			is_core = 1828
+			is_core = 140
+			is_core = 1827
+			is_core = 141
+			government = tribe
+
+		}
+
+		effect = {
+
+			change_tag = ILY
+			add_stability = 1
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+				}
+			}
+			ai_will_do = {
+				factor = 1
+			}	
+			ai_importance = 1600
+		}
+	}
+}

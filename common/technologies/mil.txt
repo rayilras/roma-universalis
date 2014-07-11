@@ -181,6 +181,7 @@ technology = {
 	military_tactics 	= 	0.1
 	arsenal = yes
 	fort4= yes
+	artillery_fire 		= 	1
 }
 
 technology = {

@@ -17,8 +17,8 @@ historical_units = {
 	greek_cavalry
 	late_greek_phalanx
 	companion_cavalry
+	petrobolos
 }
-
 
 monarch_names = { 
 	"Hyperuatas #0" = 15

@@ -1,0 +1,6 @@
+government = imperial_government
+mercantilism = 0.2
+technology_group = roman
+religion = roman_pantheon
+primary_culture = roman
+capital = 118	# Rome

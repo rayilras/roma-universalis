@@ -18,7 +18,6 @@ historical_units = {
 	late_persian_horse
 }
 
-
 monarch_names = { 
 	"Amyrteos #0" =0
 	"Ankhmachis #0"=0

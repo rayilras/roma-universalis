@@ -1,0 +1,57 @@
+graphical_culture = muslimfx
+color = {116 177 232}
+
+historical_idea_groups = {
+	quantity_ideas
+	religious_ideas
+	expansion_ideas
+	civic_ideas
+	offensive_ideas
+	economic_ideas
+	
+}
+
+historical_units = {
+	early_persian_infantry
+	early_persian_horse
+	late_persian_infantry
+	late_persian_horse
+}
+
+
+monarch_names = { 
+	"David #0" = 1
+	"Solomon #0" = 1
+	"Moses #0" = 1
+	"Abraham #0" = 1
+	"Job #0" = 1
+	"John #0" = 1
+	"Paul #0" = 1
+}
+
+ship_names = {
+	Abedju
+	Abu
+	Behdet Bahariya Baki Buhen Bubastis
+	Dahshur Dakhla Dunqul Djedu
+	Farafra
+	Henen-nesw Heh
+	Iken
+	Itjtawy
+	Kharga Kerma Kyrene
+	Lunet
+	Meidum Men-nefer Nekhen
+	Nubt
+	On
+	Perwadjyt Pwenet
+	Qadesh
+	Rostja
+	Saqqara "Serabit Khadim" Sauty
+	Sawu Selima Shaat Sharuhen
+	Timna Thinis Toshka
+	Waset
+}
+
+leader_names = { 
+	David Solomon Moses Job John Paul Andrew Xavier Jesus Timothy}
+

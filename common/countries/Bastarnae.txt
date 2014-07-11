@@ -19,41 +19,39 @@ historical_units = {
 	barbarian_chosen_cavalry
 }
 
-
 monarch_names = { 
-	"Adaeus #0" = 0
-	"Adeos #0" = 0
-	"Adon #0" = 0
-	"Amadokos #0" = 0
-	"Charnabon #0" = 0
-	"Coson #0" = 0
-	"Cotiso #0" = 0
-	"Dapyx #0" = 0
-	"Decebalus #0" = 0
-	"Diagil #0" = 0
-	"Dicomes #0" = 0
-	"Dromichaetes #0" = 0
-	"Duras #0" = 0
-	"Kotys #0" = 0
-	"Manes #0" = 0
-	"Moskon #0" = 0
-	"Odroes #0" = 0
-	"Oroles #0" = 0
-	"Pieporus #0" = 0
-	"Rhemaxos #0" = 0
-	"Rholes #0" = 0
-	"Roimitalkes #0" = 0
-	"Rubobostes #0" = 0
-	"Sadalas #0" = 0
-	"Seuthes #0" = 0
-	"Sitalkes #0" = 0
-	"Tires #0" = 0
-	"Zalmodegikos #0" = 0
-	"Zalmoxis #0" = 0
-	"Zoltes #0" = 0
-	"Zyraxes #0" = 0
+	"Adaeus #0" = 1
+	"Adeos #0" = 1
+	"Adon #0" = 1
+	"Amadokos #0" = 1
+	"Charnabon #0" = 1
+	"Coson #0" = 1
+	"Cotiso #0" = 1
+	"Dapyx #0" = 1
+	"Decebalus #0" = 1
+	"Diagil #0" = 1
+	"Dicomes #0" = 1
+	"Dromichaetes #0" = 1
+	"Duras #0" = 1
+	"Kotys #0" = 1
+	"Manes #0" = 1
+	"Moskon #0" = 1
+	"Odroes #0" = 1
+	"Oroles #0" = 1
+	"Pieporus #0" = 1
+	"Rhemaxos #0" = 1
+	"Rholes #0" = 1
+	"Roimitalkes #0" = 1
+	"Rubobostes #0" = 1
+	"Sadalas #0" = 1
+	"Seuthes #0" = 1
+	"Sitalkes #0" = 1
+	"Tires #0" = 1
+	"Zalmodegikos #0" = 1
+	"Zalmoxis #0" = 1
+	"Zoltes #0" = 1
+	"Zyraxes #0" = 1
 	"Burebista #0" = 10
-	
 }
 
 ship_names = {

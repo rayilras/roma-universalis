@@ -1004,7 +1004,7 @@ north_african = {
 	numidian = {
 		primary = NUM
 	}
-	
+
 	dynasty_names = { 
 		"Ahmi" "Galestid" "Kenamid" "Naravid" "Penamid" "Senuid" "Setnid"
 	}
@@ -1032,12 +1032,12 @@ south_levantine = {
 	graphical_culture = westerngfx
 
 	jewish = {
-		primary =
+		primary = ISR
 		
 	}
 	
 	nabatean = {
-		primary =
+		primary = NEA
 	}
 
 	dynasty_names = { 
@@ -1051,7 +1051,7 @@ persian = {
 	graphical_culture = westerngfx
 
 	persian2 = {
-		primary = PRT
+		primary = PSA
 		
 	}
 	
@@ -1060,7 +1060,7 @@ persian = {
 	}
 	
 	median = {
-		primary = PRT
+		primary = MED
 	}
 
 	armenian2 = {
@@ -1072,9 +1072,17 @@ persian = {
 	}
 
 	assyrian = {
-		primary = PRT
+		primary = 
 	}
 
+	arachosian = {
+		primary = 
+	}
+	
+	arian = {
+		primary = {
+	}
+	
 	dynasty_names = { 
 		"Aramid" "Arid" "Arkhid" "Asinid" "Arsacid" "Deiocid" "Menid" "Pacorid" "Savacid" "Vardanid"
 	}
@@ -1154,7 +1162,7 @@ germanic2 = {
 	}
 	
 	north_germanic = {
-		primary =
+		primary = 
 	}
 	
 	suebi = {
