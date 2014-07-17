@@ -1,0 +1,29 @@
+name = "Baktrian War of Independence"
+
+war_goal = {
+	type = defend_capital_independence
+	casus_belli = cb_independence_war
+	tag = BKT
+}
+
+0474.1.1 = { 
+	add_attacker = BKT
+	add_defender = SEL
+	add_defender = PSA
+	add_defender = SAG
+	add_defender = SAD
+	add_defender = ARI
+	add_defender = MED
+	add_defender = PRT
+}
+
+0480.1.1 = {
+	rem_attacker = BKT
+	rem_defender = SEL
+	rem_defender = PSA
+	rem_defender = SAG
+	rem_defender = SAD
+	rem_defender = ARI
+	rem_defender = MED
+	rem_defender = PRT
+}

@@ -726,8 +726,7 @@ ancientgreek_ideas = {
 	}
 	
 	trigger = {
-		culture_group = hellenic
-		religion = greek_pantheon
+		technology_group = greek
 	}
 	free = yes
 	

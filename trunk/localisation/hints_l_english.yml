@@ -158,7 +158,7 @@ l_english:
  HINT_INTEREST_TITLE: "Interest"
  HINT_INTEREST_TEXT: "Whenever you take a loan you will pay monthly interest on that loan. The interest is higher with low Stability and lower with high Stability."
  HINT_HEAVYSHIPS_TITLE: "Heavy Ships"
- HINT_HEAVYSHIPS_TEXT: "Heavy Ships are the most powerful warships and are also the most expensive type of ship to build. They have the most Cannons and Hull Size. Heavy Ships can also be used for transporting income from Colonies and are counted for Tariff Efficiency."
+ HINT_HEAVYSHIPS_TEXT: "Heavy Ships are the most powerful warships and are also the most expensive type of ship to build. They have the most Cannons and Hull Size."
  HINT_LIGHTSHIPS_TITLE: "Light Ships"
  HINT_LIGHTSHIPS_TEXT: "Light Ships are fast ships primarily used to secure trade opportunities. A fleet with Light Ships in it can be ordered to Protect Trade in a Trade Node. Light Ships that are performing Protect Trade will increase Trade Power in that Trade Node."
  HINT_GALLEYS_TITLE: "Galleys"

@@ -16,6 +16,7 @@ historical_units = {
 	numidian_cavalry
 	carthaginian_infantry
 	carthaginian_cavalry
+	lythobolos
 }
 
 

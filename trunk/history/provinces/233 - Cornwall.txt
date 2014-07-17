@@ -1,1 +1,26 @@
+owner = BGA
+controller = BGA
+add_core = BGA
+culture = celtic
+religion = druidism
+hre = no
+base_tax = 4
+trade_goods = ifish
+manpower = 3
+capital = "Isca"
+citysize = 6000
+fort1 = yes
+
+discovered_by = greek
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+discovered_by = latin
+discovered_by = nomadic
+discovered_by = iberian
+
+
  

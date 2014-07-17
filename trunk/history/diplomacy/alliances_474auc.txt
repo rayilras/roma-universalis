@@ -49,13 +49,6 @@ vassal = {
 
 vassal = {
 	first = SEL
-	second = PVA
-	start_date = 0474.1.1
-	end_date = 500.2.13
-}
-
-vassal = {
-	first = SEL
 	second = PSA
 	start_date = 0474.1.1
 	end_date = 500.2.13
@@ -107,7 +100,7 @@ vassal = {
 	first = ROM
 	second = ETL
 	start_date = 0474.1.1
-	end_date = 500.2.13
+	end_date = 484.2.13
 }
 
 alliance = {
@@ -131,3 +124,23 @@ alliance = {
 	end_date = 500.2.13
 }
 
+vassal = {
+	first = SEL
+	second = PRT
+	start_date = 0474.1.1
+	end_date = 500.2.13
+}
+
+vassal = {
+	first = SEL
+	second = ARI
+	start_date = 0474.1.1
+	end_date = 500.2.13
+}
+
+vassal = {
+	first = SEL
+	second = SAG
+	start_date = 0474.1.1
+	end_date = 500.2.13
+}

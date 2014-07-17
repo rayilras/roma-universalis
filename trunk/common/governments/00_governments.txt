@@ -7,6 +7,7 @@
 # allow_convert determines which governments can be force-converted to and from via CBs
 
 #ai_will_do will only check if it's valid,and won't break unions or switch to republic from monarchy, nor check to convert to something earlier in the file.
+#ai_importance determines overall 'quality' of government when government is auto-picked.
 
 ####################################
 #
@@ -16,13 +17,14 @@
 
 despotic_monarchy = {
 	monarchy = yes
-	allow_convert = no
+	
 	valid_for_new_country = yes
 	
 
 	ai_will_do = {
 		factor = 0
 	}
+	ai_importance = 1
 
 	#bonus
 	global_revolt_risk = -1
@@ -31,7 +33,7 @@ despotic_monarchy = {
 
 feudal_monarchy = {
 	monarchy = yes
-	allow_convert = no
+	
 	valid_for_new_country = yes
 	
 
@@ -49,15 +51,16 @@ feudal_monarchy = {
 			}
 		}
 	}
+	ai_importance = 2
 	
 	#bonus
-	vassal_income = 0.1
+	vassal_income = 0.25
 	global_manpower_modifier = 0.1
 }
 
 administrative_monarchy = {
 	monarchy = yes
-	allow_convert = no
+	
 	valid_for_new_country = yes
 	
 
@@ -79,6 +82,7 @@ administrative_monarchy = {
 			}
 		}		
 	}
+	ai_importance = 3
 
 	#bonus
 	production_efficiency = 0.1
@@ -87,7 +91,7 @@ administrative_monarchy = {
 
 absolute_monarchy = {
 	monarchy = yes
-	allow_convert = no
+	
 	valid_for_new_country = yes
 	
 
@@ -109,15 +113,16 @@ absolute_monarchy = {
 			}
 		}
 	}
+	ai_importance = 4
 	
 	#bonus
-	discipline = 0.10
+	discipline = 0.05
 	global_revolt_risk = -1
 }
 
 constitutional_monarchy = {
 	monarchy = yes
-	allow_convert = no
+	
 	valid_for_new_country = yes
 	
 
@@ -129,16 +134,17 @@ constitutional_monarchy = {
 			NOT = { government = administrative_monarchy }
 		}
 	}
+	ai_importance = 4
 
 	#bonus
-	prestige_decay = -0.01
+	years_of_nationalism = -5
 	legitimacy = 1
 	manpower_recovery_speed = 0.1
 }
 
 enlightened_despotism = {
 	monarchy = yes
-	allow_convert = no
+	
 	valid_for_new_country = yes
 	
 
@@ -150,10 +156,11 @@ enlightened_despotism = {
 			NOT = { government = absolute_monarchy }
 		}
 	}
+	ai_importance = 5
 
 	#bonus
 	global_spy_defence = 0.20
-	core_creation = -0.05
+	accepted_culture_threshold = -0.10
 	global_manpower_modifier = 0.1
 }
 
@@ -183,42 +190,53 @@ revolutionary_empire = {
 
 merchant_republic = {
 	republic = yes
-	allow_convert = no
-	valid_for_new_country = yes
+
+	valid_for_new_country = no
 	
 
 	duration = 4
 
 	republican_name = yes
 	royal_marriage = no
+	
+	boost_income = yes
 
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0 
-			NOT = { 
-				government = noble_republic
-				government = administrative_republic
-			}
-		}		
-		modifier = {
-			factor = 0 
-			NOT = { has_idea_group = trade_ideas }
-		}
-		modifier = {
-			factor = 0 
-			NOT = { capital_scope = { has_port = yes } }
-		}		
+		factor = 0	
 	}
 
 	#bonus
 	global_trade_power = 0.10
 	merchants = 1
+	merchant_steering_to_inland = 20
+	
+	faction = mr_aristocrats
+	faction = mr_traders
+	faction = mr_guilds	
+}
+
+oligarchic_republic = {
+	republic = yes
+	
+	valid_for_new_country = yes
+	
+	duration = 4
+
+	republican_name = yes
+	
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+	#bonus
+	global_tax_modifier = 0.05
+	stability_cost_modifier = -0.05
 }
 
 noble_republic = {
 	republic = yes
-	allow_convert = no
+	
 	valid_for_new_country = yes
 	
 
@@ -229,6 +247,7 @@ noble_republic = {
 	ai_will_do = {
 		factor = 0
 	}
+	ai_importance = 1
 
 	#bonus
 	tolerance_heretic = 1
@@ -238,7 +257,7 @@ noble_republic = {
 
 administrative_republic = {
 	republic = yes
-	allow_convert = no
+	
 	valid_for_new_country = yes
 	
 	duration = 5
@@ -264,16 +283,16 @@ administrative_republic = {
 			}
 		}
 	}
+	ai_importance = 2
 
 	#bonus
-	tolerance_heretic = 1
-	tolerance_heathen = 1
+	years_of_nationalism = -5
+	culture_conversion_cost = -0.1
 	production_efficiency = 0.1
 }
 
 republican_dictatorship = {
-	republic = yes
-	allow_convert = no
+	dictatorship = yes
 	
 	valid_for_new_country = yes
 
@@ -308,12 +327,11 @@ republican_dictatorship = {
 	#bonus
 	tolerance_heretic = 1
 	tolerance_heathen = 1
-	land_morale = 0.2
+	land_morale = 0.1
 }
 
 constitutional_republic = {
 	republic = yes
-	allow_convert = no
 	
 	valid_for_new_country = yes
 	
@@ -341,19 +359,19 @@ constitutional_republic = {
 			}
 		}
 	}
+	ai_importance = 3
 
 	#bonus
-	tolerance_heretic = 1
-	tolerance_heathen = 1
-	production_efficiency = 0.2
+	production_efficiency = 0.1
+	trade_efficiency = 0.1
 }
 
 bureaucratic_despotism = {
 	republic = yes
-	allow_convert = no
 	
 	valid_for_new_country = yes
 	
+	republican_name = yes
 	royal_marriage = no
 	
 	ai_will_do = {
@@ -368,7 +386,6 @@ bureaucratic_despotism = {
 
 revolutionary_republic = {
 	republic = yes
-	allow_convert = no
 	
 	valid_for_new_country = no
 	
@@ -472,6 +489,8 @@ tribal_despotism = {
 	
 	#malus
 	global_revolt_risk = 1
+	#malus
+	diplomatic_upkeep = -1
 }
 
 tribal_federation = {
@@ -487,6 +506,8 @@ tribal_federation = {
 	#bonus
 	land_forcelimit_modifier = 0.2
 	global_manpower_modifier = 0.2
+	#malus
+	diplomatic_upkeep = -1
 
 }
 
@@ -507,6 +528,8 @@ tribal_democracy = {
 	stability_cost_modifier = -0.33
 	#malus
 	technology_cost = 0.1
+	#malus
+	diplomatic_upkeep = -1
 }
 
 native_council = {
@@ -527,6 +550,10 @@ native_council = {
 	#bonus
 	stability_cost_modifier = -0.33
 	land_maintenance_modifier = -0.5
+	
+	#malus
+	diplomatic_upkeep = -1
+
 }
 
 
@@ -535,6 +562,21 @@ native_council = {
 #Unique Governments for special countries
 #
 ##########################################
+
+#Special for Poland
+elective_monarchy = {
+	monarchy = yes
+	
+	valid_for_new_country = no
+	allow_convert = no
+	
+	is_elective = yes
+	
+	#bonus
+	vassal_income = 0.25
+	global_revolt_risk = -1
+	global_manpower_modifier = 0.1
+}
 
 #SpecialforMilan
 ambrosian_republic = {
@@ -555,17 +597,19 @@ ambrosian_republic = {
 # Special for the Dutch
 dutch_republic = {
 	republic = yes
-	duration = 0 # rule for life.
+	duration = 4
 	
 	valid_for_new_country = no
 	allow_convert = no
 	
 	republican_name = no
 	royal_marriage = yes
+	
+	dutch_mechanics = yes
 
 	#bonus
 	
-	naval_forcelimit_modifier = 0.33
+	heavy_ship_power = 0.10
 	global_trade_income_modifier = 0.10
 }
 
@@ -577,7 +621,7 @@ archduchy = {
 	allow_convert = no
 	
 	#bonus
-	vassal_income = 0.1
+	vassal_income = 0.25
 	diplomatic_upkeep = 1
 	global_manpower_modifier = 0.1
 }
@@ -638,8 +682,8 @@ imperial_government = {
 	allow_convert = no
 	
 	#bonus
-	idea_cost = -0.2
-	land_morale = 0.2
+	land_morale = 0.05
+	vassal_income = 0.20
 }
 
 # Colonial Nations
@@ -649,7 +693,6 @@ colonial_government = {
 	duration = 8
 	
 	valid_for_new_country = no
-
 	allow_convert = no
 	
 	republican_name = yes
@@ -662,6 +705,9 @@ colonial_government = {
 	#bonus
 	stability_cost_modifier = -0.2
 	recover_army_morale_speed = 0.02
+	
+	#malus
+	papal_influence = -50
 }
 
 ### USA specific governments ###
@@ -675,7 +721,6 @@ american_republic = {
 	royal_marriage = no
 	
 	valid_for_new_country = no
-
 	allow_convert = no
 	
 	# Bonus
@@ -691,7 +736,6 @@ federal_republic = {
 	royal_marriage = no
 	
 	valid_for_new_country = no
-
 	allow_convert = no
 	
 	# Bonus
