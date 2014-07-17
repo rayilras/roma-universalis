@@ -11,6 +11,7 @@ l_english:
  egyptian_pantheon: "Egyptian"
  carthaginian_pantheon: "Punic"
  etruscan_pantheon: "Etruscan"
+ totemism: "Balto-Slavic"
  ###### CULTURES
  latin2: "Latin"
  roman: "Roman"
@@ -66,6 +67,12 @@ l_english:
  pictish: "Pictish"
  arian: "Aryan"
  arachosian: "Arachosian"
+ sagartian: "Sagartian"
+ baktrian: "Baktrian"
+ balto_slavic: "Proto-Balto-Slavic"
+ eastern_balt: "Eastern Balt" 
+ western_balt: "Western Balt"
+ slavic: "Slavic"
  
  ###### NATIONS
  ATS: "Athens"
@@ -180,6 +187,13 @@ l_english:
  ISR: "Israel"
  IRO: "Imperium Romanum"
  IAX: "Imperium Alexandros"
+ SAG: "Sagartia"
+ ARI: "Aria"
+ DRG: "Drangiana"
+ ACS: "Arachosia"
+ BKT: "Baktria"
+ DAH: "Dahae"
+ KHO: "Khorasmii"
  
  CAR_ADJ: "Punic"
  ATS_ADJ: "Athenian"
@@ -291,6 +305,13 @@ l_english:
  ISR_ADJ: "Israeli"
  IRO_ADJ: "Imperial Roman"
  IAX_ADJ: "Imperial Alexandrian"
+ SAG_ADJ: "Sagartian"
+ ARI_ADJ: "Aryan"
+ DRG_ADJ: "Drangianan"
+ ACS_ADJ: "Arachosian"
+ BKT_ADJ: "Baktrian"
+ DAH_ADJ: "Dahaen"
+ KHO_ADJ: "Khorasmian"
  
  ###### GOVERNMENTS
  roman_republic: "Roman Republic"
@@ -315,7 +336,7 @@ l_english:
  etruscan_confederation_ruler: "Lucumo"
  etruscan_confederation_desc: "A confederation of Etruscan city states, who meet together once a year and elect a new leader titled Lucumo."
  ###### IDEAS
- PRT_Ideas: "Parthian Ideas"
+ PRT_ideas: "Parthian Ideas"
  parthian_shot: "Parthian Shot"
  parthian_shot_desc: "Parthia fields the finest archers in the East: we can prove it if needed."
  
@@ -655,7 +676,7 @@ l_english:
  barbarian_chosen_cavalry: "Barbarian Spear Cavalry"
  
  early_greek_phalanx: "Greek Hoplites"
- late_greek_phalanx: "Greek Centurions"
+ late_greek_phalanx: "Greek Thureos Hoplites"
  greek_cavalry: "Hippikones"
  companion_cavalry: "Companion Cavalry"
  petrobolos: "Petrobolos"
@@ -666,13 +687,14 @@ l_english:
  carthaginian_infantry: "Carthaginian Hoplites"
  numidian_cavalry: "Numidian Cavalry"
  carthaginian_cavalry: "Carthaginian Cavalry"
+ lythobolos: "Lythobolos"
  
  early_roman_legionnairs: "Hastati"
  roman_equites: "Equites"
  late_roman_legionnairs: "Roman Legionnairii"
  imperial_roman_legionnairs: "Roman Praetorii"
  auxiliary_cavalry: "Auxiliary Cavalry"
- arcuballista: "Arcuballistae"
+ arcuballista: "Ballistae"
  
  early_persian_infantry: "Eastern Spearmen"
  early_persian_horse: "Eastern Light Cavalry"
@@ -712,6 +734,7 @@ l_english:
  seleucid.EVTNAME2: "Parthian Revolt"
  seleucid.EVTDESC2: "Mithridates I of Parthia made Parthia into a major power around 150BC, after conquoring Greco-Bactria and with control over the trade from the silk road, Mithridates turns his attention to the Seleucids......"
  seleucid.EVTOPTA2: "Let us crush the Parthians"
+ 
  ####### REBELS
  roman_rebels: "Roman Republican Rebels"
  roman_rebels_name: "Roman Republican Rebels"

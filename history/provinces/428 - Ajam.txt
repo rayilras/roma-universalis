@@ -1,14 +1,13 @@
 discovered_by = greek
 #428 - Iraq-e-Ajam
 
-owner = PVA
-controller = PVA
-add_core = PVA
+owner = PRT
+controller = PRT
 add_core = PRT
 culture = parthian
 religion = zoroaster
 capital = "Hecatompylus"
-trade_goods = wool
+trade_goods = cloth
 hre = no
 base_tax = 8
 manpower = 5

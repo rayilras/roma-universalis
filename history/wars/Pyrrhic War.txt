@@ -2,7 +2,7 @@ name = " The Pyrric War"
 
 war_goal = {
 	type = take_core
-	cassus_belli = cb_core
+	casus_belli = cb_core
 	province = 123
 }
 

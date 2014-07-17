@@ -1076,13 +1076,29 @@ persian = {
 	}
 
 	arachosian = {
-		primary = 
+		primary = ACS
 	}
 	
 	arian = {
-		primary = {
+		primary = ARI
 	}
 	
+	sagartian = {
+		primary = SAG
+	}
+	
+	baktrian = {
+		primary = BKT
+	}
+
+	parni = {
+		primary = DAH
+	}
+
+	chorasmian = {
+		pimary = KHO
+	}
+
 	dynasty_names = { 
 		"Aramid" "Arid" "Arkhid" "Asinid" "Arsacid" "Deiocid" "Menid" "Pacorid" "Savacid" "Vardanid"
 	}
@@ -1173,7 +1189,6 @@ germanic2 = {
 		primary =
 	}
 
-
 	dynasty_names = { 
 		"Amandid" "Andicid" "Dagaricid" "Gelimerid" "Geroldid" "Malaricid" "Marbodid"
 	}
@@ -1224,5 +1239,28 @@ iberian2 = {
 
 	dynasty_names = { 
 		"Ambonid" "Auarosid" "Audaxid" "Carosid" "Culchid" "Leukid" "Mandonid" "Punicid" "Tautalid"
+	}
+}
+
+balto_slavic = {
+	graphic_culture = easterngfx
+
+	western_balt = {
+		primary =
+
+	}
+
+	eastern_balt = {
+		primary = 
+
+	}
+
+	slavic = {
+		primary = 
+
+	}
+
+	dynasty_names = { 
+		"Rurik" "Romanov" "Ryurik" "Kievan" "Sergiov" "Novgord" "Ruskiskya" "Crimisky" "Finurdland"
 	}
 }

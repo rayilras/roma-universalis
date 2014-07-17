@@ -1,4 +1,4 @@
-##parthian_revolt
+# Parthian revolts
 
 country_event = {
 	id = seleucid.1

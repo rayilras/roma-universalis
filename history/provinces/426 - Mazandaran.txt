@@ -1,13 +1,12 @@
 discovered_by = greek
 #426 - Mazandaran
-owner = PVA
-controller = PVA
-add_core = PVA
+owner = PRT
+controller = PRT
 add_core = PRT
 culture = parthian
 religion = zoroaster
 capital = "Zadracarta"
-trade_goods = wool
+trade_goods = naval_supplies
 hre = no
 base_tax = 4
 manpower = 5

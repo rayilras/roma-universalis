@@ -1,1 +1,22 @@
- 
+owner = BKT
+controller = BKT
+add_core = BKT
+culture = baktrian
+religion = zoroaster
+capital = "Samarkandos"
+trade_goods = grain
+hre = no
+base_tax = 6
+manpower = 6
+citysize = 18000
+discovered_by = greek
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+discovered_by = latin
+discovered_by = nomadic
+discovered_by = iberian
+

@@ -1,4 +1,4 @@
-government = despotic_monarchy
+government = imperial_government
 mercantilism = 0.2
 technology_group = seleucid
 religion = greek_pantheon

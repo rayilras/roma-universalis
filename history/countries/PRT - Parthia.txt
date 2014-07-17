@@ -4,3 +4,5 @@ technology_group = persian
 religion = zoroaster
 primary_culture = parthian
 capital = 428
+historical_friend = DAH
+historical_rival = SEL

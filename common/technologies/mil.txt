@@ -172,6 +172,7 @@ technology = {
 	enable = romanized_infantry
 	enable = petrobolos
 	enable = arcuballista
+	enable = lythobolos
 	
 	infantry_shock 		= 	0.01	
 	cavalry_shock  		= 	0.01	
