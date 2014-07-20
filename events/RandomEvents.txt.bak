@@ -1017,7 +1017,6 @@ country_event = {
 		or = {
 			government = monarchy
 			government = republic
-			government = dictatorship
 		}
 	}
 
@@ -2760,7 +2759,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.66
-			maritime_ideas = 3
+			naval_ideas = 3
 		}
 	}
 
@@ -2798,7 +2797,7 @@ country_event = {
 				
 		modifier = {
 			factor = 5.0
-			has_idea_group = maritime_ideas
+			has_idea_group = naval_ideas
 		}
 		modifier = {
 			factor = 0.5
@@ -3468,7 +3467,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA717"
 		add_stability = -1
-		add_inflation = -1
+		define_advisor = { type = master_of_mint skill = 3 }
 	}
 	option = {
 		name = "EVTOPTB717"
@@ -5727,7 +5726,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_idea_group = maritime_ideas }
+		NOT = { has_idea_group = naval_ideas }
 		OR = { 
 			has_idea_group = offensive_ideas
 			has_idea_group = defensive_ideas
@@ -5750,7 +5749,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { has_idea_group = maritime_ideas }
+		NOT = { has_idea_group = naval_ideas }
 		OR = { 
 			has_idea_group = offensive_ideas
 			has_idea_group = defensive_ideas
@@ -5773,7 +5772,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_idea_group = maritime_ideas }
+		NOT = { has_idea_group = naval_ideas }
 		OR = { 
 			has_idea_group = offensive_ideas
 			has_idea_group = defensive_ideas
@@ -7008,30 +7007,5 @@ country_event = {
 				change_religion = reformed
 			}
 		}
-	}
-}
-
-
-# Debased Currency
-country_event = {
-	id = random_event.26
-	title = "EVTNAME9478"
-	desc = "EVTDESC9478"
-	picture = ECONOMY_eventPicture
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		gold_income_percentage = 0.1
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	option = {
-		name = "EVTOPTA9478"
-		add_inflation = 1
-		add_prestige = -5
 	}
 }

@@ -20,7 +20,7 @@ country_event = {
 		NOT = { has_country_flag = civil_war } 
 		NOT = { has_country_flag = total_war_series } 
 		government = monarchy
-		NOT = { manpower_percentage = 0.25 }
+		NOT = { manpower_percentage = 0.01 }
 		NOT = { is_year = 1600 }
 		is_at_war = no
 		OR = {

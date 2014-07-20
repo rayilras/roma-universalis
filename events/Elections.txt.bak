@@ -11,7 +11,7 @@ country_event = {
 	
 	trigger = {
 		is_colonial_nation = no
-		NOT = { government = dutch_republic }
+		government = republic
 	}
 
 	option = {
@@ -42,33 +42,23 @@ country_event = {
 		change_adm = 1
 		change_dip = 1
 		change_mil = 1
+		add_republican_tradition = -0.05
 		if = {
 			limit = { 
-				is_tribal = yes
-				government = republic
-				NOT = { republican_tradition = 0.20 }	
-			}	
-			change_government = tribal_despotism
-		}
-		if = {
-			limit = {
-				is_tribal = no 
-				government = republic
-				NOT = { republican_tradition = 0.20 }				
-				has_dlc = "Res Publica"
-			}
-			change_government = republican_dictatorship	
-		}
-		if = {
-			limit = {
-				is_tribal = no  
-				government = republic
 				NOT = { republican_tradition = 0.20 }
-				NOT = { has_dlc = "Res Publica" }
+				government = republic
+				is_tribal = no
 			}
 			change_government = despotic_monarchy
-		}	
-		add_scaled_republican_tradition = -0.10
+		}
+		if = {
+			limit = { 
+				NOT = { republican_tradition = 0.20 }
+				government  = republic
+				is_tribal = yes
+			}
+			change_government = tribal_despotism
+		}		
 		random_list = {
 			10 = {
 				add_adm_power = 50
@@ -87,17 +77,8 @@ country_event = {
 		define_ruler = {
 			mil = 1
 			adm = 4
-			dip = 1					
+			dip = 1			
 			fixed = yes
-		}
-		if = {
-			limit = { 
-				has_faction = mr_guilds 
-			}
-			add_faction_influence = {
-				faction = mr_guilds
-				influence = 20
-			}				
 		}
 	}
 	option = {
@@ -106,18 +87,9 @@ country_event = {
 		define_ruler = {
 			dip = 4
 			adm = 1
-			mil = 1					
+			mil = 1				
 			fixed = yes
 		}
-		if = {
-			limit = { 
-				has_faction = mr_traders 
-			}
-			add_faction_influence = {
-				faction = mr_traders
-				influence = 20
-			}				
-		}		
 	}
 	option = {
 		name = "EVTOPTD700"	# A military man
@@ -125,18 +97,9 @@ country_event = {
 		define_ruler = {
 			mil = 4
 			adm = 1
-			dip = 1					
+			dip = 1				
 			fixed = yes
 		}
-		if = {
-			limit = { 
-				has_faction = mr_aristocrats 
-			}
-			add_faction_influence = {
-				faction = mr_aristocrats
-				influence = 20
-			}				
-		}		
 	}
 }
 
@@ -151,7 +114,7 @@ country_event = {
 	
 	trigger = {
 		is_colonial_nation = no
-		NOT = { government = dutch_republic }
+		government = republic
 	}
 	
 	option = {
@@ -163,15 +126,6 @@ country_event = {
 			dip = 1					
 			fixed = yes
 		}
-		if = {
-			limit = { 
-				has_faction = mr_guilds 
-			}
-			add_faction_influence = {
-				faction = mr_guilds
-				influence = 20
-			}				
-		}	
 	}
 	option = {
 		name = "EVTOPTC700"	# A diplomat
@@ -179,18 +133,9 @@ country_event = {
 		define_ruler = {
 			dip = 4
 			adm = 1
-			mil = 1					
+			mil = 1				
 			fixed = yes
 		}
-		if = {
-			limit = { 
-				has_faction = mr_traders 
-			}
-			add_faction_influence = {
-				faction = mr_traders
-				influence = 20
-			}				
-		}			
 	}
 	option = {
 		name = "EVTOPTD700"	# A military man
@@ -198,18 +143,9 @@ country_event = {
 		define_ruler = {
 			mil = 4
 			adm = 1
-			dip = 1					
+			dip = 1				
 			fixed = yes
 		}
-		if = {
-			limit = { 
-				has_faction = mr_aristocrats 
-			}
-			add_faction_influence = {
-				faction = mr_aristocrats
-				influence = 20
-			}				
-		}		
 	}
 }
 
@@ -365,7 +301,7 @@ country_event = {
 				change_adm = 1
 				change_dip = 1
 				change_mil = 1
-				add_scaled_republican_tradition = -0.1
+				add_republican_tradition = -0.1
 				add_liberty_desire = -1
 			}
 		}
@@ -442,7 +378,7 @@ country_event = {
 				change_adm = 1
 				change_dip = 1
 				change_mil = 1
-				add_scaled_republican_tradition = -0.1
+				add_republican_tradition = -0.1
 				add_liberty_desire = 5
 			}
 		}
@@ -520,7 +456,7 @@ country_event = {
 		change_adm = 1
 		change_dip = 1
 		change_mil = 1
-		add_scaled_republican_tradition = -0.1
+		add_republican_tradition = -0.1
 		add_liberty_desire = -1
 		clr_country_flag = asked_to_keep_governor
 	}
@@ -533,7 +469,7 @@ country_event = {
 		change_adm = 1
 		change_dip = 1
 		change_mil = 1
-		add_scaled_republican_tradition = -0.1
+		add_republican_tradition = -0.1
 		add_liberty_desire = 1
 		clr_country_flag = asked_to_replace_governor
 	}
@@ -669,7 +605,7 @@ country_event = {
 		change_adm = 1
 		change_dip = 1
 		change_mil = 1
-		add_scaled_republican_tradition = -0.1
+		add_republican_tradition = -0.1
 	}
 	option = {
 		name = "elections.EVTOPTB707"	# Bureaucrat Candidate
@@ -784,62 +720,5 @@ country_event = {
 				add_liberty_desire = -25
 			}
 		}
-	}
-}
-
-
-
-# Dutch Republic
-country_event = {
-	id = elections.720
-	title = elections.720.t
-	desc = elections.720.d
-	picture = ELECTION_REPUBLICAN_eventPicture
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		government = dutch_republic
-	}
-	
-	option = {
-		name = elections.720.a
-		define_ruler = {
-		}
-		change_statists_vs_orangists = -0.33
-	
-	}
-	option = {
-		name = elections.720.b
-		define_ruler = {
-		}
-		change_statists_vs_orangists = 0.33
-	}
-}
-
-country_event = {
-	id = elections.721
-	title = elections.720.t
-	desc = "EVTDESC701"
-	picture = ELECTION_REPUBLICAN_eventPicture
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		government = dutch_republic
-	}
-	
-	option = {
-		name = elections.720.a
-		define_ruler = {
-		}
-		change_statists_vs_orangists = -0.33
-	
-	}
-	option = {
-		name = elections.720.b
-		define_ruler = {
-		}
-		change_statists_vs_orangists = 0.33
 	}
 }

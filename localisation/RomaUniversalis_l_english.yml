@@ -69,6 +69,8 @@ l_english:
  arachosian: "Arachosian"
  sagartian: "Sagartian"
  baktrian: "Baktrian"
+ parni: "Parni"
+ chorasmian: "Chorasmian"
  balto_slavic: "Proto-Balto-Slavic"
  eastern_balt: "Eastern Balt" 
  western_balt: "Western Balt"
@@ -193,7 +195,7 @@ l_english:
  ACS: "Arachosia"
  BKT: "Baktria"
  DAH: "Dahae"
- KHO: "Khorasmii"
+ KMI: "Khorasmii"
  
  CAR_ADJ: "Punic"
  ATS_ADJ: "Athenian"
@@ -311,7 +313,7 @@ l_english:
  ACS_ADJ: "Arachosian"
  BKT_ADJ: "Baktrian"
  DAH_ADJ: "Dahaen"
- KHO_ADJ: "Khorasmian"
+ KMI_ADJ: "Khorasmian"
  
  ###### GOVERNMENTS
  roman_republic: "Roman Republic"
