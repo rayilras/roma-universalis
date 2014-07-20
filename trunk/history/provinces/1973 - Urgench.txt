@@ -1,6 +1,6 @@
-owner = KHO
-controller = KHO
-add_core = KHO
+owner = KMI
+controller = KMI
+add_core = KMI
 culture = chorasmian
 religion = shamanism
 capital = "Kathum"

@@ -9,10 +9,6 @@ country_event = {
 	
 	trigger = {
 		government = republic
-		OR = {
-			NOT = { has_dlc = "Res Publica" }
-			NOT = { government = dutch_republic }
-		}
 		NOT = { republican_tradition = 0.5 }
 	}
 	
@@ -41,10 +37,6 @@ country_event = {
 	
 	trigger = {
 		government = republic
-		OR = {
-			NOT = { has_dlc = "Res Publica" }
-			NOT = { government = dutch_republic }
-		}
 		NOT = { republican_tradition = 0.5 }
 	}
 	
@@ -69,45 +61,19 @@ country_event = {
 	id = republics.3
 	title = republics.3.t
 	desc = republics.3.d
-	picture = DEBATE_REPUBLICAN_eventPicture
+	picture = COURT_eventPicture
 	
 	trigger = {
 		government = republic
-		OR = {
-			NOT = { has_dlc = "Res Publica" }
-			NOT = { government = dutch_republic }
-		}
 		is_colonial_nation = no
-		OR = {
-			AND = {
-				NOT = { republican_tradition = 0.4 }
-				has_dlc = "Res Publica"
-			}
-			NOT = { republican_tradition = 0.01 }
-		}
+		NOT = { republican_tradition = 0.01 }
 		NOT = { 
 			government = revolutionary_republic
 		}
 	}
 	
 	mean_time_to_happen = {
-		months = 240
-		modifier = {
-			factor = 0.5
-			NOT = { republican_tradition = 0.3 }
-		}
-		modifier = {
-			factor = 0.5
-			NOT = { republican_tradition = 0.2 }
-		}
-		modifier = {
-			factor = 0.5
-			NOT = { republican_tradition = 0.1 }
-		}		
-		modifier = {
-			factor = 0.01
-			NOT = { republican_tradition = 0.01 }
-		}			
+		months = 1
 	}
 	
 	option = {
@@ -117,19 +83,9 @@ country_event = {
 			change_government = tribal_despotism
 		}
 		if = {
-			limit = {
-				is_tribal = no  
-				has_dlc = "Res Publica"
-			}
-			change_government = republican_dictatorship	
-		}
-		if = {
-			limit = {
-				is_tribal = no  
-				NOT = { has_dlc = "Res Publica" }
-			}
+			limit = { is_tribal = no  }
 			change_government = despotic_monarchy
-		}			
+		}		
 	}
 }
 
@@ -144,10 +100,6 @@ country_event = {
 	
 	trigger = {
 		government = republic
-		OR = {
-			NOT = { has_dlc = "Res Publica" }
-			NOT = { government = dutch_republic }
-		}
 	}
 	
 	mean_time_to_happen = {
@@ -186,10 +138,6 @@ country_event = {
 	
 	trigger = {
 		government = republic
-		OR = {
-			NOT = { has_dlc = "Res Publica" }
-			NOT = { government = dutch_republic }
-		}
 	}
 	
 	mean_time_to_happen = {
@@ -218,10 +166,6 @@ country_event = {
 	
 	trigger = {
 		government = republic
-		OR = {
-			NOT = { has_dlc = "Res Publica" }
-			NOT = { government = dutch_republic }
-		}
 	}
 	
 	mean_time_to_happen = {
@@ -256,10 +200,6 @@ country_event = {
 	
 	trigger = {
 		government = republic
-		OR = {
-			NOT = { has_dlc = "Res Publica" }
-			NOT = { government = dutch_republic }
-		}
 		NOT = { stability = 3 }
 		NOT = { republican_tradition = 0.8 }
 	}
@@ -296,10 +236,6 @@ country_event = {
 	
 	trigger = {
 		government = republic
-		OR = {
-			NOT = { has_dlc = "Res Publica" }
-			NOT = { government = dutch_republic }
-		}
 		religion_group = christian
 		is_at_war = yes
 		war_exhaustion = 10
@@ -332,10 +268,6 @@ country_event = {
 	
 	trigger = {
 		government = republic
-		OR = {
-			NOT = { has_dlc = "Res Publica" }
-			NOT = { government = dutch_republic }
-		}
 		NOT = { republican_tradition = 0.80 }
 	}
 	
@@ -376,10 +308,6 @@ country_event = {
 	
 	trigger = {
 		government = republic
-		OR = {
-			NOT = { has_dlc = "Res Publica" }
-			NOT = { government = dutch_republic }
-		}
 		NOT = { republican_tradition = 0.80 }
 	}
 	
@@ -420,10 +348,6 @@ country_event = {
 	
 	trigger = {
 		government = republic
-		OR = {
-			NOT = { has_dlc = "Res Publica" }
-			NOT = { government = dutch_republic }
-		}
 		NOT = { republican_tradition = 0.80 }
 	}
 	
@@ -464,10 +388,6 @@ country_event = {
 	
 	trigger = {
 		government = republic
-		OR = {
-			NOT = { has_dlc = "Res Publica" }
-			NOT = { government = dutch_republic }
-		}
 		NOT = { republican_tradition = 0.80 }
 	}
 	
@@ -508,10 +428,6 @@ country_event = {
 	
 	trigger = {
 		government = republic
-		OR = {
-			NOT = { has_dlc = "Res Publica" }
-			NOT = { government = dutch_republic }
-		}
 		NOT = { republican_tradition = 0.80 }
 	}
 	
@@ -598,7 +514,7 @@ country_event = {
 		government = merchant_republic
 		num_of_ports = 1
 		NOT = { num_of_colonial_subjects = 1 }
-		maritime_ideas = 2
+		naval_ideas = 2
 		OR = {
 			north_america = { has_discovered = ROOT }
 			south_america = { has_discovered = ROOT }
@@ -1854,7 +1770,7 @@ country_event = {
 		NOT = { has_country_modifier = naval_modifier }
 		NOT = { has_country_modifier = land_modifier }
 		government = constitutional_republic
-		maritime_ideas = 1
+		naval_ideas = 1
 		offensive_ideas = 1
 		num_of_ports = 1
 	}
@@ -2711,10 +2627,7 @@ country_event = {
 		NOT = {
 			has_country_modifier = bothersome_parliament
 		}
-		OR = {
-			government = republican_dictatorship
-			government = dictatorship
-		}
+		government = republican_dictatorship
 		has_regency = no
 		OR = {
 			NOT = { mil = 2 }
@@ -2792,10 +2705,7 @@ country_event = {
 		NOT = { 
 			has_country_modifier = over_budget_timer
 		}
-		OR = {
-			government = republican_dictatorship
-			government = dictatorship
-		}
+		government = republican_dictatorship
 		stability = -2
 		advisor = treasurer
 	}
@@ -2888,10 +2798,7 @@ country_event = {
 		NOT = { 
 			has_country_modifier = embezzlement_timer 
 		}
-		OR = {
-			government = republican_dictatorship
-			government = dictatorship
-		}
+		government = republican_dictatorship
 		has_advisor = yes
 	}
 
@@ -2986,10 +2893,7 @@ country_event = {
 		NOT = { 
 			has_country_modifier = spies_investigate
 		}
-		OR = {
-			government = republican_dictatorship
-			government = dictatorship
-		}
+		government = republican_dictatorship
 		has_regency = no
 		OR = {
 			army_reformer = 3
@@ -3093,10 +2997,7 @@ country_event = {
 		NOT = { 
 			has_country_modifier = counter_espionage
 		}
-		OR = {
-			government = republican_dictatorship
-			government = dictatorship
-		}
+		government = republican_dictatorship
 		any_neighbor_country = {
 			mil = 3
 			NOT = { alliance_with = ROOT }

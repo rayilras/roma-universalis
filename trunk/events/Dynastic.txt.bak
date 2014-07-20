@@ -178,8 +178,6 @@ country_event = {
 			religion = ROOT
 			government = monarchy
 			is_lesser_in_union = no
-			alliance_with = ROOT
-			ai = yes
 		}
 	}
 	
@@ -201,8 +199,6 @@ country_event = {
 				religion = ROOT
 				government = monarchy
 				is_lesser_in_union = no
-				alliance_with = ROOT
-				ai = yes
 			}
 			create_marriage = ROOT
 		}
@@ -659,7 +655,6 @@ country_event = {
 				government = monarchy
 				marriage_with = ROOT
 				has_heir = no
-				is_lesser_in_union = no
 			}
 			define_heir = {
 				dynasty = ROOT
@@ -676,7 +671,6 @@ country_event = {
 				government = monarchy
 				marriage_with = ROOT
 				has_heir = no
-				is_lesser_in_union = no
 			}
 			define_heir = {
 				dynasty = ROOT
@@ -893,13 +887,6 @@ country_event = {
 			num_of_royal_marriages = 1
 			overextension_percentage = 0.01
 		}
-		any_known_country = {
-			religion = ROOT
-			government = monarchy
-			is_lesser_in_union = no
-			alliance_with = ROOT
-			ai = yes
-		}
 	}
 	
 	mean_time_to_happen = {
@@ -912,9 +899,9 @@ country_event = {
 			limit = {
 				religion = ROOT
 				government = monarchy
-				is_lesser_in_union = no
-				alliance_with = ROOT
-				ai = yes
+				NOT = {
+					is_lesser_in_union = yes
+				}
 			}
 			create_marriage = ROOT
 		}
