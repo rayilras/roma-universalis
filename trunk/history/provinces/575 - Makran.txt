@@ -7,6 +7,7 @@ capital = "Oraea"
 trade_goods = wool
 hre = no
 base_tax = 4
+fort1 = yes
 manpower = 4
 citysize = 18000
 discovered_by = greek

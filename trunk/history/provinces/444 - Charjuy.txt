@@ -7,6 +7,7 @@ capital = "Maracanda"
 trade_goods = spices
 hre = no
 base_tax = 5
+fort1 = yes
 manpower = 4
 citysize = 8000
 discovered_by = greek

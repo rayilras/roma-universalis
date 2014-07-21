@@ -8,6 +8,7 @@ religion = zoroaster
 capital = "Zadracarta"
 trade_goods = naval_supplies
 hre = no
+fort1 = yes
 base_tax = 4
 manpower = 5
 citysize = 16000

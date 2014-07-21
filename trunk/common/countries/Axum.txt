@@ -1,0 +1,93 @@
+graphical_culture = africangfx
+color = {126 120 103}
+
+historical_idea_groups = {
+	quantity_ideas
+	religious_ideas
+	expansion_ideas
+	civic_ideas
+	offensive_ideas
+	economic_ideas
+	
+}
+
+historical_units = {
+	ptolamaic_phalanx
+	ptolamaic_cavalry
+	egyptian_phalanx
+	egyptian_cavalry
+}
+
+
+monarch_names = { 
+	"Amyrteos #0" = 1
+	"Ankhmachis #0"= 1
+	"Anemhor #0"= 1
+	"Aratos #0"= 1
+	"Arganos #0"= 1
+	"Charias #0"= 1
+	"Djedhor #0"= 1
+	"Ezena #0"= 1
+	"Horemakhet #0"= 1
+	"Isocrates #0"= 1
+	"Khabbabash #0"= 1
+	"Leonippus #0"= 1
+	"Lydiadas #0"= 1
+	"Manetho #0"= 1
+	"Massiva #0"= 1
+ 	"Nakhthoreb #0"= 1
+	"Naravas #0"= 1
+	"Nefaarud #0"=0
+	"Neferibre #0"=0
+	"Nesisti #0"=0
+	"Nicias #0"=0
+	"Nicodemus #0"=0
+	"Oezalces #0"=0
+	"Oxyntas #0"=0
+	"Pedubast #0"=0
+	"Peneus #0"=0
+	"Perdiccas #0"=0
+	"Phila #0"=0
+	"Philocrates #0" =0
+	"Philotheos #0"=0
+	"Polyperchon #0"=0
+	"Psherenamun #0"=0
+	"Psherenptah #0"=0
+	"Psammuthes #0"=0
+	"Ptolemy #3"= 1
+	"Theocritus #0"=0
+	"Therapon #0"=0
+	"Timoleon #0"=0
+	"Xanthos #0"=0
+	"Xenon #0"=0
+	"Zeteres #0"=0
+	"Zosimus #0"=0
+}
+
+ship_names = {
+	Abedju
+	Abu
+	Behdet Bahariya Baki Buhen Bubastis
+	Dahshur Dakhla Dunqul Djedu
+	Farafra
+	Henen-nesw Heh
+	Iken
+	Itjtawy
+	Kharga Kerma Kyrene
+	Lunet
+	Meidum Men-nefer Nekhen
+	Nubt
+	On
+	Perwadjyt Pwenet
+	Qadesh
+	Rostja
+	Saqqara "Serabit Khadim" Sauty
+	Sawu Selima Shaat Sharuhen
+	Timna Thinis Toshka
+	Waset
+}
+
+leader_names = { 
+	Amyrteos Ankhmachis Anemhor Aratos Arganos Charias Djedhor Ezena Horemakhet Isocrates Khabbabash Leonippus Lydiadas Manetho Massiva
+ 		Nakhthoreb Naravas Nefaarud Neferibre Nesisti Nicias Nicodemus Oezalces Oxyntas Pedubast Peneus Perdiccas Phila Philocrates 
+		Philotheos Polyperchon Psherenamun Psherenptah Psammuthes Ptolemy Theocritus Therapon Timoleon Xanthos Xenon Zeteres Zosimus}

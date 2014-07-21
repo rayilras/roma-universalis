@@ -6,6 +6,7 @@ religion = zoroaster
 capital = "Buk"
 trade_goods = spices
 hre = no
+fort1 = yes
 base_tax = 2
 manpower = 4
 citysize = 8000

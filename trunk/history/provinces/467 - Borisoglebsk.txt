@@ -1,1 +1,25 @@
+owner = SES
+controller = SES
+add_core = SES
+culture = scythian
+religion = shamanism
+capital = "Borispolis"
+trade_goods = grain
+hre = no
+fort1 = yes
+base_tax = 4
+manpower = 5
+citysize = 18000
+discovered_by = seleucid
+discovered_by = iberian
+discovered_by = nomadic
+discovered_by = greek
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = latin
+
+
  

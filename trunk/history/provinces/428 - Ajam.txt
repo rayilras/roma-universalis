@@ -9,6 +9,7 @@ religion = zoroaster
 capital = "Hecatompylus"
 trade_goods = cloth
 hre = no
+fort1 = yes
 base_tax = 8
 manpower = 5
 citysize = 28530

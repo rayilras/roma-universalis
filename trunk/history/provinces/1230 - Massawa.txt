@@ -1,1 +1,24 @@
- 
+owner = MRE
+controller = MRE
+add_core = MRE
+culture = ethiopian2	
+religion = egyptian_pantheon
+capital = "Meroe"
+trade_goods = grain
+hre = no
+base_tax = 4
+manpower = 5
+citysize = 26870
+fort1 = yes
+discovered_by = greek
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+discovered_by = latin
+discovered_by = nomadic
+discovered_by = iberian
+
+  
