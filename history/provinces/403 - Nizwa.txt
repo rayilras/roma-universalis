@@ -1,1 +1,23 @@
- 
+owner = MCT
+controller = MCT
+add_core = MCT
+culture = arabian
+religion = shamanism
+capital = "Nizwaros"
+trade_goods = wool
+hre = no
+base_tax = 4
+manpower = 5
+fort1 = yes
+citysize = 28000
+discovered_by = seleucid
+discovered_by = iberian
+discovered_by = nomadic
+discovered_by = greek
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = latin
+     

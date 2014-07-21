@@ -952,6 +952,81 @@ dacian_ideas = {
 	}
 }
 	
+ethiopian_ideas = {
+	start = {
+		global_manpower_modifier = 0.20
+		land_attrition = -0.10
+	}
 	
+	bonus = {
+		legitimacy = 1
+	}
+	
+	trigger = {
+		primary_culture = ethiopian2
+	}
+
+	free = yes		#will be added at load.
+	
+	ethiopian_prestige = {
+		prestige = 1
+	}
+	ethiopian_blessings = {
+		heir_chance = 0.25
+	}
+	hostile_borders = {
+		defensiveness = 0.20
+	}
+	diplomatic_demeanor = {
+		diplomatic_reputation = 2
+	}
+	egyptian_piety = {
+		global_missionary_strength = 0.01
+		stability_cost_modifier = -0.1
+	}
+	expansionist_policy = {
+		core_creation = -0.10
+	}
+	ptolemaic_influence = {
+		discipline = 0.1
+	}
+}	
 		
-		
+arabian_ideas = {
+	start = {
+		global_manpower_modifier = 0.15
+		land_attrition = -0.15
+	}
+	
+	bonus = {
+		leader_land_shock = 1
+	}
+	
+	trigger = {
+		primary_culture = arabian
+		technology_group = persian
+	}
+	free = yes
+	
+	arab_indian_ocean_trade = {
+		trade_steering = 0.15
+	}
+	arabian_horses = {
+		cavalry_cost = -0.1
+	}
+	land_of_the_prophet = {
+		global_revolt_risk = -1
+	}
+	spreading_the_prophets_word = {
+		global_missionary_strength = 0.01
+	}
+	bedouin_traders = {
+		global_trade_power = 0.1
+	}
+	coffea_arabica = {
+		production_efficiency = 0.1
+	}
+	arabia = {
+		prestige = 1
+	}
+}	

@@ -8,6 +8,7 @@ trade_goods = grain
 hre = no
 base_tax = 4
 manpower = 5
+fort1 = yes
 citysize = 18000
 discovered_by = greek
 discovered_by = roman

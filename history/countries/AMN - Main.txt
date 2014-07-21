@@ -1,0 +1,6 @@
+government = despotic_monarchy
+mercantilism = 0.2
+technology_group = persian
+religion = shamanism
+primary_culture = arabian
+capital = 393

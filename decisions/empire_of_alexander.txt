@@ -5,7 +5,8 @@ country_decisions = {
 			OR = {
 				tag = MAC
 				tag = SEL
-				tag = EGT
+				tag = EGT	
+				tag = BKT
 			}
 		}
 

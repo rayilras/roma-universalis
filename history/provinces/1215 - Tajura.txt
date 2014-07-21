@@ -1,1 +1,23 @@
+owner = AXM
+controller = AXM
+add_core = AXM
+culture = ethiopian2	
+religion = egyptian_pantheon
+capital = "Axum"
+trade_goods = fish
+hre = no
+base_tax = 10
+manpower = 11
+citysize = 26870
+fort1 = yes
+discovered_by = greek
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+discovered_by = latin
+discovered_by = nomadic
+discovered_by = iberian 
  

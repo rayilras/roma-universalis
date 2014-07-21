@@ -1000,13 +1000,23 @@ north_african = {
 		primary = EGT
 		
 	}
+
+	arabian = {
+		primary = QID
+	
+	}
 	
 	numidian = {
 		primary = NUM
 	}
+	
+	ethiopian2 = {
+		primary = 
+
+	}
 
 	dynasty_names = { 
-		"Ahmi" "Galestid" "Kenamid" "Naravid" "Penamid" "Senuid" "Setnid"
+		"Ahmi" "Galestid" "Kenamid" "Naravid" "Penamid" "Senuid" "Setnid" "Soter" "Nicator"
 	}
 }
 
@@ -1100,7 +1110,7 @@ persian = {
 	}
 
 	dynasty_names = { 
-		"Aramid" "Arid" "Arkhid" "Asinid" "Arsacid" "Deiocid" "Menid" "Pacorid" "Savacid" "Vardanid"
+		"Aramid" "Arid" "Arkhid" "Asinid" "Arsacid" "Deiocid" "Menid" "Pacorid" "Savacid" "Vardanid" "Achaemenid" "Parni" "Parthavanid" 
 	}
 }
 
@@ -1109,7 +1119,7 @@ scythian = {
 	graphical_culture = westerngfx
 
 	scythian = {
-		primary =
+		primary = SCY
 		
 	}
 	
