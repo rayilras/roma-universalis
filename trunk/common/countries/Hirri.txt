@@ -1,0 +1,83 @@
+graphical_culture = muslimgfx
+
+color = {232 157 48}
+
+historical_idea_groups = {
+	quantity_ideas
+	religious_ideas
+	expansion_ideas
+	civic_ideas
+	offensive_ideas
+	economic_ideas
+	
+}
+
+historical_units = {
+	barbarian_hoard
+	barbarian_cavalry
+	barbarian_chosen
+	barbarian_chosen_cavalry
+}
+
+monarch_names = {
+	"Svyatoslav #7" = 20
+	"Yaroslav #6" = 20
+	"Rotislav #4" = 20
+	"Dmitriy #3" = 20
+	"Vsevolod #3" = 20
+	"Vasiliy #2" = 20
+	"Yuriy #2" = 20
+	"Aleksandr #1" = 20
+	"Andrei #1" = 20
+	"Fyodor #1" = 20
+	"Mikhail #1" = 20
+	"Mstislav #6" = 15
+	"Yaropolk #3" = 15
+	"Roman #2" = 15
+	"Rurik #2" = 15
+	"Konstantin #1" = 15
+	"David #2" = 10
+	"Afanasiy #0" = 1
+	"Akim #0" = 1
+	"Alexei #0" = 1
+	"Anatoliy #0" = 1
+	"Arkadiy #0" = 1
+	"Boris #0" = 1
+	"Daniil #0" = 1
+	"Dorofey #0" = 1
+	"Feodosiy #0" = 1
+	"Gavriil #0" = 1
+	"Iosif #0" = 1
+	"Ivan #0" = 1
+	"Matveiy #0" = 1
+	"Nazariy #0" = 1
+	"Nikifor #0" = 1
+	"Oleg #0" = 1
+	"Prokopiy #0" = 1
+	"Radomir #0" = 1
+	"Saveliy #0" = 1
+	"Semen #0" = 1
+	"Sergei #0" = 1
+	"Valeriy #0" = 1
+	"Yevgeniy #0" = 1
+	
+	"Anastasiya #0" = -1
+	"Zlata #0" = -1
+	"Marfa #0" = -1
+}
+
+leader_names = { 
+	Zhiznomir Mikula Posenya Baryatinsky Belevsky Volkonsky 
+	Vorotynsky Gorensky Gorchakov Dolgorukov Yeletsky Ryumin 
+	Barashev Spyachy Shestov Zventsov Tokmakov Nozdrevaty 
+	Kashin Massalski Kozelsky Koninsky Kurlyatev Lykov Obolensky
+	Strigin Nagiye Spashsky Torussky Trostensky Turenin
+	Tufyakin Khotetovsky 
+}
+
+ship_names = {
+	"Staraya Russa" Ladoga Torzhok Oreshek
+	"Alexander Nevsky" Pestrovo Valdai Kholm
+	Borovichi Luga Msta "Ozero I'lmen" Lovat
+	Polist Redja Pola Visera Volchov Selon Polomet
+}

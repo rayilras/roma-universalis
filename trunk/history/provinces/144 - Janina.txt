@@ -1,12 +1,12 @@
 discovered_by = greek
 #144 - Janina
 
-owner = EPR
-controller = EPR
-add_core = EPR
+owner = AEL
+controller = AEL
+add_core = AEL
 culture = ancient_greek
 religion = greek_pantheon
-capital = "Ambracia"
+capital = "Thermon"
 trade_goods = wool
 hre = no
 base_tax = 5

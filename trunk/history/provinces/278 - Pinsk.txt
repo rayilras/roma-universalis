@@ -1,1 +1,22 @@
- 
+owner = SUD
+controller = SUD
+add_core = SUD
+culture = slavic
+religion = totemism
+capital = "Pinkso"
+trade_goods = iron
+hre = no
+base_tax = 4
+manpower = 4
+citysize = 15000
+fort1 = yes
+discovered_by = greek
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+discovered_by = latin
+discovered_by = nomadic
+discovered_by = iberian  

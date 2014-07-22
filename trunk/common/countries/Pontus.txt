@@ -1,4 +1,4 @@
-graphical_culture = easterngfx
+graphical_culture = indiangfx
 
 color = {149 101 186 }
 
