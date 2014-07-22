@@ -1,1 +1,22 @@
- 
+owner = SRI
+controller = SRI
+add_core = SRI
+culture = sarmatian
+religion = shamanism
+capital = "Kharkovos"
+trade_goods = wool
+hre = no
+base_tax = 5
+manpower = 4
+citysize = 15000
+fort1 = yes
+discovered_by = greek
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+discovered_by = latin
+discovered_by = nomadic
+discovered_by = iberian  

@@ -11,8 +11,8 @@ historical_rival = TYL
 capital = 148
 
 monarch = { 
-	name = "Antihonus I"
-	dynasty = "Antigonid"
+	name = "Antigonus I"
+	dynasty = "Gonatas"
 	birth_date = 0442.1.1
 	adm = 2
 	dip = 5

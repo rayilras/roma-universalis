@@ -10,7 +10,7 @@ default_ideas = {
 	}
 
 	trigger = {
-			culture_group = germanic2
+		culture_group = germanic2
 	}
 
 	bonus = {

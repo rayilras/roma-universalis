@@ -1,4 +1,4 @@
-graphical_culture = easterngfx
+graphical_culture = muslimgfx
 
 color = {232 232 237 }
 

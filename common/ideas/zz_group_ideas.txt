@@ -1030,3 +1030,43 @@ arabian_ideas = {
 		prestige = 1
 	}
 }	
+
+slavic_ideas = {
+	start = {
+		infantry_cost = -0.2
+		religious_unity = 0.25
+	}
+
+	bonus = {
+		global_manpower_modifier = 0.50
+		
+	}
+
+	trigger = {
+		culture_group = balto_slavic
+	}
+	
+	free = yes
+
+	green_pastures = {
+		production_efficiency = 0.10
+	}
+	sarmatian_trade = {
+		global_trade_power = 0.15
+	}
+	enslaving_the_nomads = {
+		global_tax_modifier = 0.10
+	}
+	sarmatian_horses = {
+		cavalry_cost = -0.10
+	}
+	blessings_of_the_gods = {
+		global_missionary_strength = 0.02
+	}
+	slavic_sacrifices = {
+		global_revolt_risk = -1
+	}
+	marines = {
+		naval_morale = 0.25
+	}
+}

@@ -1,4 +1,4 @@
-graphical_culture = africangfx
+graphical_culture = indiangfx
 color = {238 175 112}
 
 historical_idea_groups = {

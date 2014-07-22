@@ -1,4 +1,4 @@
-graphical_culture = muslimfx
+graphical_culture = indiangfx
 color = {116 177 232}
 
 historical_idea_groups = {

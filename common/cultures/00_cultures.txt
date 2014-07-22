@@ -1253,20 +1253,20 @@ iberian2 = {
 }
 
 balto_slavic = {
-	graphic_culture = easterngfx
+	graphical_culture = westerngfx
 
-	western_balt = {
-		primary =
+	balt = {
+		primary = KRI
 
 	}
 
 	eastern_balt = {
-		primary = 
+		primary = SVI
 
 	}
 
 	slavic = {
-		primary = 
+		primary = VTU
 
 	}
 

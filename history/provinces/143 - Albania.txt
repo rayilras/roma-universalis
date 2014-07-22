@@ -1,16 +1,15 @@
-#143 - Albania
 
-owner = ARD
-controller = ARD
-add_core = ARD
-culture = illyrian
-religion = shamanism
-capital = "Epidamnos"
+owner = EPR
+controller = EPR
+add_core = EPR
+culture = ancient_greek
+religion = greek_pantheon
+capital = "Phoeniké"
 trade_goods = wine
 hre = no
-base_tax = 4
-manpower = 4
-citysize = 6000
+base_tax = 8
+manpower = 8
+citysize = 60000
 fort1 = yes
 discovered_by = greek
 discovered_by = roman

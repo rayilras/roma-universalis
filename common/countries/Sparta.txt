@@ -1,4 +1,4 @@
-graphical_culture = easterngfx
+graphical_culture = westerngfx
 color = {140 0 0 }
 
 historical_idea_groups = {

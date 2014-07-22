@@ -1,4 +1,4 @@
-graphical_culture = muslimgfx
+graphical_culture = easterngfx
 
 color = {144 116 92}
 

@@ -1,1 +1,23 @@
- 
+owner = SVI
+controller = SVI
+add_core = SVI
+culture = eastern_balt
+religion = totemism
+capital = "Wendili"
+trade_goods = grain
+hre = no
+base_tax = 6
+manpower = 5
+citysize = 15000
+fort1 = yes
+discovered_by = greek
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+discovered_by = latin
+discovered_by = nomadic
+discovered_by = iberian  
+    

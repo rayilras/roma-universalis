@@ -1,8 +1,8 @@
 #137 - Ragusa
 
-owner = DSI
-controller = DSI
-add_core = DSI
+owner = ARD
+controller = ARD
+add_core = ARD
 culture = illyrian
 religion = shamanism
 capital = "Scodra"
