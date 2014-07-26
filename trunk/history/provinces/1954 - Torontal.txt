@@ -1,14 +1,13 @@
-#1954 - Torontál
-
 owner = EVI
 controller = EVI
 add_core = EVI
-add-core = BEC
+add_core = BEC
 culture = pannonian
 religion = shamanism
 capital = "Breuci"
 trade_goods = wool
 hre = no
+citysize = 4500
 base_tax = 4
 manpower = 5
 fort1 = yes

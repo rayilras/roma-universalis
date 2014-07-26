@@ -13,20 +13,16 @@ ai_capitalist = {
 	chance = {
 		factor = 100
 		modifier = {
-			factor = 10
-			has_regency = yes
-		}
-		modifier = {
 			factor = 0.5
-			adm = 0
+			NOT = { adm = 1 }
 		}			
 		modifier = {
 			factor = 0.5
-			adm = 2
+			NOT = { adm = 2 }
 		}
 		modifier = {
 			factor = 0.5
-			adm = 3
+			NOT = { adm = 3 }
 		}	
 		modifier = {
 			factor = 1.5
@@ -65,7 +61,7 @@ ai_capitalist = {
 			government = merchant_republic
 		}	
 		modifier = {
-			factor = 3
+			factor = 1.5
 			tag = MNG
 		}
 		modifier = {
@@ -81,10 +77,6 @@ ai_capitalist = {
 			}
 			NOT = { is_year = 1500 }
 		}
-		modifier = {
-			factor = 5
-			tag = CAR
-		}
 	}
 	icon = 2
 }
@@ -93,20 +85,16 @@ ai_diplomat = {
 	chance = {
 		factor = 100
 		modifier = {
-			factor = 10
-			has_regency = yes
-		}	
-		modifier = {
 			factor = 0.5
-			dip = 0
+			NOT = { dip = 1 }
 		}			
 		modifier = {
 			factor = 0.5
-			dip = 2
+			NOT = { dip = 2 }
 		}
 		modifier = {
 			factor = 0.5
-			dip = 3 
+			NOT = { dip = 3 }
 		}	
 		modifier = {
 			factor = 1.5
@@ -159,11 +147,11 @@ ai_diplomat = {
 			tag = BYZ
 		}	
 		modifier = {
-			factor = 3
+			factor = 1.5
 			tag = MNG
 		}
 		modifier = {
-			factor = 5
+			factor = 1.5
 			tag = KOR
 		}
 		modifier = {
@@ -181,6 +169,14 @@ ai_diplomat = {
 ai_militarist = {
 	chance = {
 		factor = 100
+		modifier = {
+			factor = 0
+			has_regency = yes
+		}	
+		modifier = {
+			factor = 0.5
+			government = republic
+		}
 		modifier = {
 			factor = 0.5
 			NOT = { mil = 1 }
@@ -263,12 +259,8 @@ ai_militarist = {
 			tag = FRA
 		}			
 		modifier = {
-			factor = 0.5
+			factor = 0.75
 			tag = MNG
-		}
-		modifier = {
-			factor = 10
-			tag = ROM
 		}		
 	}
 	icon = 4
@@ -278,20 +270,20 @@ ai_colonialist = {
 	chance = {
 		factor = 100	
 		modifier = {
-			factor = 5
+			factor = 0.5
 			has_regency = yes
 		}		
 		modifier = {
-			factor = 0.8
-			adm = 1
+			factor = 0.5
+			NOT = { adm = 1 }
 		}			
 		modifier = {
 			factor = 0.5
-			adm = 2
+			NOT = { adm = 2 }
 		}
 		modifier = {
 			factor = 0.5
-			adm = 3 
+			NOT = { adm = 3 }
 		}	
 		modifier = {
 			factor = 1.5
@@ -309,14 +301,16 @@ ai_colonialist = {
 			factor = 1.1
 			trade_ideas = 1
 		}			
-		
-					
 		modifier = {
 			factor = 1.1
-			naval_ideas = 1
+			exploration_ideas = 1
+		}			
+		modifier = {
+			factor = 1.1
+			maritime_ideas = 1
 		}
 		modifier = {
-			factor = 2
+			factor = 1.1
 			expansion_ideas = 1
 		}		
 		modifier = {
@@ -334,19 +328,7 @@ ai_colonialist = {
 				tag = CAS
 			}
 			NOT = { is_year = 1500 }
-		}
-		modifier = {
-			factor = 0.5
-			tag = SEB
-		}
-		modifier = {
-			factor = 0.5
-			tag = DAC
-		}
-		modifier = {
-			factor = 0.5
-			tag = CTV
-		}
+		}		
 	}
 	icon = 5
 }
@@ -359,12 +341,54 @@ ai_balanced = {
 			always = yes # higher base chance
 		}	
 		modifier = {
-			factor = 0.5
-			tag = MNG
-		}	
-		modifier = {
 			factor = 100
 			ai = no
+		}
+		modifier = {
+			factor = 0
+			has_regency = yes
+		}		
+		modifier = {
+			factor = 0.5
+			NOT = {
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				adm = 3
+				dip = 3
+				mil = 3
+			}
+		}	
+		modifier = {
+			factor = 1.5
+			adm = 4
+			dip = 4
+			mil = 4
+		}
+		modifier = {
+			factor = 1.5
+			adm = 5
+			dip = 5
+			mil = 5
+		}		
+		modifier = {
+			factor = 1.5
+			adm = 6
+			dip = 6
+			mil = 6
 		}
 	}
 	icon = 6

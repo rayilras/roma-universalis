@@ -16,7 +16,7 @@ country_decisions = {
 
 		effect = {
 
-			change_tag = IRO
+			change_tag = ROI
 			add_stability = -3
 			add_manpower = -0.25
 

@@ -9,6 +9,7 @@ capital = "Maezaei"
 trade_goods = naval_supplies
 hre = no
 citysize = 16000
+basetax = 4
 manpower = 6
 fort1 = yes
 
