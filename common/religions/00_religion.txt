@@ -7,7 +7,7 @@
 pagan = {
 
 	animism = {
-		color = { 0.5 0.0 0.0 }
+		color = { 204 204 204 }
 		icon = 1
 		province = {
 			local_missionary_strength = 0.02
@@ -19,11 +19,13 @@ pagan = {
 		
 		heretic = { SNAKE_CLAN }
 		
+		personal_deity = yes
+
 		annex = yes
 	}
 	
 	shamanism = {
-		color = { 0.5 0.3 0.3 }
+		color = { 124 75 42 }
 		icon = 2
 		province = {
 			local_missionary_strength = 0.02
@@ -117,7 +119,7 @@ zoroaster = {
 pantheon = {
 
 	roman_pantheon = {
-		color = { 0.7 0.0 0.0 }
+		color = { 0.8 0.0 0.0 }
 		icon = 7
 		province = {
 			local_missionary_strength = 0.02
@@ -133,7 +135,7 @@ pantheon = {
 	}
 
 	greek_pantheon = {
-		color = { 0.6 0.2 0.2 }
+		color = { 0.6 0.5 0.5 }
 		icon = 8
 		province = {
 			local_missionary_strength = 0.02
@@ -182,7 +184,7 @@ pantheon = {
 
 	etruscan_pantheon = {
 		icon = 11
-		color = { 160 160 219 }
+		color = { 160 213 219}
 		province = {
 			local_missionary_strength = 0.03
 		}

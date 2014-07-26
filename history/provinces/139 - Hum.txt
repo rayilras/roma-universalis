@@ -8,6 +8,7 @@ trade_goods = wool
 hre = no
 citysize = 16000
 manpower = 5
+basetax = 3
 fort1 = yes
 
 discovered_by = seleucid
