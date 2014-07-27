@@ -147,7 +147,9 @@ pantheon = {
 		
 		heretic = { BEAR_SPIRIT }
 		
-		annex = yes		
+		annex = yes	
+		personal_deity = yes
+	
 	}
 
 	egyptian_pantheon = {

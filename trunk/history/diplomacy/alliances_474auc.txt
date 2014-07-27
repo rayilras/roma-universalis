@@ -132,8 +132,15 @@ vassal = {
 }
 
 vassal = {
-	first = BKT
+	first = SEL
 	second = ARI
+	start_date = 0474.1.1
+	end_date = 500.2.13
+}
+
+vassal = {
+	first = SEL
+	second = BKT
 	start_date = 0474.1.1
 	end_date = 500.2.13
 }
