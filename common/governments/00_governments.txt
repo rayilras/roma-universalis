@@ -674,16 +674,22 @@ shogunate = {
 	diplomatic_upkeep = 4
 }
 
-#Byzantine Special.
+#Seleucids and historical empires
 imperial_government = {
 	monarchy = yes
 	
 	valid_for_new_country = no
 	allow_convert = no
+
+	allow_vassal_war = yes
+	allow_vassal_alliance = yes
 	
 	#bonus
 	land_morale = 0.05
 	vassal_income = 0.20
+	
+	#malus
+	global_revolt_risk = 3
 }
 
 # Colonial Nations
