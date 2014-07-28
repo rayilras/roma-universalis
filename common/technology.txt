@@ -68,61 +68,51 @@ groups = {
 		modifier = 0
 		start_level = 0
 		cav_to_inf_ratio = 0.5
-		power = -1
 	}
 	latin = {
 		modifier = 0
 		start_level = 0
 		cav_to_inf_ratio = 0.5
-		power = -1
 	}
 	carthaginian = {
-		modifier = 0
+		modifier = 0.15
 		start_level = 0
 		cav_to_inf_ratio = 0.5
-		power = -1
 	}
 	egyptian = {
 		modifier = 0
 		start_level = 0
-		cav_to_inf_ratio = 0.5
-		power = -1
+		cav_to_inf_ratio = 0
 	}
 	greek = {
 		modifier = 0
 		start_level = 0
 		cav_to_inf_ratio = 0.5
-		power = -1
 	}
 	persian = {
-		modifier = 0
+		modifier = 0.35
 		start_level = 0
 		cav_to_inf_ratio = 0.6
-		power = -1
 	}
 	barbarian = {
-		modifier = 0.2
+		modifier = 0.5
 		start_level = 0
 		cav_to_inf_ratio = 0.5
-		power = -1
 	}
 	seleucid = {
 		modifier = 0
 		start_level = 0
 		cav_to_inf_ratio = 0.5
-		power = -1
 	}
 	iberian = {
-		modifier = 0.2
+		modifier = 0.5
 		start_level = 0
 		cav_to_inf_ratio = 0.5
-		power = -1
 	}
 	nomadic = {
-		modifier = 0.2
+		modifier = 0.9
 		start_level = 0
 		cav_to_inf_ratio = 0.9
-		power = -1
 	}
 }
 
