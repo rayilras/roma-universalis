@@ -2,6 +2,8 @@ graphical_culture = africangfx
 
 color = {245 245 245}
 
+historical_score = 3750
+
 historical_idea_groups = {
 	expansion_ideas
 	quantity_ideas

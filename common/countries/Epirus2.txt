@@ -2,6 +2,8 @@ graphical_culture = westerngfx
 
 color = {200 153 39 }
 
+historical_score = 500
+
 historical_idea_groups = {
 	diplomatic_ideas
 	offensive_ideas

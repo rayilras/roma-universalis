@@ -2,6 +2,8 @@ graphical_culture = asiangfx
 
 color = {206 187 43}
 
+historical_score = 2250
+
 historical_idea_groups = {
 	religious_ideas
 	trade_ideas
