@@ -1,6 +1,8 @@
 graphical_culture = africangfx
 color = {161  126  128}
 
+historical_score = 2000
+
 historical_idea_groups = {
 	quantity_ideas
 	religious_ideas
