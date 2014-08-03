@@ -48,7 +48,6 @@ country_decisions = {
 			is_core = 361
 			is_core = 360
 			is_core = 357
-			is_core = 1852
 			is_core = 381
 			is_core = 406
 			is_core = 409
