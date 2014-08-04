@@ -18,8 +18,6 @@ pagan = {
 		}
 		
 		heretic = { SNAKE_CLAN }
-		
-		personal_deity = yes
 
 		annex = yes
 	}
@@ -148,8 +146,6 @@ pantheon = {
 		heretic = { BEAR_SPIRIT }
 		
 		annex = yes	
-
-		personal_deity = yes
 	
 	}
 
