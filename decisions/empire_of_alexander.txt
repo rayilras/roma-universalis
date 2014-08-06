@@ -73,6 +73,7 @@ country_decisions = {
 		effect = {
 
 			change_tag = IAX
+			change_government = imperial_government
 			add_stability = 1
 			add_prestige = 100
 			add_country_modifier = {
