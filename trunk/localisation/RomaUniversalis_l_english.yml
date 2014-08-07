@@ -892,22 +892,15 @@ l_english:
  roman_rebels_desc: "Roman nobles and citizens fighting to reinstatute the power of the Senate."
  roman_rebels_title: "Roman Republicans"
  roman_rebels_army: "Roman Republican Army"
+ 
  ####### DECISIONS
  roman_empire_title: "Form the Roman Empire"
- roman_empire_title_desc: "Rome is the greatest power in the West; the bureacracy of the Senate is not enough to protect Rome's borders; let power be consolidated in one man, who is to be the champion of Rome: the Emperor."
- roman_empire: "Form the Roman Empire"
  roman_empire_desc: "Rome is the greatest power in the West; the bureacracy of the Senate is not enough to protect Rome's borders; let power be consolidated in one man, who is to be the champion of Rome: the Emperor."
  illyrian_kingdom_title: "Form the Illyrian Kingdom"
- illyrian_kingdom_title_desc: "Illyria has been a land of divided tribes and warring peoples; it is time for a great Illyrian Kingdom to be forged."
- illyrian_kingdom: "Form the Illyrian Kingdom"
  illyrian_kingdom_desc: "Illyria has been a land of divided tribes and warring peoples; it is time for a great Illyrian Kingdom to be forged."
  dacian_kingdom_title: "Form the Dacian Kingdom"
- dacian_kingdom_title_desc: "Dacia is a land of a culturally united people; let us unite politically and forge a Dacian Kingdom."
- dacian_kingdom: "Form the Dacian Kingdom"
  dacian_kingdom_desc: "Dacia is a land of a culturally united people; let us unite politically and forge a Dacian Kingdom."
- empire_of_alexander: "Rebuild the Empire of Alexander"
  empire_of_alexander_desc: "It is a shame that Alexander's empire fractured upon his death; let it rise once again."
  empire_of_alexander_title: "Rebuild the Empire of Alexander"
- empire_of_alexander_title_desc: "It is a shame that Alexander's empire fractured upon his death; let it rise once again."
  
  
