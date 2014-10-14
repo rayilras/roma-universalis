@@ -765,7 +765,11 @@ roman_republic = {
 
 	#bonus
 	idea_cost = -0.1
-	global_revolt_risk = -2
+	global_revolt_risk = -1
+
+	faction = temples
+	faction = enuchs
+	faction = bureaucrats
 
 }
 

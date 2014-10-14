@@ -3,8 +3,8 @@
 owner = BOI
 controller = BOI
 add_core = BOI
-culture = celtic
-religion = druidism
+culture = suebi
+religion = animism
 base_tax = 4
 trade_goods = naval_supplies
 capital = "Chatti"

@@ -951,19 +951,19 @@ latin2 = {
 	}
 	
 	etruscan = {
-		primary =
+		primary = ETL
 	}
 	
 	osco_umbrian = {
-		primary =
+		primary = 
 	}
 	
 	messapic = {
-		primary =
+		primary = 
 	}
 
 	venetic = {
-		primary =
+		primary = VTI
 	}
 	
 	dynasty_names = { 
@@ -978,7 +978,7 @@ hellenic = {
 	graphical_culture = westerngfx
 
 	ancient_greek = {
-		primary =
+		primary = ATS
 		
 	}
 	
@@ -1011,7 +1011,7 @@ north_african = {
 	}
 	
 	ethiopian2 = {
-		primary = 
+		primary = AXM
 
 	}
 
@@ -1029,7 +1029,7 @@ north_levantine = {
 	}
 	
 	phoenician = {
-		primary =
+		primary = 
 	}
 	
 	dynasty_names = { 
@@ -1138,12 +1138,12 @@ illyrian = {
 	graphical_culture = westerngfx
 
 	pannonian = {
-		primary =
+		primary = 
 		
 	}
 	
 	illyrian = {
-		primary = 
+		primary = DSI
 	}
 	
 
@@ -1157,20 +1157,20 @@ thracian = {
 	graphical_culture = westerngfx
 
 	thracian = {
-		primary = 
+		primary = ODK
 		
 	}
 	
 	dacian = {
-		primary = 
+		primary = GTE
 	}
 	
 	phrygian = {
-		primary =
+		primary = 
 	}
 
 	pisidian = {
-		primary =
+		primary = 
 	}
 
 	dynasty_names = { 
@@ -1183,12 +1183,12 @@ germanic2 = {
 	graphical_culture = westerngfx
 
 	west_germanic = {
-		primary =
+		primary = CIM
 		
 	}
 	
 	north_germanic = {
-		primary = 
+		primary = RUG
 	}
 	
 	suebi = {
@@ -1196,7 +1196,7 @@ germanic2 = {
 	}
 
 	vandalic = {
-		primary =
+		primary = LGI
 	}
 
 	dynasty_names = { 
@@ -1209,16 +1209,16 @@ gallic = {
 	graphical_culture = westerngfx
 
 	celtic = {
-		primary =
+		primary = CCI
 		
 	}
 	
 	gallo_ligurian = {
-		primary =
+		primary = LGU
 	}
 	
 	pictish = {
-		primary =
+		primary = PCT
 	}
 
 	dynasty_names = { 
@@ -1231,16 +1231,16 @@ iberian2 = {
 	graphical_culture = westerngfx
 
 	aquitanian = {
-		primary =
+		primary = VAE
 		
 	}
 	
 	iberian = {
-		primary =
+		primary = ARE
 	}
 	
 	celt_iberian = {
-		primary =
+		primary = ENI
 	}
 
 	basque2 = {

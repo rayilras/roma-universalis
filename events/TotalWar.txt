@@ -1,0 +1,1290 @@
+# Civil war brings our nation to its knees
+country_event = {
+	id = 6018
+	title = "EVTNAME6018"
+	desc = "EVTDESC6018"
+	picture = CIVIL_WAR_eventPicture
+	
+	trigger = {
+		has_country_flag = civil_war
+		NOT = { has_country_flag = total_war_series }
+		NOT = { stability = 0 }
+		num_of_cities = 10
+	}
+	
+	mean_time_to_happen = {
+		months = 1800
+		
+		modifier = {
+			factor = 1.5
+			luck = yes
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				government = tribal_democracy
+				government = tribal_federation
+				government = feudal_monarchy
+				government = merchant_republic
+				government = noble_republic
+				government = administrative_republic
+				government = constitutional_republic
+			}
+		}
+		modifier = {
+			factor = 0.9
+			has_country_flag = allies
+		}
+		modifier = {
+			factor = 0.9
+			has_country_flag = unscrupulous_inlaws
+		}
+		modifier = {
+			factor = 0.9
+			has_country_flag = deserting_troops
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA6018"				# There is nothing we can do.
+		ai_chance = { factor = 15 }
+		add_stability = -2
+		add_country_modifier = {
+			name = "plutocracy_modifier"
+			duration = 3650
+		}
+		add_country_modifier = {
+			name = "centralization_modifier"
+			duration = 3650
+		}
+		random_owned_province = {
+			limit = { is_core = ROOT }
+			change_controller = REB
+		}
+		random_owned_province = {
+			limit = { is_core = ROOT }
+			revolutionary_rebels = 1
+		}
+		clr_country_flag = civil_war
+		clr_country_flag = allies
+		clr_country_flag = unscrupulous_inlaws
+		clr_country_flag = deserting_troops
+		set_country_flag = total_war
+		set_country_flag = total_war_series
+	}
+	option = {
+		name = "EVTOPTB6018"				# Support one of the factions
+		ai_chance = { factor = 15 }
+		add_stability = -2
+		add_country_modifier = {
+			name = "plutocracy_modifier"
+			duration = 7300
+		}
+		random_owned_province = {
+			limit = { is_core = ROOT }
+			change_controller = REB
+		}
+		random_owned_province = {
+			limit = { is_core = ROOT }
+			revolutionary_rebels = 1
+		}
+		clr_country_flag = civil_war
+		clr_country_flag = allies
+		clr_country_flag = unscrupulous_inlaws
+		clr_country_flag = deserting_troops
+		set_country_flag = total_war
+		set_country_flag = factional_powers_emerge
+		set_country_flag = total_war_series
+	}
+	option = {
+		name = "EVTOPTC6018"				# Start negotiations to minimize the damage
+		ai_chance = { factor = 70 }
+		add_years_of_income = -0.25
+		add_prestige = -25
+		add_country_modifier = {
+			name = "centralization_modifier"
+			duration = 7300
+		}
+		add_country_modifier = {
+			name = "rebel_negotiation"
+			duration = 150
+		}
+		add_country_modifier = {
+			name = "disorder"
+			duration = 200
+		}
+		clr_country_flag = civil_war
+		clr_country_flag = allies
+		clr_country_flag = unscrupulous_inlaws
+		clr_country_flag = deserting_troops
+		set_country_flag = total_war_series
+	}
+}
+
+# Civil Disorder about to Devolve into Chaos
+country_event = {
+	id = 6019
+	title = "EVTNAME6019"
+	desc = "EVTDESC6019"
+	picture = CIVIL_WAR_eventPicture
+
+	trigger = {
+		NOT = { has_country_flag = civil_war }
+		NOT = { has_country_flag = total_war_series }
+		NOT = { stability = 0 }
+		num_of_cities = 10
+		NOT = { adm = 4 }
+		NOT = { mil = 4 }
+	}
+	
+	mean_time_to_happen = {
+		months = 2100
+		
+		modifier = {
+			factor = 1.5
+			luck = yes
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				government = tribal_democracy
+				government = tribal_federation
+				government = feudal_monarchy
+				government = merchant_republic
+				government = noble_republic
+				government = administrative_republic
+				government = constitutional_republic
+			}
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -2 }
+		}
+		modifier = {
+			factor = 0.9
+			num_of_cities = 20
+		}
+		modifier = {
+			factor = 0.9
+			num_of_cities = 30
+		}
+		modifier = {
+			factor = 0.9
+			num_of_cities = 40
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA6019"			# There is nothing we can do
+		ai_chance = { factor = 20 }
+		add_stability = -2
+		add_country_modifier = {
+			name = "plutocracy_modifier"
+			duration = 3650
+		}
+		add_country_modifier = {
+			name = "decentralization_modifier"
+			duration = 3650
+		}
+		random_owned_province = {
+			limit = { is_core = ROOT }
+			change_controller = REB
+		}
+		random_owned_province = {
+			limit = { is_core = ROOT }
+			revolutionary_rebels = 1
+		}
+		set_country_flag = total_war
+		set_country_flag = total_war_series
+	}
+	option = {
+		name = "EVTOPTB6019"			# We will stop this at any cost
+		ai_chance = { factor = 80 }		
+		add_years_of_income = -0.25
+		add_prestige = -25
+		add_country_modifier = {
+			name = "decentralization_modifier"
+			duration = 3650
+		}
+		add_country_modifier = {
+			name = serfdom_modifier
+			duration = 3650
+		}
+		add_country_modifier = {
+			name = "disorder"
+			duration = 400
+		}
+		set_country_flag = total_war_series
+	}
+}
+
+# Factional powers emerge from the chaos
+country_event = {
+	id = 6020
+	title = "EVTNAME6020"
+	desc = "EVTDESC6020"
+	picture = CONQUEST_eventPicture
+	
+	trigger = {
+		has_country_flag = total_war
+		NOT = { has_country_flag = factional_powers_emerge }
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+		
+		modifier = {
+			factor = 0.9
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -2 }
+		}
+		modifier = {
+			factor = 0.9
+			num_of_cities = 20
+		}
+		modifier = {
+			factor = 0.9
+			num_of_cities = 30
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA6020"			# Support one side
+		random_owned_province = {
+			limit = { is_core = ROOT }
+			change_controller = REB
+		}
+		random_owned_province = {
+			limit = { is_core = ROOT }
+			revolutionary_rebels = 1
+		}
+		set_country_flag = factional_powers_emerge
+		set_country_flag = favoured_faction
+	}
+	option = {
+		name = "EVTOPTB6020"			# Don't support any faction
+		add_stability = -1
+		add_country_modifier = {
+			name = "decentralization_modifier"
+			duration = 3650
+		}
+		set_country_flag = factional_powers_emerge
+	}
+}
+
+# Faction requests financial aid
+country_event = {
+	id = 6021
+	title = "EVTNAME6021"
+	desc = "EVTDESC6021"
+	picture = CONQUEST_eventPicture
+	
+	trigger = {
+		has_country_flag = total_war
+		has_country_flag = factional_powers_emerge
+		has_country_flag = favoured_faction
+		NOT = { has_country_flag = financial_aid }
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+
+		modifier = {
+			factor = 1.5
+			luck = yes
+		}		
+		modifier = {
+			factor = 0.9
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -2 }
+		}		
+	}
+	
+	option = {
+		name = "EVTOPTA6021"			# Lend support
+		add_treasury = -40
+		add_country_modifier = {
+			name = "centralization_modifier"
+			duration = 3650
+		}
+		set_country_flag = financial_aid
+	}
+	option = {
+		name = "EVTOPTB6021"			# Ignore their pleas
+		add_prestige = -5
+		add_country_modifier = {
+			name = "decentralization_modifier"
+			duration = 3650
+		}
+		clr_country_flag = favoured_faction
+	}
+}
+
+# Favoured faction threatens to splinter
+province_event = {
+	id = 6022
+	title = "EVTNAME6022"
+	desc = "EVTDESC6022"
+	picture = DEBATE_REPUBLICAN_eventPicture
+	
+	trigger = {
+		owner = {
+			has_country_flag = total_war
+			has_country_flag = factional_powers_emerge
+			has_country_flag = favoured_faction
+			NOT = { has_country_flag = faction_splinters }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 72
+		
+		modifier = {
+			factor = 1.5
+			owner = { luck = yes }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { NOT = { religion = ROOT } }
+		}		
+		modifier = {
+			factor = 0.9
+			owner = {
+				NOT = { primary_culture = ROOT }
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = { num_of_cities = 10 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { num_of_cities = 20 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { num_of_cities = 30 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA6022"		# Let them splinter
+		owner = {
+			add_stability = -1
+			add_country_modifier = {
+				name = "decentralization_modifier"
+				duration = 3650
+			}
+			clr_country_flag = favoured_faction
+			set_country_flag = faction_splinters
+			random_owned_province = {
+				limit = { is_core = ROOT }
+				revolutionary_rebels = 1
+			}
+			random_owned_province = {
+				limit = { is_core = ROOT }
+				change_controller = REB
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB6022"		# Side with one of the new factions
+		owner = {
+			add_country_modifier = {
+				name = "decentralization_modifier"
+				duration = 3650
+			}
+			add_prestige = -5
+			random_owned_province = {
+				limit = { is_core = ROOT }
+				revolutionary_rebels = 1
+			}
+			set_country_flag = faction_splinters
+		}
+	}
+	option = {
+		name = "EVTOPTC6022"		# Summon the faction leaders to begin negotiations
+		owner = {
+			add_treasury = -40
+			add_country_modifier = {
+				name = serfdom_modifier
+				duration = 3650
+			}
+			set_country_flag = faction_splinters
+		}
+	}
+}
+
+# Total war emerges internally
+province_event = {
+	id = 6023
+	title = "EVTNAME6023"
+	desc = "EVTDESC6023"
+	picture = BATTLE_eventPicture
+		
+	trigger = {
+		owner = {
+			has_country_flag = total_war
+			has_country_flag = factional_powers_emerge
+			NOT = { has_country_flag = total_war_peak }
+			NOT = { stability = 0 }
+			NOT = { has_country_flag = internal_total_war }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 72
+		
+		modifier = {
+			factor = 1.5
+			owner = { luck = yes }
+		}
+		modifier = {
+			factor = 1.5
+			owner = { NOT = { stability = -1 } }
+		}
+		modifier = {
+			factor = 1.5
+			owner = { NOT = { stability = -2 } }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { NOT = { religion = ROOT } }
+		}		
+		modifier = {
+			factor = 0.9
+			owner = {
+				NOT = { primary_culture = ROOT }
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA6023"			# We can't do anything about it
+		owner = {
+			set_country_flag = total_war_peak
+			add_country_modifier = {
+				name = "decentralization_modifier"
+				duration = 7300
+			}
+			add_stability = -2
+			random_owned_province = {
+				limit = { is_core = ROOT }
+				revolutionary_rebels = 1
+			}
+			set_country_flag = internal_total_war
+		}
+	}
+	option = {
+		name = "EVTOPTB6023"			# Try to suppress the worst spots
+		owner = {
+			set_country_flag = total_war_peak
+			add_country_modifier = {
+				name = "decentralization_modifier"
+				duration = 7300
+			}
+			add_treasury = -45
+			add_stability = -1
+			random_owned_province = {
+				limit = { is_core = ROOT }
+				revolutionary_rebels = 1
+			}
+			set_country_flag = internal_total_war
+		}
+	}
+}
+
+# Chaos in neighbouring country
+country_event = {
+	id = 6024
+	title = "EVTNAME6024"
+	desc = "EVTDESC6024"
+	picture = BATTLE_eventPicture
+	
+	trigger = {
+		NOT = { has_country_flag = total_war }
+		any_neighbor_country = {
+			has_country_flag = total_war_peak
+		}
+		NOT = { has_country_flag = neighbouring_war }
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+		
+		modifier = {
+			factor = 1.5
+			luck = yes
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -2 }
+		}	
+	}
+	
+	option = {
+		name = "EVTOPTA6024" # We can't afford to help them
+		add_stability = -1
+		set_country_flag = neighbouring_war
+	}
+	option = {
+		name = "EVTOPTB6024" # Secure our own borders
+		add_treasury = -30
+		add_war_exhaustion = 2
+		set_country_flag = neighbouring_war	
+	}
+	option = {
+		name = "EVTOPTC6024" # Secure our own borders and send aid
+		add_treasury = -30
+		add_war_exhaustion = 2
+		random_country = {
+			limit = { is_neighbor_of = ROOT }
+			add_treasury = 30
+			add_opinion = { who = ROOT modifier = opinion_sent_aid }
+		}
+		set_country_flag = neighbouring_war
+		add_prestige = 3
+	}
+}
+
+
+# Our country has splintered apart
+country_event = {
+	id = 6025
+	title = "EVTNAME6025"
+	desc = "EVTDESC6025"
+	picture = CIVIL_WAR_eventPicture
+
+	trigger = {
+		has_country_flag = total_war
+		NOT = { num_of_cities = 10 }
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+		
+		modifier = {
+			factor = 0.8
+			luck = yes
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { num_of_cities = 8 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { num_of_cities = 6 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { stability = -2 }
+		}	
+		modifier = {
+			factor = 0.9
+			stability = 1
+		}
+		modifier = {
+			factor = 0.9
+			stability = 2
+		}
+		modifier = {
+			factor = 0.9
+			stability = 3
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA6025"			# Let them go
+		clr_country_flag = total_war
+		clr_country_flag = factional_powers_emerge
+		clr_country_flag = favoured_faction
+		clr_country_flag = total_war_peak
+		clr_country_flag = faction_negotiations
+		clr_country_flag = emergency_talks
+		add_country_modifier = {
+			name = "centralization_modifier"
+			duration = 7300
+		}
+		add_stability = 1
+	}
+	option = {
+		name = "EVTOPTB6025"			# We'll have our revenge someday
+		clr_country_flag = total_war
+		clr_country_flag = factional_powers_emerge
+		clr_country_flag = favoured_faction
+		clr_country_flag = total_war_peak
+		clr_country_flag = faction_negotiations
+		clr_country_flag = emergency_talks
+		add_country_modifier = {
+			name = "centralization_modifier"
+			duration = 3650
+		}
+		add_stability = 1
+		if = {
+			limit = {
+				NOT = { has_country_modifier = defensive_modifier }
+			}
+			add_country_modifier = {
+				name = offensive_modifier
+				duration = 3650
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTC6025"			# Consolidate our forces about them
+		clr_country_flag = total_war
+		clr_country_flag = factional_powers_emerge
+		clr_country_flag = favoured_faction
+		clr_country_flag = total_war_peak
+		clr_country_flag = faction_negotiations
+		clr_country_flag = emergency_talks
+		add_country_modifier = {
+			name = "centralization_modifier"
+			duration = 3650
+		}
+		add_stability = 1
+		if = {
+			limit = {
+				NOT = { has_country_modifier = offensive_modifier }
+			}
+			add_country_modifier = {
+				name = defensive_modifier
+				duration = 3650
+			}
+		}
+	}
+}
+
+# A Dominant factions emerge
+country_event = {
+	id = 6026
+	title = "EVTNAME6026"
+	desc = "EVTDESC6026"
+	picture = DEBATE_REPUBLICAN_eventPicture
+	
+	trigger = {
+		has_country_flag = total_war
+		has_country_flag = factional_powers_emerge
+		has_country_flag = total_war_peak
+		stability = -2
+		NOT = { stability = 2 }
+		NOT = { has_country_flag = dominant_faction }
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+		
+		modifier = {
+			factor = 0.8
+			has_country_flag = favoured_faction
+		}
+		modifier = {
+			factor = 1.1
+			num_of_cities = 10
+		}
+		modifier = {
+			factor = 1.1
+			num_of_cities = 20
+		}
+		modifier = {
+			factor = 1.1
+			num_of_cities = 30
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA6026"			# Fight it out
+		add_stability = -1
+		set_country_flag = dominant_faction
+		add_country_modifier = {
+			name = "battle_preparations"
+			duration = 300
+		}
+		random_owned_province = {
+			limit = { is_core = ROOT }
+			revolutionary_rebels = 1
+		}
+		random_owned_province = {
+			limit = { is_core = ROOT }
+			revolutionary_rebels = 1
+		}		
+	}
+	option = {
+		name = "EVTOPTB6026"			# Negotiate a settlement between all major factions
+		add_treasury = -30
+		add_prestige = 3
+		add_stability = 1
+		set_country_flag = faction_negotiations
+		set_country_flag = dominant_faction
+	}
+}
+
+# Negotiations break down
+province_event = {
+	id = 6027
+	title = "EVTNAME6027"
+	desc = "EVTDESC6027"
+	picture = DIPLOMACY_eventPicture
+	
+	trigger = {
+		owner = {
+			has_country_flag = total_war
+			has_country_flag = factional_powers_emerge
+			has_country_flag = total_war_peak
+			has_country_flag = faction_negotiations
+			NOT = { has_country_flag = negotiate }
+			NOT = { stability = 1 }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 72
+	
+		modifier = {
+			factor = 0.9
+			owner = { 
+				NOT = { prestige = 10 }
+			}
+		}
+		modifier = {
+			factor = 1.1
+			owner = { 
+				prestige = 2
+			}
+		}
+		modifier = {
+			factor = 1.5
+			owner = { luck = yes }
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				NOT = { religion = ROOT }
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				NOT = { primary_culture = ROOT }
+			}
+		}
+		modifier = {
+			factor = 1.1
+			owner = { dip = 3 }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { dip = 5 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { NOT = { stability = -1 } }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { NOT = { stability = -2 } }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA6027"			# We must intervene
+		owner = { 
+			add_treasury = -30
+			add_stability = -1
+			set_country_flag = emergency_talks
+			set_country_flag = negotiate
+		}
+	}
+	option = {
+		name = "EVTOPTB6027"			# Let them fight it out
+		owner = { 
+			add_stability = -2
+			clr_country_flag = faction_negotiations
+			set_country_flag = negotiate
+			random_owned_province = {
+				limit = { is_core = ROOT }
+				revolutionary_rebels = 1
+			}
+			random_owned_province = {
+				limit = { is_core = ROOT }
+				revolutionary_rebels = 1
+			}
+		}
+	}
+}
+
+# War ends with negotiated peace
+province_event = {
+	id = 6028
+	title = "EVTNAME6028"
+	desc = "EVTDESC6028"
+	picture = CONQUEST_eventPicture
+	
+	trigger = {
+		owner = {
+			has_country_flag = total_war
+			has_country_flag = factional_powers_emerge
+			has_country_flag = faction_negotiations
+			OR = {
+				AND = {
+					has_country_flag = total_war_peak
+					stability = 0
+				}
+				stability = 0
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 96
+		
+		modifier = {
+			factor = 1.5
+			owner = { luck = yes }
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				NOT = { religion = ROOT }
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				NOT = { primary_culture = ROOT }
+			}
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 2 }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 3 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { num_of_cities = 10 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { num_of_cities = 20 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { num_of_cities = 30 }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { has_country_flag = emergency_talks }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA6028"			# Agree to their proposal 
+		owner = { 
+			clr_country_flag = total_war
+			clr_country_flag = factional_powers_emerge
+			clr_country_flag = favoured_faction
+			clr_country_flag = total_war_peak
+			clr_country_flag = faction_negotiations
+			clr_country_flag = emergency_talks
+			add_prestige = 2
+			add_stability = 1
+			add_country_modifier = {
+				name = freesubjects_modifier
+				duration = 3650
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB6028"			# Make changes to the fine print
+		owner = { 
+			clr_country_flag = total_war
+			clr_country_flag = factional_powers_emerge
+			clr_country_flag = favoured_faction
+			clr_country_flag = total_war_peak
+			clr_country_flag = faction_negotiations
+			clr_country_flag = emergency_talks
+			add_prestige = -5
+			add_stability = -1
+			add_country_modifier = {
+				name = serfdom_modifier
+				duration = 3650
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+	}
+}
+
+# War ends with negotiated peace
+province_event = {
+	id = 6029
+	title = "EVTNAME6028"
+	desc = "EVTDESC6028"
+	picture = CONQUEST_eventPicture
+	
+	trigger = {
+		owner = {
+			has_country_flag = total_war
+			has_country_flag = factional_powers_emerge
+			NOT = { has_country_flag = faction_negotiations }
+			OR = {
+				AND = {
+					has_country_flag = total_war_peak
+					stability = -2
+				}
+				stability = 0
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 96
+		
+		modifier = {
+			factor = 1.5
+			owner = { luck = yes }
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				NOT = { religion = ROOT }
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				NOT = { primary_culture = ROOT }
+			}
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 2 }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 3 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { num_of_cities = 10 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { num_of_cities = 20 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { num_of_cities = 30 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA6028"			# Agree to their proposal 
+		owner = { 
+			clr_country_flag = total_war
+			clr_country_flag = factional_powers_emerge
+			clr_country_flag = favoured_faction
+			clr_country_flag = total_war_peak
+			clr_country_flag = faction_negotiations
+			clr_country_flag = emergency_talks
+			add_prestige = 2
+			add_stability = 1
+			add_country_modifier = {
+				name = "aristocracy_modifier"
+				duration = 7300
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB6028"			# Make changes to the fine print
+		owner = { 
+			clr_country_flag = total_war
+			clr_country_flag = factional_powers_emerge
+			clr_country_flag = favoured_faction
+			clr_country_flag = total_war_peak
+			clr_country_flag = faction_negotiations
+			clr_country_flag = emergency_talks
+			add_prestige = -5
+			add_stability = -1
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+	}
+}
+
+# War ends with negotiated peace
+province_event = {
+	id = 6030
+	title = "EVTNAME6028"
+	desc = "EVTDESC6028"
+	picture = CONQUEST_eventPicture
+	
+	trigger = {
+		owner = {
+			has_country_flag = total_war
+			has_country_flag = factional_powers_emerge
+			has_country_flag = faction_negotiations
+			OR = {
+				AND = {
+					has_country_flag = total_war_peak
+					stability = 0
+				}
+				stability = 0
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 96
+		
+		modifier = {
+			factor = 1.5
+			owner = { luck = yes }
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				NOT = { religion = ROOT }
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				NOT = { primary_culture = ROOT }
+			}
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 2 }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 3 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { num_of_cities = 10 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { num_of_cities = 20 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { num_of_cities = 30 }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { has_country_flag = emergency_talks }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA6028"			# Agree to their proposal 
+		owner = { 
+			clr_country_flag = total_war
+			clr_country_flag = factional_powers_emerge
+			clr_country_flag = favoured_faction
+			clr_country_flag = total_war_peak
+			clr_country_flag = faction_negotiations
+			clr_country_flag = emergency_talks
+			add_prestige = 2
+			add_country_modifier = {
+				name = land_modifier
+				duration = 3650
+			}
+			if = {
+				limit = {
+					NOT = { has_country_modifier = defensive_modifier }
+				}
+				add_country_modifier = {
+					name = offensive_modifier
+					duration = 3650
+				}
+			}
+			add_stability = 1
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB6028"			# Make changes to the fine print
+		owner = { 
+			clr_country_flag = total_war
+			clr_country_flag = factional_powers_emerge
+			clr_country_flag = favoured_faction
+			clr_country_flag = total_war_peak
+			clr_country_flag = faction_negotiations
+			clr_country_flag = emergency_talks
+			add_prestige = -5
+			add_stability = -1
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+	}
+}
+
+# War ends with negotiated peace
+province_event = {
+	id = 6031
+	title = "EVTNAME6028"
+	desc = "EVTDESC6028"
+	picture = CONQUEST_eventPicture
+	
+	trigger = {
+		owner = {
+			has_country_flag = total_war
+			has_country_flag = factional_powers_emerge
+			NOT = { has_country_flag = faction_negotiations }
+			OR = {
+				has_country_flag = total_war_peak
+				stability = 0
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 108
+		
+		modifier = {
+			factor = 1.5
+			owner = { luck = yes }
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				NOT = { religion = ROOT }
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				NOT = { primary_culture = ROOT }
+			}
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 2 }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 3 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { num_of_cities = 10 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { num_of_cities = 20 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { num_of_cities = 30 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA6028"			# Agree to their proposal 
+		owner = { 
+			clr_country_flag = total_war
+			clr_country_flag = factional_powers_emerge
+			clr_country_flag = favoured_faction
+			clr_country_flag = total_war_peak
+			clr_country_flag = faction_negotiations
+			clr_country_flag = emergency_talks
+			add_prestige = 2
+			add_stability = 1
+			add_country_modifier = {
+				name = narrowminded_modifier
+				duration = 7300
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB6028"			# Make changes to the fine print
+		owner = { 
+			clr_country_flag = total_war
+			clr_country_flag = factional_powers_emerge
+			clr_country_flag = favoured_faction
+			clr_country_flag = total_war_peak
+			clr_country_flag = faction_negotiations
+			clr_country_flag = emergency_talks
+			add_prestige = -5
+			add_country_modifier = {
+				name = narrowminded_modifier
+				duration = 3650
+			}
+			add_stability = -1
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+	}
+}

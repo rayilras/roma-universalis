@@ -4,6 +4,7 @@ discovered_by = greek
 owner = BSK
 controller = BSK
 add_core = BSK
+add_core = AOI
 culture = sarmatian
 religion = shamanism
 hre = no

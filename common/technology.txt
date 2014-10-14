@@ -30,17 +30,17 @@ groups = {
 	}
 	indian = {
 		modifier = 0.5
-		start_level = 2
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 	}
 	chinese = {
-		modifier = 0.6
-		start_level = 2
+		modifier = 0.3
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 	}
 	nomad_group = {
-		modifier = 0.75
-		start_level = 3
+		modifier = 0.9
+		start_level = 0
 		cav_to_inf_ratio = 1.0
 	}
 	sub_saharan = {
@@ -82,7 +82,7 @@ groups = {
 	egyptian = {
 		modifier = 0
 		start_level = 0
-		cav_to_inf_ratio = 0
+		cav_to_inf_ratio = 0.8
 	}
 	greek = {
 		modifier = 0

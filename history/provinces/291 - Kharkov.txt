@@ -1,8 +1,8 @@
 owner = SRI
 controller = SRI
 add_core = SRI
-culture = sarmatian
-religion = shamanism
+culture = slavic
+religion = totemism
 capital = "Kharkovos"
 trade_goods = wool
 hre = no

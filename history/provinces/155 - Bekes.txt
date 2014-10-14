@@ -3,8 +3,8 @@
 owner = EVI
 controller = EVI
 add_core = EVI
-culture = celtic
-religion = druidism
+culture = illyrian
+religion = shamanism
 capital = "Eravisci"
 trade_goods = wine
 hre = no

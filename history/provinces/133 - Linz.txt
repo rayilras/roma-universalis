@@ -3,8 +3,8 @@
 owner = NRI
 controller = NRI
 add_core = NRI
-culture = celtic
-religion = druidism
+culture = west_germanic
+religion = animism
 base_tax = 5
 trade_goods = naval_supplies
 capital = "Noreia" 

@@ -3,6 +3,7 @@
 owner = ABI
 controller = ABI
 add_core = ABI
+add_core = KTI
 culture = ibero
 religion = shamanism
 capital = "Kabulaka"
