@@ -3,8 +3,8 @@
 owner = SCI
 controller = SCI
 add_core = SCI
-culture = suebi
-religion = animism
+culture = illyrian
+religion = shamanism
 capital = "Quadi"
 trade_goods = iron
 hre = no

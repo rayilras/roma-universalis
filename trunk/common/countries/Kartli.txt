@@ -24,7 +24,7 @@ monarch_names = {
 	"Pharnavaz #0" = 15
 	"Mirian #0" = 15
 	"Saurmag #0" = 15
-	"Abdagas #0"
+	"Abdagas #0" = 0
 	"Ara Aram Aramu #0" = 0
 	"Arbaces #0" =0
 	"Ardashir #0" =0

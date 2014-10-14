@@ -1,4 +1,4 @@
-name = " The Pyrric War"
+name = " The Pyrrhic War"
 
 war_goal = {
 	type = take_core

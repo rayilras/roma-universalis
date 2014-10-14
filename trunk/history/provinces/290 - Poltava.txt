@@ -1,8 +1,8 @@
 owner = HRI
 controller = HRI
 add_core = HRI
-culture = sarmatian
-religion = shamanism
+culture = slavic
+religion = totemism
 capital = "Poltavos"
 trade_goods = grain
 hre = no
