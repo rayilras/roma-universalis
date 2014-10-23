@@ -3,7 +3,7 @@
 owner = CIM
 controller = CIM
 add_core = CIM
-culture = west_germanic
+culture = north_germanic
 religion = animism
 capital = "Chauci"
 trade_goods = salt

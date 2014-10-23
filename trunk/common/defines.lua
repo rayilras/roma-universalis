@@ -192,7 +192,7 @@ NCountry = {
 	
 	IDEA_TO_TECH = -0.02,			-- percentage on tech reduction per idea.
 	TECH_TIME_COST = 0.3,			-- tech grow with 20% cost over time.
-	TECH_AHEAD_OF_TIME = 0.1,		-- per year ahead.
+	TECH_AHEAD_OF_TIME = 0.05,		-- per year ahead.
 	
 	PS_BUY_IDEA = 400,
 	PS_BUY_NATIVE_ADVANCEMENT = 500,
@@ -205,7 +205,7 @@ NCountry = {
 	PS_DEMAND_NON_WARGOAL_PROVINCE = 50,
 	PS_DEMAND_NON_WARGOAL_PEACE = 25,
 	PS_DEMAND_NON_WARGOAL_PEACE_PRIMITIVES = 0,
-	PS_MAKE_PROVINCE_CORE = 20,
+	PS_MAKE_PROVINCE_CORE = 10,
 	PS_REDUCE_INFLATION = 75,
 	PS_MOVE_CAPITAL = 200,
 	PS_MOVE_TRADE_PORT = 300,

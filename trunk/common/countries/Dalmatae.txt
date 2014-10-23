@@ -17,8 +17,9 @@ historical_units = {
 	barbarian_cavalry
 	barbarian_chosen
 	barbarian_chosen_cavalry
+	barbarian_elite_infantry
+	barbarian_elite_cavalry
 }
-
 
 monarch_names = { 
 	"Adaeus #0" = 1

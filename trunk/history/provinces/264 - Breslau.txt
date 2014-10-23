@@ -1,5 +1,6 @@
 discovered_by = greek
 #264 - Breslau
+
 owner = SEB
 controller = SEB
 add_core = SEB
@@ -23,3 +24,9 @@ discovered_by = latin
 discovered_by = nomadic
 discovered_by = iberian
 
+
+470.1.1 = {
+		add_permanent_province_modifier = {
+			name = center_of_trade_modifier
+			duration = -1
+		}

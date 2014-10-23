@@ -156,7 +156,7 @@ zoroaster = {
 pantheon = {
 
 	roman_pantheon = {
-		color = { 0.8 0.0 0.0 }
+		color = { 124 46 46 }
 		icon = 7
 		province = {
 			local_missionary_strength = 0.02
@@ -164,6 +164,7 @@ pantheon = {
 		country = {
 			global_tax_modifier = 0.10
 			tolerance_heretic = 3
+			national_revolt_risk = -1
 		}
 		
 		heretic = { BEAR_SPIRIT }
@@ -172,7 +173,7 @@ pantheon = {
 	}
 
 	greek_pantheon = {
-		color = { 0.6 0.5 0.5 }
+		color = { 46 124 124}
 		icon = 8
 		province = {
 			local_missionary_strength = 0.02
@@ -191,7 +192,7 @@ pantheon = {
 
 	egyptian_pantheon = {
 		icon = 9
-		color = { 1.0 0.0 0.0 }
+		color = { 124 124 46 }
 		province = {
 			local_missionary_strength = 0.05
 		}
@@ -212,7 +213,7 @@ pantheon = {
 			local_missionary_strength = 0.02
 		}
 		country = {
-			diplomatic_reputation = 1
+			diplomatic_reputation = 3
 			naval_morale = 0.10
 		}
 		
@@ -223,14 +224,14 @@ pantheon = {
 
 	etruscan_pantheon = {
 		icon = 11
-		color = { 160 213 219}
+		color = { 160 213 219 }
 		province = {
 			local_missionary_strength = 0.03
 		}
 		country = {
 			tolerance_own = 1
 			tolerance_heretic = -5
-			global_revolt_risk = -3
+			global_revolt_risk = -1
 		}
 
 		heretic = {BEAR_SPIRIT }
@@ -271,7 +272,7 @@ eastern = {
 
 dharmic = {
 
-	hindu = {
+	hinduism = {
 		color = { 0 0.8 0.8 }
 		icon = 13
 		country = {

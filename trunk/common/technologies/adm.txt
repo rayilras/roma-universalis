@@ -6,6 +6,13 @@ technology = {
 	# Tech 0
 	year = 0475
 	despotic_monarchy = yes	
+	merchant_republic = yes
+	oligarchic_republic = yes
+	feudal_monarchy = yes
+	tribe = yes
+	tribe_nomadic = yes
+	tribe_elective = yes
+	tribe_elder = yes
 	production_efficiency	=	0.1
 	may_support_rebels = yes
 	
@@ -14,7 +21,7 @@ technology = {
 technology = {
 	# Tech 1
 	year = 0515
-	allowed_idea_groups = 1
+	allowed_idea_groups = 2
 	production_efficiency	=	0.1
 	constable = yes
 	temple = yes
@@ -24,7 +31,7 @@ technology = {
 technology = {
 	# Tech 2
 	year = 0555
-	allowed_idea_groups = 2
+	allowed_idea_groups = 3
 	production_efficiency	=	0.1
 	workshop = yes
 	courthouse = yes
@@ -41,14 +48,14 @@ technology = {
 	production_efficiency	=	0.1
 	counting_house = yes 
 	spy_agency = yes
-	allowed_idea_groups = 3
+	allowed_idea_groups = 4
 }
 
 technology = {
 	# Tech 4
 	year = 0635
 	production_efficiency	=	0.1
-	allowed_idea_groups = 4
+	allowed_idea_groups = 5
 	treasury_office = yes
 	town_hall = yes
 	textile = yes 
@@ -81,6 +88,7 @@ technology = {
 technology = {
 	# Tech 7
 	year = 0755
+	allowed_idea_groups = 8
 	production_efficiency	=	0.1
 	glorious_monument = yes 
 	

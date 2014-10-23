@@ -1,0 +1,7 @@
+government = tribe
+mercantilism = 0.1
+technology_group = barbarian
+religion = finnish
+primary_culture = estonian
+capital = 37
+

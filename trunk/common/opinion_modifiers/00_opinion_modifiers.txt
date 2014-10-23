@@ -27,24 +27,24 @@ enemy_of_my_enemy = {
 	max = 20
 }
 
-rebublic_same_religion = {
+republic_same_religion = {
 	opinion = 10
 }
 
-rebublic_different_religions_group = {
-	opinion = -15
-}
-
-republic_different_religion_same_group = {
+republic_different_religions_group = {
 	opinion = -5
 }
 
-rebublic_different_religions_group_border = {
-	opinion = -20
+republic_different_religion_same_group = {
+	opinion = -10
+}
+
+republic_different_religions_group_border = {
+	opinion = -10
 }
 
 republic_different_religion_same_group_border = {
-	opinion = -10
+	opinion = -20
 }
 
 republic_misguided_heretic = {
@@ -52,7 +52,7 @@ republic_misguided_heretic = {
 }
 
 republic_misguided_heretic_border = {
-	opinion = -5
+	opinion = -10
 }
 
 same_religion = {
@@ -60,7 +60,7 @@ same_religion = {
 }
 
 different_religions_group = {
-	opinion = -15
+	opinion = -10
 }
 
 different_religions_group_border = {
@@ -68,11 +68,11 @@ different_religions_group_border = {
 }
 
 different_religion_same_group = {
-	opinion = -5
+	opinion = -20
 }
 
 different_religion_same_group_border = {
-	opinion = -10
+	opinion = -40
 }
 
 misguided_heretic = {
@@ -111,7 +111,8 @@ have_claim = {
 }
 
 getting_subsidies = {
-	opinion = 15
+	opinion = 1
+	max = 15
 }
 
 has_cb = {
@@ -145,13 +146,21 @@ excommunicated_theocracy = {
 	opinion = -200
 }
 
+transfers_trade_power = {
+	opinion = 20
+}
+
+getting_trade_power = {
+	opinion = 20
+}
+
 ##################################
 # Strategy
 ##################################
 
 want_your_provinces = {
-	opinion = -10
-	min = -10
+	opinion = -15
+	min = -200
 }
 
 border_friction = {
@@ -345,8 +354,8 @@ liberated_province =
 defended_allied_territory =
 {
 	opinion = 10
-	yearly_decay = 2
-	max = 10
+	yearly_decay = 1
+	max = 20
 }
 
 insulted = {
@@ -379,14 +388,14 @@ break_marriage = {
 
 
 break_alliance_war = {
-	opinion = -100
+	opinion = -50
 	yearly_decay = 1
 }
 
 dishonoured_alliance = {
-	opinion = -100
+	opinion = -25
 	months = 0
-	yearly_decay = 1
+	yearly_decay = 0.5
 }
 
 declared_war_on_us = {
@@ -538,9 +547,19 @@ hre_country_left = {
 	yearly_decay = 2
 }
 
+released_us_freely = {
+	opinion = 100
+	yearly_decay = 1
+}
+
 fightinginside_japan = {
 	opinion = -25
 	yearly_decay = 1
+}
+
+broke_transfer_trade_power = {
+	opinion = -20
+	yearly_decay = 2
 }
 
 ##############
@@ -1751,13 +1770,13 @@ favors_protestants_catholics = {
 }
 
 royal_letter_of_bohemia = {
-	opinion = 25
+	opinion = 50
 	years = 25
 	yearly_decay = 1
 }
 
 refused_royal_letter_of_bohemia = {
-	opinion = -50
+	opinion = -100
 	years = 50
 	yearly_decay = 1
 }
@@ -1791,13 +1810,14 @@ opinion_ideas = {
 }
 
 opinion_negotiated_rebels = {
-	opinion = -10
-	years = 5
-	yearly_decay = 2
+	opinion = -25
+	years = 25
+	yearly_decay = 1
 }
 opinion_suppressed_rebels = {
-	opinion = 10
-	years = 5
+	opinion = 25
+	years = 25
+	yearly_decay = 1
 }
 joined_league_of_augsburg = {
 	opinion = -20
@@ -1919,32 +1939,38 @@ border_friction_from_event = {
 
 missionaries_rebuffed = {
 	opinion = -50
-	yearly_decay = -1
+	yearly_decay = 1
 }
 
 missionaries_accepted = {
 	opinion = 20
-	yearly_decay = -1
+	yearly_decay = 1
 }
 
 opinion_military_aid = {
 	opinion = 100
-	yearly_decay = -1
+	yearly_decay = 1
 }
 
 opinion_refused_military_aid = {
 	opinion = -25
-	yearly_decay = -1
+	yearly_decay = 1
 }
 
 funj_conversion_negative = {
 	opinion = -50
-	yearly_decay = -1
+	yearly_decay = 1
 }
 
 funj_conversion_positive = {
 	opinion = 25
 	yearly_decay = 1
+}
+
+secularized_monastic_order = {
+	opinion = 25
+	yearly_decay = 2.5
+	max = 25
 }
 
 ##################################################
@@ -2062,28 +2088,40 @@ non_restricted_colonial_expansion_opinion = {
 
 supported_the_revolution = {
 	opinion = 50
-	yearly_decay = -1
+	yearly_decay = 1
 }
 
 visit_of_the_four_kings = {
 	opinion = 100
-	yearly_decay = -4
+	yearly_decay = 4
 }
 
 stopped_iconoclastic_fury = {
 	opinion = 50
-	yearly_decay = -2
+	yearly_decay = 2
 }
 
 allowed_iconoclastic_fury = {
 	opinion = -50
-	yearly_decay = -2
+	yearly_decay = 2
+}
+
+accepted_reformed_refugees = {
+	opinion = -25
+	months = 300
+	yearly_decay = 1
+}
+
+sent_reformed_ministers = {
+	opinion = -25
+	months = 300
+	yearly_decay = 1
 }
 
 supported_independence_of_vassal = {
 	opinion = -100
 	yearly_decay = 1
-	max = -100
+	min= -100
 }
 
 supported_independence = {
@@ -2107,5 +2145,105 @@ supporting_independence = {
 
 break_supporting_independence = {
 	opinion = -50
+	yearly_decay = 1
+}
+
+beheaded_governor = {
+	opinion = -50
+	years = 10
+	yearly_decay = 5
+}
+
+selfish_ally = {
+	opinion = -1
+	yearly_decay = 1
+}
+
+##################################################
+# Res Publica
+##################################################
+
+# Dutch Republic
+
+embraced_absolutism = {
+	opinion = 50
+	yearly_decay = 2
+}
+
+rejected_absolutism = {
+	opinion = 50
+	yearly_decay = 2
+}
+
+accepted_act_of_seclusion = {
+	opinion = 100
+	years = 5
+}
+
+ensured_stable_rule = {
+	opinion = 25
+	yearly_decay = 1
+}
+
+uncertain_marriage_ties = {
+	opinion = -25
+	yearly_decay = 1
+}
+
+goods_crossing_borders = {
+	opinion = 40
+	years = 3
+}
+
+attempted_assassination_of_heir = {
+	opinion = -100
+	yearly_decay = 2
+}
+
+# Elective Monarchy
+dynasty_elected = {
+	opinion = 100
+	yearly_decay = 2
+}
+
+dynasty_lost = {
+	opinion = -20
+	yearly_decay = 1
+}
+
+dynastic_diplomacy = {
+	opinion = 60
+	yearly_decay = 5
+}
+
+sided_with_foreign_heir = {
+	opinion = -40
+	yearly_decay = 2
+}
+
+sided_with_supported_heir = {
+	opinion = 40
+	yearly_decay = 2
+}
+
+# New Idea Group Event
+
+fair_dealing = {
+	opinion = 50
+	yearly_decay = 2.5
+}
+
+arrogant_administrators = {
+	opinion = -25
+	yearly_decay = 1
+}
+
+honest_broker = {
+	opinion = 20
+	yearly_decay = 1
+}
+
+rogue_nation = {
+	opinion = -20
 	yearly_decay = 1
 }

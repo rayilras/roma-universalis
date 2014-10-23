@@ -1,1 +1,25 @@
- 
+#33 - Neva
+
+owner = ING
+controller = ING
+add_core = ING
+culture = ingrian
+religion = finnish
+capital = "Neva"
+trade_goods = salt
+hre = no
+base_tax = 2
+manpower = 2
+citysize = 40150
+fort1 = yes
+
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+discovered_by = latin
+discovered_by = nomadic
+discovered_by = iberian
+discovered_by = greek

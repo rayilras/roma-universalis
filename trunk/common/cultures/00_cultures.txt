@@ -240,7 +240,7 @@ finno_ugric = {
 	graphical_culture = westerngfx
 
 	finnish = {
-		primary = FIN
+		primary = FNN
 		dynasty_names = {
 			Bielke Horn Tott Fleming Paijkull Bonde Wrede Soop
 		}
@@ -986,12 +986,19 @@ hellenic = {
 		primary = MAC
 	}
 	
+	armenian2 = {
+		primary = ARR
+	}
+
+	ibero = {
+		primary = IBR
+	}
+
 	dynasty_names = { 
 		"Alcetid" "Apollonid" "Aratid" "Helladid" "Omirid" "Peithid" "Peneid" "Philonid" "Proctid" "Pytheid" "Sosiclid" "Therid" "Theronid" "Timolid" "Xenonid"
 		"Zagreid" "Zosimid" "Zoticid"
 	}
 }
-
 
 north_african = {
 	graphical_culture = westerngfx
@@ -1009,7 +1016,15 @@ north_african = {
 	numidian = {
 		primary = NUM
 	}
+
+	mauretanian = {
+		primary = GTI
+	}
 	
+	libyan = {
+		primary = 
+	}
+
 	ethiopian2 = {
 		primary = AXM
 
@@ -1071,14 +1086,6 @@ persian = {
 	
 	median = {
 		primary = MED
-	}
-
-	armenian2 = {
-		primary = ARR
-	}
-
-	ibero = {
-		primary = IBR
 	}
 
 	assyrian = {
@@ -1183,12 +1190,7 @@ germanic2 = {
 	graphical_culture = westerngfx
 
 	west_germanic = {
-		primary = CIM
-		
-	}
-	
-	north_germanic = {
-		primary = RUG
+		primary = 
 	}
 	
 	suebi = {
@@ -1204,6 +1206,32 @@ germanic2 = {
 	}
 }
 
+scandinavian2 = {
+	graphical_culture = westerngfx
+
+	swede = {
+		primary = SWD
+	}
+
+	north_germanic = {
+		primary = RUG
+	}
+
+	dane = {
+		primary = CIM
+	}
+
+	norse = {
+		primary = NRS
+	}
+
+	dynasty_names = {
+		"Hårfagreætta" "Bielke" "Bildt" "Galte" "Paus" "Smør" "Benkestok" "Kane" "Bonde" "Hvide" "Galen" "Due" "Saltensee" "Urup" "Neb" "Brahe" "Gøye" "Trolle" "Rantzau"
+			"Friis" "Gyllenstierna" "Bille" "Kaas" "Bonde" "Vasa" "Tre Rosor" "Oxenstierna" "Sparre" "Sture" "Tott" "Trolle" "Bielke" "Brahe"
+			"Horn" "Ribbing" "Skytte" "Banér" "Fleming" "Gyllenstierna" "de la Gardie" "Leijonhufvud" 
+			"Natt och Dag" "Grip" "Stenbock"
+	}
+}
 
 gallic = {
 	graphical_culture = westerngfx
@@ -1266,7 +1294,7 @@ balto_slavic = {
 	}
 
 	slavic = {
-		primary = VTU
+		primary = NVG
 
 	}
 

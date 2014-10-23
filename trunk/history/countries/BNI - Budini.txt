@@ -1,4 +1,4 @@
-government = tribe
+government = tribe_nomadic
 mercantilism = 0.2
 technology_group = nomadic
 religion = shamanism

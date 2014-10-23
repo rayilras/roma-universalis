@@ -1,8 +1,10 @@
 discovered_by = greek
 #382 - Damascus
+
 owner = SEL
 controller = SEL
 add_core = SEL
+add_core = CAR
 culture = phoenician
 religion = carthaginian_pantheon
 capital = "Damascus"

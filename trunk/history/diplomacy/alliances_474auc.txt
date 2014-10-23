@@ -1,3 +1,5 @@
+#Carthage vassals
+
 vassal = {
 	first = CAR
 	second = NUM
@@ -12,6 +14,7 @@ vassal = {
 	end_date = 500.2.13
 }
 
+#Macedon vassals
 vassal = {
 	first = MAC
 	second = ATS
@@ -19,6 +22,7 @@ vassal = {
 	end_date = 500.2.13
 }
 
+#Egyptian vassals
 vassal = {
 	first = EGT
 	second = TAR
@@ -33,6 +37,7 @@ vassal = {
 	end_date = 500.2.13
 }
 
+#Seleucid vassals
 vassal = {
 	first = SEL
 	second = SAD
@@ -54,6 +59,7 @@ vassal = {
 	end_date = 500.2.13
 }
 
+#Epirote sphere of influence
 guarantee = {
 	first = EPR
 	second = MGN
@@ -61,6 +67,7 @@ guarantee = {
 	end_date = 500.2.13
 }
 
+#Syracuse guarantee by Carthage
 guarantee = {
 	first = CAR
 	second = SYC
@@ -68,6 +75,7 @@ guarantee = {
 	end_date = 500.2.13
 }
 
+#Celtic alliances
 alliance = {
 	first = ARE
 	second = ENI
@@ -96,6 +104,7 @@ alliance = {
 	end_date = 500.2.13
 }
 
+#Etruscan vassal of Rome
 vassal = {
 	first = ROM
 	second = ETL

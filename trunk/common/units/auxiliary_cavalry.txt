@@ -1,8 +1,7 @@
-#auxiliery_cavalry
+#Auxiliary Cavalry
 
 unit_type = roman
 type = cavalry
-
 
 maneuver = 2
 offensive_morale = 2

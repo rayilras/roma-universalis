@@ -1,1 +1,24 @@
- 
+
+owner = NRS
+controller = NRS
+add_core = NRS
+culture = norse
+religion = animism
+capital = "Trondelag"
+trade_goods = fur
+hre = no
+base_tax = 3
+manpower = 4
+citysize = 40150
+fort1 = yes
+
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+discovered_by = latin
+discovered_by = nomadic
+discovered_by = iberian
+discovered_by = greek

@@ -3,18 +3,15 @@ mercantilism = 0.2
 technology_group = roman
 religion = roman_pantheon
 primary_culture = roman
+culture_group_union = latin2
 capital = 118	# Rome
 historical_rival = CAR
 historical_rival = ETL
 historical_friend = MAS
 
-faction = temples #mil
-faction = enuchs #merc
-faction = bureaucrats #civic
-
-temples = 80
-enuchs = 10
-bureaucrats = 10
+faction = mr_aristocrats
+faction = mr_traders
+faction = mr_guilds
 
 0474.1.1 = { 
 	monarch = {

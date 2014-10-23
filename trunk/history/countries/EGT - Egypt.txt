@@ -3,6 +3,7 @@ mercantilism = 0.2
 technology_group = egyptian
 religion = egyptian_pantheon
 primary_culture = ancient_greek
+culture_group_union = north_african
 capital = 362	#Alexandria
 historical_rival = MAC
 historical_rival = SEL

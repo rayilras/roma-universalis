@@ -1,0 +1,8 @@
+government = tribe
+mercantilism = 0.1
+technology_group = barbarian
+religion = animism
+primary_culture = norse
+culture_group_union = scandinavian2
+capital = 24
+

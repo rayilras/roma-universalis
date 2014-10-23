@@ -3,7 +3,7 @@
 owner = CIM
 add_core = CIM
 controller = CIM
-culture = north_germanic
+culture = dane
 religion = animism
 hre = no
 base_tax = 2

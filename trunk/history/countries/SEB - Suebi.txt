@@ -3,4 +3,5 @@ mercantilism = 0.2
 technology_group = barbarian
 religion = animism
 primary_culture = suebi
+culture_group_union = germanic2
 capital = 264
