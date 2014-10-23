@@ -8,10 +8,10 @@ temples =
 	
 	modifier = 
 	{
-		war_exhaustion = -0.1
-		land_forcelimit_modifier = 0.25
-		manpower_recovery_speed = 0.25
-		core_creation = -1.0
+		war_exhaustion = -0.05
+		land_forcelimit_modifier = 0.20
+		manpower_recovery_speed = 0.10
+		core_creation = -0.10
 		unjustified_demands = -0.25
 		discipline = 0.20
 		global_revolt_risk = 1
@@ -27,9 +27,9 @@ enuchs =
 	{
 		global_trade_power = 0.2
 		diplomatic_upkeep = 2
-		global_trade_income_modifier = 0.2
+		global_trade_income_modifier = 0.1
 		merchants = 1
-		advisor_cost = -1.0
+		advisor_cost = -0.10
 		global_tax_modifier = -0.10
 	}
 }
@@ -41,7 +41,7 @@ bureaucrats =
 	#buildings, Internal Stability.
 	modifier = 
 	{
-		build_cost = -1.0
+		build_cost = -0.25
 		global_tax_modifier = 0.1
 		stability_cost_modifier = -0.1
 		advisor_pool = 1

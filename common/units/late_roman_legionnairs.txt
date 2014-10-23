@@ -2,10 +2,10 @@
 type = infantry
 unit_type = roman
 
-maneuver = 1
+maneuver = 2
 offensive_morale = 4
 defensive_morale = 4
 offensive_fire = 0
-defensive_fire = 1
+defensive_fire = 0
 offensive_shock = 4
 defensive_shock = 4

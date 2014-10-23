@@ -1,1 +1,25 @@
- 
+#315 - Finnmark
+
+owner = SMI
+controller = SMI
+add_core = SMI
+culture = sapmi
+religion = finnish
+capital = "Finnmarkos"
+trade_goods = fur
+hre = no
+base_tax = 4
+manpower = 6
+citysize = 40000
+fort1 = yes
+
+discovered_by = roman
+discovered_by = carthaginian
+discovered_by = egyptian
+discovered_by = persian
+discovered_by = barbarian
+discovered_by = seleucid
+discovered_by = latin
+discovered_by = nomadic
+discovered_by = iberian
+discovered_by = greek

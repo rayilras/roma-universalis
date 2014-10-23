@@ -2966,7 +2966,8 @@ KUR_ideas = {
 ROM_ideas = {
 	start = {
 		accepted_culture_threshold = -0.50
-		land_maintenance_modifier = -0.25
+		land_morale = 0.25
+		land_maintenence_modifier = -0.25
 	}
 	
 	bonus = {
@@ -3046,7 +3047,7 @@ SEL_ideas = {
 CAR_ideas = {
 	start = {
 		mercenary_cost = -0.75
-		merc_maintenance_modifier = -0.50
+		naval_forcelimit_modifier = 1.0
 		infantry_cost = 0.50
 	}
 	

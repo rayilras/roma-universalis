@@ -1,6 +1,7 @@
 l_english:
  RISE_OF_ROME: "The Rise of Rome"
  RISE_OF_ROME_DESC: "The year is 279 BC; Rome sits at the heart of Italia, and wages war against the collective Greek colonies of Magna Graecia; Pyrrhus of Epirus has honored his obligation and has landed in southern Italy to fight the Romans; in the East, the Seleucid Empire waits for the right time to strike against the Successor kingdoms and rebuild Alexander's empire; Carthage controls the trade of the Mediterranean, and is eager to strike down the growing power of the West: Rome."
+ 
  ###### RELIGIONS
  druidism: "Druid"
  judaism: "Jewish"
@@ -17,7 +18,12 @@ l_english:
  confucianism: "Confucian"
  buddhism: "Buddhist"
  hindu: "Hindu"
+ 
  ###### CULTURES
+ scandinavian2: "Scandinavian"
+ swede: "Swede"
+ dane: "Dane"
+ norse: "Norse"
  latin2: "Latin"
  roman: "Roman"
  etruscan: "Etruscan"
@@ -80,8 +86,10 @@ l_english:
  eastern_balt: "Eastern Balt" 
  balt: "Western Balt"
  slavic: "Slavic"
- arabian: "Arabian"
+ arabian: "Arab"
  ethiopian2: "Ethiopian"
+ mauretanian: "Mauretanian"
+ libyan: "Libyan"
  
  ###### NATIONS
  ROI: "Roman Empire"
@@ -225,6 +233,17 @@ l_english:
  GDI: "Galindi"
  PZI: "Pruzovi"
  SUD: "Sudovi"
+ SMI: "Sami"
+ FNN: "Finns"
+ KLA: "Karelia"
+ LVL: "Livland"
+ NVG: "Novogorod"
+ KGP: "Khargopol"
+ ING: "Ingria"
+ SWD: "Swedes"
+ SGU: "Gutes"
+ SGA: "Gaets"
+ NRS: "Norse"
  
  ROI_ADJ: "Roman"
  CAR_ADJ: "Punic"
@@ -365,6 +384,17 @@ l_english:
  GDI_ADJ: "Galindian"
  PZI_ADJ: "Pruzovian"
  SUD_ADJ: "Sudovian"
+ SMI_ADJ: "Sami"
+ FNN_ADJ: "Finnish"
+ KLA_ADJ: "Karelian"
+ LVL_ADJ: "Livlandian"
+ NVG_ADJ: "Novgorodian"
+ KGP_ADJ: "Khargopolian"
+ ING_ADJ: "Ingrian"
+ SWD_ADJ: "Swede"
+ SGU_ADJ: "Gute"
+ SGA_ADJ: "Gaet"
+ NRS_ADJ: "Norse"
  
  ###### GOVERNMENTS
  roman_republic: "Roman Republic"
@@ -373,6 +403,15 @@ l_english:
  tribe: "Tribal Chiefdom"
  tribe_desc: "A despotic tribal system where the chief rules with undefined power."
  tribe_ruler: "Chief"
+ tribe_elective: "Elective Chiefdom"
+ tribe_elective_desc: "A tribal society where the heads of families elect a new chief once the incumbent passes into the next world."
+ tribe_elective_ruler: "Chief"
+ tribe_elder: "Tribal Council"
+ tribe_elder_desc: "A society where the nobles are the chiefs of state and elect a noble to reign as despot."
+ tribe_elder_ruler: "Elder"
+ tribe_nomadic: "Nomadic Chiefdom"
+ tribe_nomadic_desc: "A nomadic, khanate-like chiefdom where the people select a ruler until death out of all of the people of the tribe and not just the nobility."
+ tribe_nomadic_ruler: "Khan"
  carthaginian_olligarchy: "Carthaginian Oligarchy"
  carthaginian_olligarchy_desc: "A mostly class-based oligarchy with few democratic characterstics."
  carthaginian_olligarchy_ruler: "Suffete"
@@ -390,6 +429,7 @@ l_english:
  etruscan_confederation_desc: "A confederation of Etruscan city-states, who meet together once a year and elect a new leader titled Lucumo."
  despotic_monarchy_vassal_zoroaster: "Satrapy"
  despotic_monarchy_vassal_greek_pantheon: "Satrapy"
+ 
  ###### IDEAS
  ethiopian_ideas: "Ethiopian Ideas"
  ethiopian_ideas_start: "Ethiopian Traditions"
@@ -417,7 +457,7 @@ l_english:
  arabian_horses: "Arabian Horses"
  arabian_horses_desc: "Arab horses are the finest in the East."
  land_of_the_prophet: "Land of the Prophet"
- land_of_the_prophet: "Arabia is a sacred place."
+ land_of_the_prophet_desc: "Arabia is a sacred place."
  spreading_the_prophets_word: "Spreading the Prophet's Word"
  spreading_the_prophets_word_desc: "We Arabians embody the faith and piety of God."
  bedouin_traders: "Bedouin Traders"
@@ -534,7 +574,7 @@ l_english:
  annual_migration: "Annual Migration"
  annual_migration_desc: "Our annual migration makes us accustomed to construction."
  
- CAR_ideas: "Carthaginian Ideas"
+ CAR_ideas: "Punic Ideas"
  mercenary_regulars: "Mercenary Regulars"
  mercenary_regulars_desc: "Mercenaries are by far the most well-trained troops available."
  carthaginian_olligarchy: "Carthaginian Oligarchy"
@@ -754,6 +794,41 @@ l_english:
  marines: "Marines"
  marines_desc: "Our marines are highly-trained, and our ships are well-manned."
  
+ viking_ideas: "Viking Ideas"
+ viking_ideas_start: "Viking Traditions"
+ viking_ideas_bonus: "Viking Ambitions"
+ viking_legacy: "Legacy of the Northmen"
+ viking_legacy_desc: "The Northmen have always been strong warriors, and we leave behind a strong legacy."
+ viking_faith: "Faith of Valhalla"
+ viking_faith_desc: "The Northmen have always been devoted to the Gods and legacy of Valhalla, and we will soon reach Paradisum."
+ viking_sacrifice: "Sacrifice to the Gods"
+ viking_tolerance: "Tolerance and Assimilation"
+ viking_tolerance_desc: "The fatherland has always been a realm of many peoples, and tolerance helps in the long run."
+ viking_war: "The March of Valhalla"
+ viking_war_desc: "We Northmen strive to reach Valhalla, and can do so by only one way: war."
+ viking_construction: "Viking Architecture"
+ viking_construction_desc: "We are apt at building ships, and so we have learned to build structures as well."
+ viking_army: "Army of the Gods"
+ viking_army_desc: "We raise armies that move mountains and shores; let us conquer all."
+ 
+ finnish_ideas: "Finnish Ideas"
+ finnish_ideas_start: "Finnish Traditions"
+ finnish_ideas_bonus: "Finnish Ambitions"
+ finnish_legacy: "Legacy of the Finns"
+ finnish_legacy_desc: "The Finnish people have always been strong and warlike."
+ finnish_faith: "Finnish Faith"
+ finnish_faith_desc: "The Finns are a pious and devout people."
+ finnish_sacrifice: "Sacrifice of the Finns"
+ finnish_sacrifice_desc: "To appease the Gods, one must make sacrifices in material and blood."
+ finnish_diplomacy: "Prudent Diplomacy"
+ finnish_diplomacy_desc: "The land of the Finns is not the most suitable to make war, and so we make diplomacy."
+ finnish_war: "The Finnish Heart"
+ finnish_war_desc: "When war must be made, we take pride in our prowess."
+ finnish_trade: "Trade of Finland"
+ finnish_trade_desc: "Scandinavia is ripe for trade, and Finland is right smack in the middle."
+ finnish_army: "Army of the Finns"
+ finnish_army_desc: "We Finns can raise armies, rain or snow."
+ 
  ###### TRADE NODES
  egypt: "Alexandria"
  greece: "Hellas"
@@ -766,6 +841,8 @@ l_english:
  britannia: "Britannia"
  germania: "Germania"
  baktria: "Baktria"
+ scandinavia: "Scandinavia"
+ 
  ###### UNITS
  ptolamaic_phalanx: "Egyptian Hoplites"
  ptolamaic_phalanxDESCR: ""
@@ -799,6 +876,10 @@ l_english:
  barbarian_cavalryDESCR: ""
  barbarian_chosen_cavalry: "Barbarian Spear Cavalry"
  barbarian_chosen_cavalryDESCR: ""
+ barbarian_elite_infantry: "Honor Guards"
+ barbarian_elite_infantryDESCR: ""
+ barbarian_elite_cavalry: "Honor Cavalry"
+ barbarian_elite_cavalryDESCR: ""
  
  early_greek_phalanx: "Greek Hoplites"
  early_greek_phalanxDESCR: ""
@@ -875,6 +956,16 @@ l_english:
  nomadic_steppe_archers: "Nomadic Steppe Archers"
  nomadic_steppe_archersDESCR: ""
  
+ viking_infantry: "Norse Footmen"
+ viking_infantryDESCR: ""
+ viking_cavalry: "Norse Scouts"
+ viking_cavalryDESCR: ""
+ 
+ finnish_infantry: "Barbarian Infantry"
+ finnish_infantryDESCR: ""
+ finnish_cavalry: "Barbarian Cavalry"
+ finnish_cavalryDESCR: ""
+ 
  ###### TECHNOLOGIES
  seleucid: "Seleucid"
  barbarian: "Barbarian"
@@ -885,6 +976,7 @@ l_english:
  egyptian: "Egyptian"
  latin: "Latin"
  nomadic: "Nomadic"
+ 
  ###### EVENTS
  seleucid.EVTNAME1: "Parthian Revolt"
  seleucid.EVTDESC1: "Arsaces I of Parthia was the founder of the Arsacid dynasty, who were Parthian kings for 30 generations. Around 250 BC Arsaces rose to power whithin the Parni tribe and rebelled agaisnt his Hellenic overlords."

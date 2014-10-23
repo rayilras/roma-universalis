@@ -23,6 +23,12 @@ technology = {
 	enable = early_persian_infantry
 	enable = early_persian_horse
 
+	enable = finnish_cavalry
+	enable = finnish_infantry
+
+	enable = viking_infantry
+	enable = viking_cavalry
+
 	enable = early_roman_legionnairs
 	enable = roman_equites
 
@@ -173,6 +179,8 @@ technology = {
 	enable = petrobolos
 	enable = arcuballista
 	enable = lythobolos
+	enable = barbarian_elite_infantry
+	enable = barbarian_elite_cavalry
 	
 	infantry_shock 		= 	0.01	
 	cavalry_shock  		= 	0.01	

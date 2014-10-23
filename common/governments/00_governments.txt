@@ -767,9 +767,9 @@ roman_republic = {
 	idea_cost = -0.1
 	global_revolt_risk = -1
 
-	faction = temples
-	faction = enuchs
-	faction = bureaucrats
+	faction = mr_aristocrats
+	faction = mr_traders
+	faction = mr_guilds
 
 }
 
@@ -779,15 +779,70 @@ tribe = {
 	tribal = yes
 
 	valid_for_new_country = yes
-	allow_convert = no
+	allow_convert = yes
 
 	ai_will_do = {
-		factor = 0
+		factor = 1
 	}
 
 	#bonus
 	idea_cost = 0.2
 	land_maintenance_modifier = -0.1
+}
+
+tribe_elders = {
+	monarchy = yes	
+	nomad = yes
+	tribal = yes
+
+	valid_for_new_country = yes
+	allow_convert = yes
+	royal_marriage = no
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	#bonus
+	national_revolt_risk = -1
+	diplomatic_reputation = 2
+	diplomatic_upkeep = 2
+}
+
+tribe_elective = {
+	monarchy = yes	
+	nomad = yes
+	tribal = yes
+
+	valid_for_new_country = yes
+	allow_convert = yes
+	royal_marriage = no
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	#bonus
+	prestige = 1
+	religious_unity = 0.20
+}
+
+tribe_nomadic = {
+	monarchy = yes	
+	nomad = yes
+	tribal = yes
+
+	valid_for_new_country = yes
+	allow_convert = yes
+	royal_marriage = yes
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	#bonus
+	ae_impact = -0.10
+	accepted_culture_threshold = -0.1
 }
 
 carthaginian_olligarchy = {

@@ -10,18 +10,24 @@
 east_indian_trade_route = {
 	potential = {
 		num_of_ports = 1
-		capital_scope = { continent = europe }
+		NOT = {
+			capital_scope = {
+				continent = asia
+			}
+		}
+		NOT = {
+			capital_scope = {
+				continent = oceania
+			}
+		}
+		
 	}
 
 	trigger = {
 		has_discovered = 1460 # Cape of Good Hope
 		num_of_ports = 4
-		NOT = { mercantilism = 0.3 }
 		has_idea = quest_for_the_new_world
 		technology_group = western
-		capital_scope = {
-			continent = europe
-		}
 		any_active_trade_node = {
 			OR = {
 				province_id = 1361 # Straits of Johor
@@ -32,7 +38,7 @@ east_indian_trade_route = {
 		}
 	}
 
-	global_trade_income_modifier = 0.2	#20% more trade income.
+	global_trade_income_modifier = 0.05	
 }
 
 ######################################
@@ -107,12 +113,13 @@ western_arms_trade = {
 	trigger = {
 		any_neighbor_country = {
 			technology_group = western
+			is_subject = no
+			alliance_with = ROOT
 			has_opinion = { who = ROOT value = 150 }
 		}
 	}
 
-	prestige = -1			#1% less yearly prestige
-	technology_cost = -0.05
+	technology_cost = -0.10
 }
 
 
@@ -221,9 +228,8 @@ vive_la_revolution = {
 		is_at_war = yes
 	}
 
-	global_manpower_modifier = 0.5
-	land_morale = 0.25
-	war_exhaustion_cost = 0.25
+	global_manpower_modifier = 0.10
+	land_morale = 0.10
 }
 
 ######################################
@@ -381,32 +387,6 @@ large_tribe_bad_mil = {
 	core_creation = 2.0
 }
 
-######################################
-# Barbary Pirates
-######################################
-barbary_pirates = {
-	potential = {
-		religion_group = christian
-		culture_group = iberian
-	}
-
-	trigger = {
-		OR = {
-			owns = 334 	 # Tangiers
-			owns = 1751	 # Ceuta
-		}
-		OR = {
-			owns = 335	 # Mellila
-			owns = 337	 # Oran
-		}
-		has_country_modifier = the_anti_piracy_act
-	}
-
-	prestige = 1
-	galley_cost = -0.1
-	light_ship_cost = -0.1
-}
-
 
 ##################################################
 # The Pentarchy
@@ -446,13 +426,18 @@ pentarchy_mod = {
 
 chinese_bureaucracy = {
 	potential = {
-		tag = MNG
+		OR = { 
+			tag = MNG
+			has_factions = yes
+		}
 	}
 	trigger = {
-		has_factions = yes
-		government = celestial_empire
+		OR = {
+			has_faction = temples
+			has_faction = bureaucrats
+			has_faction = enuchs
+		}
 	}
-	
 	
 	#Temple negates these..
 	discipline = -0.25
@@ -480,8 +465,13 @@ chinese_bureaucracy = {
 
 the_mandate_of_heaven = {
 	potential = {
+		tag = MNG
+		is_westernising = no
+		NOT = { technology_group = western }
+	}
+	trigger = {
 		has_factions = yes
-		government = celestial_empire
+		num_of_cities = 20
 	}
 	
 	trigger = {	
@@ -498,16 +488,16 @@ the_mandate_of_heaven = {
 
 the_mandate_of_heaven_lost = {
 	potential = {
+		tag = MNG
 		has_factions = yes
-		government = celestial_empire
 		is_westernising = no
+		NOT = { technology_group = western }
 	}
 
 	trigger = {
 		NOT = {
 			has_country_modifier = the_mandate_of_heaven
 		}
-		num_of_cities = 20
 	}
 
 	stability_cost_modifier = 0.5
@@ -543,6 +533,23 @@ big_hre = {
 # Some help for scotland in early game
 ##################################################
 
+highland_charge = {
+	potential = {
+		SCO = { exists = yes }
+		OR = {
+			tag = SCO
+			tag = ENG
+			tag = GBR
+		}
+	}
 
-
-
+	trigger = {
+		tag = SCO
+		owns = 252	#highlands..
+		MIL = 2
+		NOT = { num_of_cities = 7 }
+	}
+	
+	leader_land_shock = 1
+	#icon = 1
+}

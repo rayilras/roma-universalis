@@ -3,6 +3,7 @@
 owner = SEL
 controller = SEL
 add_core = SEL
+add_core = CAR
 add_core = EGT
 culture = phoenician
 religion = carthaginian_pantheon

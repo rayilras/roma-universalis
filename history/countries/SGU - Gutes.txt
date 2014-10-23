@@ -1,0 +1,7 @@
+government = tribe
+mercantilism = 0.1
+technology_group = barbarian
+religion = animism
+primary_culture = swede
+capital = 3
+

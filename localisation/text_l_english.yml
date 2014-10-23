@@ -7056,22 +7056,3 @@
  cog: "Nemiolia"
  barque: "Lembos"
  galley: "Trireme"
- 
- temples_FACTION_DESC: "Representing various militaristic Senators, the Military faction is especially interested in conquering more land and winning battles for the glory of Rome."
- enuchs_FACTION_DESC: "The mercantilist leaders are the ones with personal interest in trade and monopoly. They are what keeps Rome's coffers full and funds its expansion."
- bureaucrats_FACTION_DESC: "The officials of the bureacracy are what keep Rome going. Without the upkeep and building of infrastructure, this constantly growing and expanding city would fall apart."
- 
- support_temple_faction_title: "Encourage the Military"
- support_temple_faction_desc: "We can encourage young industrious men to join the Military faction to strengthen their influence in the Senate."
- support_enuchs_faction_title: "Encourage the Mercantile faction"
- support_enuchs_faction_desc: "The Mercantile faction at court have been dwindling recently; we need to strengthen their power in the Senate."
- support_crats_faction_title: "Encourage the Civic faction"
- support_crats_faction_desc: "We can encourage young industrious men to join the Civic faction to strengthen their influence in the Senate."
-
- temples_influence: "Military Faction Influence"
- enuchs_influence: "Mercantile Faction Influence"
- bureaucrats_influence: "Civic Faction Influence"
- 
- temples: "The Military Faction"
- enuchs: "The Mercantile Faction"
- bureaucrats: "The Civic Faction"

@@ -1,1 +1,7 @@
+discovered_by = persian
+discovered_by = seleucid
+discovered_by = nomadic
+discovered_by = indian
+discovered_by = nomad_group
+discovered_by = chinese
  
